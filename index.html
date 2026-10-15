@@ -479,8 +479,8 @@ const APP = {
   },
   buildExamList(){
     const list=document.getElementById('examList');list.innerHTML='';
-    const EXORDER=['mock1'];
-    const NEW_EXAMS=[];
+    const EXORDER=['mock1','mock2'];
+    const NEW_EXAMS=['mock2'];
     const exams=this.data.exams
       .filter(ex=>this.tier>=2||!PLUS_EXAMS.includes(ex.id))
       .sort((a,b)=>{

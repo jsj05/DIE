@@ -2255,6 +2255,2251 @@ window.ANATOMIE_DATA = {
           "source": "Zhu & Iansiti (2019), 'Risk of disintermediation'"
         }
       ]
+    },
+    {
+      "id": "mock2",
+      "label": "Mock Exam 2",
+      "source": "Lectures 1–6, readings and tutorial cases · 15 questions repeat from Mock 1 · questions 71 and 72 are the bonus questions",
+      "questions": [
+        {
+          "num": 1,
+          "stem": "Airbnb can add 'inventory' as fast as it signs up hosts with spare rooms, while a hotel chain has to buy land and build. Lecture 1 (Parker et al., 2016) describes this as a shift from:",
+          "options": [
+            {
+              "l": "a",
+              "t": "push marketing to pull marketing."
+            },
+            {
+              "l": "b",
+              "t": "closed innovation to open innovation."
+            },
+            {
+              "l": "c",
+              "t": "just-in-time inventory to not-even-mine inventory."
+            },
+            {
+              "l": "d",
+              "t": "broadcasting to segmentation."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Under 'platforms unlock new sources of value creation and supply', the lecture notes that growth no longer needs physical capital: 'from just-in-time to not-even-mine'. The sharing-economy logic is that many items sit idle most of the time, and the platform exposes this new supply to the market more quickly.",
+          "source": "Lecture 1, 'Advantages of platforms'; Parker et al. (2016), ch. 1"
+        },
+        {
+          "num": 2,
+          "stem": "According to Lecture 6, what makes the uncertainty of deep tech ventures especially hard to manage?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Market uncertainty disappears once the technology works, so founders can safely focus on R&D first and worry about customers later."
+            },
+            {
+              "l": "b",
+              "t": "Technical uncertainty can be removed quickly by launching a minimum viable product."
+            },
+            {
+              "l": "c",
+              "t": "Only market uncertainty matters, because deep tech builds on proven technologies."
+            },
+            {
+              "l": "d",
+              "t": "Technical and market uncertainty are often coupled, so they cannot be resolved independently or one after the other."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Deep tech ventures face technological challenges upstream and commercialization challenges downstream, and the two are often coupled. Both the physical design of the product and its immediate market application can be unknown. When they are coupled, the uncertainties are irreducible: they cannot be resolved independently or sequentially.",
+          "source": "Lecture 6, 'Is that all? Just Tech + Science?'"
+        },
+        {
+          "num": 3,
+          "stem": "According to Lecture 5, how many of the following are components of an AI agent?\n• A model (LLM) that generates and reasons\n• Tools that connect to external systems to search, execute and retrieve data\n• Memory that retains context, preferences and execution history\n• A loop that runs the model repeatedly and lets it decide the next step\n• A human who has to approve every single step before it runs",
+          "options": [
+            {
+              "l": "a",
+              "t": "3 of the items"
+            },
+            {
+              "l": "b",
+              "t": "4 of the items"
+            },
+            {
+              "l": "c",
+              "t": "2 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "Four. The 'What is an agent?' slide names model, tools, memory and loop. Approval of every step by a human is not part of that definition.",
+          "source": "Lecture 5, 'What is an agent?'"
+        },
+        {
+          "num": 4,
+          "stem": "On Vinted, many users who first buy second-hand clothes later start selling their own, and Uber recruits many new drivers from among its riders. Parker et al. (2016) call this:",
+          "options": [
+            {
+              "l": "a",
+              "t": "side switching."
+            },
+            {
+              "l": "b",
+              "t": "multi-homing."
+            },
+            {
+              "l": "c",
+              "t": "piggybacking."
+            },
+            {
+              "l": "d",
+              "t": "disintermediation."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Side switching happens when users on one side of a platform join the other side, for example consumers who start producing. Uber recruiting drivers from its riders and Airbnb recruiting hosts from its guests are Parker et al.'s examples. Together with a scalable business model and frictionless entry, side switching helps network effects grow (Lecture 2). Multi-homing means using several platforms at the same time.",
+          "source": "Lecture 2, 'Scaling network effects'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": 5,
+          "stem": "Lecture 5 quoted a freestyle chess player: merging millions of computer games with high-calibre human games gives 'something that is quantitatively and qualitatively superior to any commercial product'. This illustrates:",
+          "options": [
+            {
+              "l": "a",
+              "t": "the uncanny valley: people distrust machines that look and behave almost, but not quite, like humans."
+            },
+            {
+              "l": "b",
+              "t": "the trough of disillusionment in the Gartner hype cycle."
+            },
+            {
+              "l": "c",
+              "t": "collaborative intelligence: combining machine predictions with human judgment."
+            },
+            {
+              "l": "d",
+              "t": "the 4 Vs of big data: with enough volume and variety, data beats human expertise."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Under the question 'Will AI change the way we make decisions?', Lecture 5 presents collaborative intelligence: combining machines' predictions and human judgment is a winning combination. This fits Agrawal et al. (2017): as prediction becomes cheaper, people who show good judgment become more valuable.",
+          "source": "Lecture 5, 'Will AI change the way we make decisions?'; Agrawal et al. (2017)"
+        },
+        {
+          "num": 6,
+          "stem": "Quantum computers can generate truly random numbers, while classical computers only produce pseudo-random ones. Even so, Bova, Goldfarb and Melko (2023) expect lotteries not to switch to quantum random number generators any time soon. Why?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Quantum random number generators are banned by gambling regulators in most countries."
+            },
+            {
+              "l": "b",
+              "t": "Quantum computers can only generate random numbers for encryption, so they cannot be used to draw the numbers of a lottery."
+            },
+            {
+              "l": "c",
+              "t": "Lotteries already use fault-tolerant quantum computers, so they see no need for new generators."
+            },
+            {
+              "l": "d",
+              "t": "Fraud is rare and pseudo-random numbers are indistinguishable in practice, so the classical approach is good enough."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Even when quantum computing offers something classical computers cannot do, managers have to weigh the optimal solution against the good-enough one. Lottery fraud through manipulation is rare (getting caught is costly, insiders are barred and analytical tools detect fraud), and without fraud, pseudo-random results are often indistinguishable from quantum ones. Lotteries therefore have little reason to switch.",
+          "source": "Bova, Goldfarb & Melko (2023), 'The enduring value of quantum advantage'"
+        },
+        {
+          "num": 7,
+          "stem": "A start-up wants to decarbonize shipping with a new fuel. It cannot finalize its engine design until ports agree which fuel they will supply, but ports will not build billion-euro bunkering infrastructure until they know which engines ships will use. In Lecture 6's terms, this illustrates:",
+          "options": [
+            {
+              "l": "a",
+              "t": "pure market risk, which the start-up can resolve within a few months by launching a minimum viable product to customers."
+            },
+            {
+              "l": "b",
+              "t": "a technical problem that can be solved first, after which the market question can be answered on its own."
+            },
+            {
+              "l": "c",
+              "t": "coupled, irreducible uncertainty: the ship's physical viability and the ports' compatibility are locked together."
+            },
+            {
+              "l": "d",
+              "t": "a classic case of market pull, in which customers ask for a technology that already exists."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "This is the lecture's hydrogen-versus-ammonia thinking exercise. Liquid hydrogen is energy-dense but needs new engines and containment; ammonia is easier to store but toxic. The engine design depends on the fuel ports will bunker, and the ports depend on the engines, so the physical viability of the ship and the compatibility of the port are locked together and neither can be solved on its own.",
+          "source": "Lecture 6, 'Thinking Exercise – Choose a Case Study 2'"
+        },
+        {
+          "num": 8,
+          "stem": "Lecture 5 described large language models as next-token predictors. How many of the following can be tokens?\n• Small pieces of words\n• Punctuation and whitespace\n• Typos and emojis\n• Complete facts retrieved from a verified knowledge base",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "Tokens are small pieces of text. Today's models use roughly 100,000 to 260,000 different tokens, which also include typos, punctuation, whitespace and emojis. An LLM generates text by predicting the next token; it does not look up verified facts the way a database does.",
+          "source": "Lecture 5, 'LLMs are next token predictors'"
+        },
+        {
+          "num": 9,
+          "stem": "Which statement correctly describes a difference between incubators and accelerators (Leitão et al., 2022; Lecture 3)?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Accelerator programs usually last three to six months, while incubator programs have no fixed timeframe."
+            },
+            {
+              "l": "b",
+              "t": "Incubators provide funding to their participants, while accelerators do not."
+            },
+            {
+              "l": "c",
+              "t": "Accelerators provide space for the company to grow, while incubators offer at most a desk."
+            },
+            {
+              "l": "d",
+              "t": "Incubators run fixed cohorts ending in a demo event, while accelerators offer open-ended mentoring."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The main differences: space (incubators provide it, accelerators little or none), funding (accelerators provide it, incubators do not), duration (accelerators 3-6 months, incubators open-ended and sometimes years) and focus (incubators ongoing mentorship, accelerators rapid growth). The other options swap these features.",
+          "source": "Lecture 3, 'Incubators & Accelerators: main differences'; Leitão et al. (2022), section 2"
+        },
+        {
+          "num": 10,
+          "stem": "According to de Véricourt and Dahlander (2024), why does the lean startup methodology only partially apply to deep-tech ventures?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Deep-tech customers are unwilling to give feedback on early prototypes, so the iterative customer loop of lean startup cannot work."
+            },
+            {
+              "l": "b",
+              "t": "Lean methods require more upfront capital than deep-tech start-ups can usually raise from investors."
+            },
+            {
+              "l": "c",
+              "t": "It is designed to reduce market uncertainty, but deep tech's main risk is technological and customer feedback cannot resolve it."
+            },
+            {
+              "l": "d",
+              "t": "Deep-tech ventures rarely face product-market fit problems, so they have no market hypotheses to test."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Lean startup helps reduce market uncertainty through quick iterations, customer feedback and cost efficiency. Most start-ups rely on proven technologies and rarely fail for technical reasons, but deep-tech ventures build on technologies that do not exist yet. Long R&D, high upfront costs, regulation and the years it can take to know whether the technology works limit a core lean tenet: quickly putting a real product into customers' hands. Over 90% of new drugs fail clinical trials, while only about 10% of approved drugs fail for lack of market need.",
+          "source": "de Véricourt & Dahlander (2024), 'The limits of the lean startup methodology in deep tech'"
+        },
+        {
+          "num": 11,
+          "stem": "According to Brynjolfsson and McAfee (2014), as presented in Lecture 5, digital goods differ from physical goods because they are:",
+          "options": [
+            {
+              "l": "a",
+              "t": "rival and costly to reproduce."
+            },
+            {
+              "l": "b",
+              "t": "non-rival but have high marginal costs of reproduction."
+            },
+            {
+              "l": "c",
+              "t": "non-rival and have zero marginal cost of reproduction."
+            },
+            {
+              "l": "d",
+              "t": "rival but can be copied at zero cost."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Digitization turns information and media into the 1s and 0s that computers use. Digital goods are non-rival (one person's use does not reduce another's) and can be reproduced at zero marginal cost.",
+          "source": "Lecture 5, 'Digitization & Artificial Intelligence'; Brynjolfsson & McAfee (2014)"
+        },
+        {
+          "num": 12,
+          "stem": "Among DeepSeek's five commercialization challenges, which one describes the risk that AWS, the Apple App Store and Google Play control DeepSeek's pricing, terms and visibility, while having reasons to promote their own AI models?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Geopolitical risk"
+            },
+            {
+              "l": "b",
+              "t": "Infrastructure reliability"
+            },
+            {
+              "l": "c",
+              "t": "Balancing open access with value capture"
+            },
+            {
+              "l": "d",
+              "t": "Platform lock-in"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_cases",
+          "kind": "case",
+          "fmt": "single",
+          "explanation": "The case lists five challenges: balancing open access with value capture (open-source revenue cannot fund ongoing training), geopolitical risks (US export controls on Nvidia chips and bans in several countries), platform lock-in (dependence on AWS for infrastructure and on the app stores for distribution), infrastructure reliability (outages during traffic spikes) and intensifying competition (OpenAI, Google DeepMind, Anthropic, Llama 3, Mixtral). In platform terms, DeepSeek is a complementor on platforms whose owners compete with it.",
+          "source": "Case 'DeepSeek and Open-Source AI' (Tutorial 5)"
+        },
+        {
+          "num": 13,
+          "stem": "According to Lecture 3, how many of the following are typical business angels?\n• Managers and professionals who invest €5,000 to €200,000 per year\n• Entrepreneurs who have sold their companies and invest €50,000 to €500,000\n• Members of a family office who invest part of their money\n• Pension funds that invest through a pool of limited partners",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "The slide 'Who are Business Angels?' names the first three groups. Pension funds, university endowments and corporate investors are the large organizations whose pooled capital venture capitalists manage. Angels invest their own money and also bring skills, experience, networks and time.",
+          "source": "Lecture 3, 'Who are Business Angels?', 'Venture Capitalists'"
+        },
+        {
+          "num": 14,
+          "stem": "Alibaba connected its payment platform Alipay with its marketplaces Taobao and Tmall. The payments built trust between buyers and sellers, and the transaction data later let Ant Financial offer credit ratings and loans. Zhu and Iansiti (2019) call this:",
+          "options": [
+            {
+              "l": "a",
+              "t": "network clustering."
+            },
+            {
+              "l": "b",
+              "t": "multi-homing."
+            },
+            {
+              "l": "c",
+              "t": "disintermediation."
+            },
+            {
+              "l": "d",
+              "t": "network bridging."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Network bridging means connecting a platform to other networks so that they reinforce each other's market positions. Thanks to this tight bridging, Alipay stayed attractive even after Tencent launched WeChat Pay. Clustering is about whether a network breaks into local groups, multi-homing means users join several platforms at once, and disintermediation means users bypass the hub.",
+          "source": "Zhu & Iansiti (2019), 'Network bridging'"
+        },
+        {
+          "num": 15,
+          "stem": "Four campaigns: (1) people back a documentary only because they believe in it; (2) backers pre-order a smart bike lock and receive one once it is produced; (3) people each lend €50 to a café and receive interest; (4) backers receive shares in a fintech start-up. These are, respectively:",
+          "options": [
+            {
+              "l": "a",
+              "t": "donation, reward, lending and equity crowdfunding."
+            },
+            {
+              "l": "b",
+              "t": "reward, donation, equity and lending crowdfunding."
+            },
+            {
+              "l": "c",
+              "t": "donation, equity, lending and reward crowdfunding."
+            },
+            {
+              "l": "d",
+              "t": "donation, reward, equity and lending crowdfunding."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "situational",
+          "fmt": "respectively",
+          "explanation": "Donation: nothing in return beyond having contributed (GoFundMe). Reward: a gift or, increasingly, the product itself as a pre-order (Kickstarter, Indiegogo). Lending (P2P): funders earn interest; the oldest type and by far the largest in volume (Mintos, Unilend). Equity: funders take shares and act like a mini business angel or VC (Crowdcube, Anaxago).",
+          "source": "Lecture 3, 'Crowdfunding: different types'"
+        },
+        {
+          "num": 16,
+          "stem": "AptDeco's earlier attempt to enter Washington, D.C. failed, and the founders concluded that a model that works in one city needs careful assessment before it is taken elsewhere. Seen through Zhu and Iansiti (2019), this reflects that AptDeco's network:",
+          "options": [
+            {
+              "l": "a",
+              "t": "forms one global cluster, so a strong position in New York should carry over to any new city it enters."
+            },
+            {
+              "l": "b",
+              "t": "is protected by high switching costs, so rivals cannot copy its model in other cities."
+            },
+            {
+              "l": "c",
+              "t": "is split into local clusters, so each new city has to be built up almost from scratch."
+            },
+            {
+              "l": "d",
+              "t": "has weak network effects, so marketing spend alone decides whether a new city succeeds."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_cases",
+          "kind": "case",
+          "fmt": "single",
+          "explanation": "Buyers and sellers of used furniture care mainly about people nearby, because items have to be picked up and delivered, so AptDeco's network breaks into local clusters. Zhu and Iansiti note that fragmented networks are more vulnerable and that each cluster has to be won separately, as in ride hailing. A strong position in New York did little for a new market like D.C. Airbnb is their counterexample: travellers care about hosts in many cities, so its network is close to one global cluster.",
+          "source": "Case 'AptDeco: Circular Economy Furniture Marketplace' (Tutorial 4); Zhu & Iansiti (2019), 'Network clustering'"
+        },
+        {
+          "num": 17,
+          "stem": "Lecture 6 defines deep technology as:",
+          "options": [
+            {
+              "l": "a",
+              "t": "companies founded on a scientific discovery or meaningful engineering innovation."
+            },
+            {
+              "l": "b",
+              "t": "companies built on a business model innovation that uses existing technology, such as Uber."
+            },
+            {
+              "l": "c",
+              "t": "any company that uses artificial intelligence in its products or services."
+            },
+            {
+              "l": "d",
+              "t": "companies whose research is funded mainly by governments and universities."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The slide quotes the definition 'companies founded on a scientific discovery or meaningful engineering innovation' and contrasts it with most technology companies today, which build on business model innovation using existing technology, like Uber and the sharing economy. Examples from the readings include SpaceX, mRNA vaccines, TerraPower and Quandela.",
+          "source": "Lecture 6, 'So what is Deep Tech?'; de Véricourt & Dahlander (2024)"
+        },
+        {
+          "num": 18,
+          "stem": "In Lecture 6's table 'The deep tech innovation management shift', which deep tech logic belongs to (1) strategic asset needs, (2) ecosystem dependency and (3) growth strategy, respectively?",
+          "options": [
+            {
+              "l": "a",
+              "t": "generic assets such as cloud and laptops; permissionless launch; scaling up through blitzscaling and network effects."
+            },
+            {
+              "l": "b",
+              "t": "specialized assets such as fabs and wet labs; permissionless launch; scaling deep through unit economics and local roots."
+            },
+            {
+              "l": "c",
+              "t": "specialized assets such as fabs and wet labs; codependence on partners; scaling deep through unit economics and local roots."
+            },
+            {
+              "l": "d",
+              "t": "generic assets such as cloud and laptops; codependence on partners; scaling up through blitzscaling and network effects."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "concept",
+          "fmt": "respectively",
+          "explanation": "The table contrasts the high tech logic of the last decade with the deep tech logic of the next. Strategic assets: generic and commoditized (cloud, laptops, WiFi) versus specialized and idiosyncratic (fabs, wet labs, refuelling networks). Ecosystem dependency: low and permissionless ('launch first, ask later') versus high and codependent (you cannot launch without partners). Growth: scaling up (blitzscaling, network effects) versus scaling deep (unit economics, local roots). The other two rows are the risk profile (market risk versus technical risk) and the development rhythm (sprints versus milestones and phases over years or decades).",
+          "source": "Lecture 6, 'High Tech vs Deep Tech' (Table 1, 'The deep tech innovation management shift')"
+        },
+        {
+          "num": 19,
+          "stem": "Lecture 5 summarized the basics of machine learning in two steps: (1) an algorithm combined with a training set produces ___, and (2) applying it to new data produces ___. These are, respectively:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a training set; a predictive model for each case."
+            },
+            {
+              "l": "b",
+              "t": "deterministic rules; outcomes that are certain."
+            },
+            {
+              "l": "c",
+              "t": "a labelled dataset; a new algorithm per problem."
+            },
+            {
+              "l": "d",
+              "t": "a predictive model; predictions or probabilities."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "respectively",
+          "explanation": "Machine learning lets a system learn from large volumes of data. Step 1: algorithm + training set = predictive model. Step 2: use the predictive model on new data to get predictions or probabilities. That is why the lecture describes machine learning as a move from deterministic to probabilistic, and why more training data gives more precise models.",
+          "source": "Lecture 5, 'Machine Learning: how does it work?'"
+        },
+        {
+          "num": 20,
+          "stem": "According to Lecture 6, how many of the following describe the current state of quantum technologies?\n• There is not one single race but many, in different directions.\n• Quantum tech firms compete globally, but the ecosystem is very heterogeneous in business models, services, products and expertise.\n• Most quantum technologies are special-purpose machines.\n• In the future, almost everything will be quantum-powered.",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "The slide on the current state of affairs makes the first three points and says explicitly that not everything in the future will be 'quantum-powered'. It adds that the potential impact is hard to imagine, just as nobody 100 years ago foresaw society after the first quantum revolution (semiconductors, lasers, telecom). The second quantum revolution, which started about 20 years ago, is about quantum information science: superposition, entanglement and decoherence.",
+          "source": "Lecture 6, 'What is the current state of affairs?', 'Quantum mechanics, what's so special?'"
+        },
+        {
+          "num": 21,
+          "stem": "CleanConnect matches households with house cleaners and earns a fee per booking. After a few good experiences, many clients book 'their' cleaner directly, outside the platform. Zhu and Iansiti (2019) call this:",
+          "options": [
+            {
+              "l": "a",
+              "t": "disintermediation, the problem that doomed Homejoy."
+            },
+            {
+              "l": "b",
+              "t": "a positive cross-side network effect, because each satisfied client attracts more cleaners."
+            },
+            {
+              "l": "c",
+              "t": "a positive same-side network effect, because cleaners recommend the platform to other cleaners."
+            },
+            {
+              "l": "d",
+              "t": "frictionless entry, because new clients can join and book without any screening."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Disintermediation: network members bypass the hub and connect directly. Once a client has found the right match there is little reason to come back, and a fully booked cleaner no longer needs the platform. Remedies include terms of service, withholding contact details until payment (Airbnb), lead-generation fees (Thumbtack) and complementary services (ZBJ).",
+          "source": "Zhu & Iansiti (2019), 'Risk of disintermediation'; Lecture 4 (off-platforming risk)"
+        },
+        {
+          "num": 22,
+          "stem": "A retailer trains a demand-forecasting model on ten years of sales data, but the data is full of duplicate orders, wrong prices and mislabelled products. The forecasts turn out poor. Which caution from Lecture 5 applies?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The trough of disillusionment: every new AI tool disappoints before it improves."
+            },
+            {
+              "l": "b",
+              "t": "The uncanny valley: people distrust forecasts that come from a machine."
+            },
+            {
+              "l": "c",
+              "t": "More training data always gives a more precise model, whatever its quality."
+            },
+            {
+              "l": "d",
+              "t": "Garbage in, garbage out: a model is only as good as the veracity of its data."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "After the 4 Vs of big data (volume, velocity, variety, veracity), Lecture 5 adds a caution: beware the 'garbage in, garbage out' paradigm. More training data usually gives more precise models, but only if the data can be trusted, which is what veracity is about.",
+          "source": "Lecture 5, 'Data', '4 Vs caution!' (Hurwitz & Kirsch, 2018)"
+        },
+        {
+          "num": 23,
+          "stem": "Lecture 5 (Brynjolfsson & McAfee, 2014) illustrated exponential technological progress with Moore's law, which states that:",
+          "options": [
+            {
+              "l": "a",
+              "t": "processing power doubles about every two years."
+            },
+            {
+              "l": "b",
+              "t": "the value of a network grows with the square of the number of its users."
+            },
+            {
+              "l": "c",
+              "t": "processing power doubles about every ten years."
+            },
+            {
+              "l": "d",
+              "t": "the cost of storing data halves every month."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Moore's law describes exponential progress in computing: processing power roughly doubles every two years. The lecture's 'geek fight' between a Cray-2 supercomputer and an iPhone shows how far this has gone. The square-of-users rule is Metcalfe's law from Lecture 2.",
+          "source": "Lecture 5, 'Digitization & Artificial Intelligence' (Brynjolfsson & McAfee, 2014)"
+        },
+        {
+          "num": 24,
+          "stem": "GreenGrid, an Amsterdam start-up doing sustainable-energy research, has no revenue yet. It wants money that it does not have to pay back and that costs no equity. Where does the iamsterdam guide 'Funding your startup' point start-ups like this?",
+          "options": [
+            {
+              "l": "a",
+              "t": "To the Rabo Innovation Loan, which offers €25,000 to €150,000 with two interest-only years for sustainable start-ups."
+            },
+            {
+              "l": "b",
+              "t": "To government grants and subsidies through RVO.nl, with the Startup Box tool to find suitable schemes."
+            },
+            {
+              "l": "c",
+              "t": "To invoice factoring, which turns outstanding customer invoices into cash right away."
+            },
+            {
+              "l": "d",
+              "t": "To business angels, who buy stock or give loans and expect a return on investment."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "The guide says that start-ups focused on innovation, research or sustainability may be eligible for government subsidies through RVO.nl, the national agency, and that the online Startup Box shows which Dutch government funding fits. The Rabo loan has to be repaid, factoring needs outstanding invoices, and angels want a return on their stock or loans.",
+          "source": "iamsterdam, 'Funding your startup' (grants and subsidies, bank loans, factoring, angels)"
+        },
+        {
+          "num": 25,
+          "stem": "In his guest lecture, Erik Boer encouraged students to treat Amsterdam as a startup laboratory. Where, according to him, do the strongest opportunities often sit?",
+          "options": [
+            {
+              "l": "a",
+              "t": "In copying a proven US business model before local rivals do."
+            },
+            {
+              "l": "b",
+              "t": "In markets without any existing competitors or alternatives."
+            },
+            {
+              "l": "c",
+              "t": "At the intersection of a real problem and a new capability."
+            },
+            {
+              "l": "d",
+              "t": "In ideas that need a large funding round before the first test."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Boer asked which important problem you can solve better than the alternatives, and said the strongest opportunities sit where a real problem meets a new capability. Students can test ideas on the city, the campus and local organisations before scaling. TicketSwap (safe ticket resale) and United Wardrobe (second-hand fashion, bought by Vinted in 2020) were both founded by students in Amsterdam.",
+          "source": "Lecture 3, guest lecture Erik Boer, 'Where can your startup idea come from?'"
+        },
+        {
+          "num": 26,
+          "stem": "Duolingo uses generative AI for new learning features, such as explanations of answers and conversation practice with virtual characters. Lecture 5 names Duolingo next to Khan Academy's Khanmigo as an example of which of Cromwell et al.'s (2023) pathways?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Exploiting a current value proposition: adding a plug-in that speeds up an existing service."
+            },
+            {
+              "l": "b",
+              "t": "Exploring a new value proposition: releasing a new AI tool to the public and then discovering unforeseen ways to use it."
+            },
+            {
+              "l": "c",
+              "t": "Replacing the value proposition: closing the free product and moving all users to AI tutors."
+            },
+            {
+              "l": "d",
+              "t": "Expanding the value proposition: solving new problems in a way that complements the current offering."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_cases",
+          "kind": "case",
+          "fmt": "single",
+          "explanation": "On the 'Pathway #2' slide, Khanmigo (an AI tutor for students and an assistant for teachers) is the main example, with '(also Duolingo!)' added. Explanations of mistakes and AI conversation practice solve new problems for learners while complementing Duolingo's lessons. Instacart's ChatGPT plug-in is the exploiting example, and ChatGPT itself the exploring one. In the case, Duolingo Max is the higher-priced subscription tier with AI-powered learning features.",
+          "source": "Case 'Duolingo: On a Streak' (Tutorial 3); Lecture 5, Cromwell et al. (2023) pathways"
+        },
+        {
+          "num": 27,
+          "stem": "Threadless lets its community submit T-shirt designs and vote on which ones get printed. Lecture 2 and Parker et al. (2016) present it as an example of:",
+          "options": [
+            {
+              "l": "a",
+              "t": "an almost frictionless model: no artists to hire, no marketing or forecasting, low handling and inventory costs."
+            },
+            {
+              "l": "b",
+              "t": "a pipeline that controls quality through in-house designers and editors who approve every shirt before it is printed."
+            },
+            {
+              "l": "c",
+              "t": "a negative network effect, because more submitted designs make it harder for customers to choose one."
+            },
+            {
+              "l": "d",
+              "t": "a piggyback strategy that taps into the existing user base of a larger social network to grow quickly."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Designers compete for prizes and prestige, so Threadless doesn't need to hire artists. They ask friends for votes, so it doesn't need marketing. The votes tell it how many shirts will sell, so it doesn't need to forecast, and outsourced production keeps handling and inventory costs low. This scalable, almost frictionless model is one way to foster network effects (Lecture 2).",
+          "source": "Lecture 2, 'Scaling network effects'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": 28,
+          "stem": "On StreamCraft, a video platform, every view, like and comment is fed back into its rankings, so the next viewers see better videos first and poorly rated content disappears. Parker et al. (2016) describe this as platforms:",
+          "options": [
+            {
+              "l": "a",
+              "t": "unlocking new sources of value creation and supply."
+            },
+            {
+              "l": "b",
+              "t": "using data-based tools to create community feedback loops."
+            },
+            {
+              "l": "c",
+              "t": "inverting the firm by shifting from broadcasting to segmentation."
+            },
+            {
+              "l": "d",
+              "t": "growing through supply economies of scale."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Parker et al. name four advantages of platforms: they scale efficiently by eliminating gatekeepers, unlock new sources of value creation and supply, use data-based tools to create community feedback loops, and invert the firm. Feedback loops are community signals about quality (views, ratings, reviews) that make each following interaction more efficient, as on YouTube, Airbnb or Wikipedia compared with Britannica. Pipelines rely on editors and managers for quality control, which is costly to scale.",
+          "source": "Lecture 1, 'Advantages of platforms'; Parker et al. (2016), ch. 1"
+        },
+        {
+          "num": 29,
+          "stem": "According to Parker et al. (2016, ch. 2), how does virality differ from network effects?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Virality creates lasting lock-in, while the advantage from network effects is evanescent."
+            },
+            {
+              "l": "b",
+              "t": "Virality only works on two-sided platforms, while network effects only arise on one-sided ones."
+            },
+            {
+              "l": "c",
+              "t": "Virality draws in people from off the platform; network effects add value for those already on it."
+            },
+            {
+              "l": "d",
+              "t": "There is no real difference, because both terms describe the same growth mechanism."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "In Parker et al.'s words, virality can attract people to a network, but network effects keep them there. Lock-in comes from network effects; price effects and brand effects are much harder to sustain.",
+          "source": "Parker et al. (2016), ch. 2, 'Network effects versus other growth-building tools'"
+        },
+        {
+          "num": 30,
+          "stem": "Parker et al. (2016) argue that platforms 'invert the firm': they shift their focus from internal to external activities. Which of the following companies is the least convincing example of an inverted firm?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Tesla"
+            },
+            {
+              "l": "b",
+              "t": "Facebook"
+            },
+            {
+              "l": "c",
+              "t": "Alibaba"
+            },
+            {
+              "l": "d",
+              "t": "Airbnb"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "An inverted firm creates most of its value through a community of outside users and producers, so marketing, operations and innovation centre on people outside the company. Facebook (user content), Alibaba (outside merchants) and Airbnb (hosts' homes) fit that description. Tesla designs, builds and sells its own cars, which makes it a pipeline business.",
+          "source": "Lecture 1, 'Platforms invert the firm'; Parker et al. (2016), ch. 1",
+          "origin": "Adapted from the old mock document"
+        },
+        {
+          "num": 31,
+          "stem": "Zvents became the largest online guide to local events, with over 14 million visitors a month. When it tried to charge event organizers, it had no leverage: users expected a complete listing, so dropping unpaid events would destroy the site's value. Lecture 4 uses this case to show that:",
+          "options": [
+            {
+              "l": "a",
+              "t": "charging transaction fees always destroys a platform's network effects, whatever it does."
+            },
+            {
+              "l": "b",
+              "t": "network effects are worth little if the platform cannot control and capture the value created."
+            },
+            {
+              "l": "c",
+              "t": "negative network effects turn positive once a platform adds curation through pricing."
+            },
+            {
+              "l": "d",
+              "t": "platforms should charge every user from the very first day to avoid attracting free riders."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Zvents had the numbers but not the control. Its value lay in the completeness of its listings, so threatening to drop organizers who didn't pay had no teeth, and charging for enhanced access brought in only a trickle of revenue. The founder sold the company to eBay in 2013. Lecture 4: 'Network effects' power is nothing without control.' The Meetup case makes a different point: curation through pricing can make negative network effects work for the platform.",
+          "source": "Lecture 4, 'How can you capture value without harming growth?'; Parker et al. (2016), ch. 6"
+        },
+        {
+          "num": 32,
+          "stem": "According to Lecture 1 (Schilling, 2017), many innovations emerge from networks of interconnected players. How many of the following were named as such players?\n• Firms\n• Governments\n• Universities\n• Individuals",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "The slide 'Where do great ideas come from?' lists firms, governments, universities and individuals. Open innovation is then introduced as a way to connect these players.",
+          "source": "Lecture 1, 'Where do great ideas come from?' (Schilling, 2017)"
+        },
+        {
+          "num": 33,
+          "stem": "In 'Platform Startups: Launching Online Marketplaces', Susan Spender plans The Doghouse, which would not employ its own caregivers but help pet owners and caregivers find each other. In Parker et al.'s (2016) terms, this makes The Doghouse:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a platform that enables value-creating interactions between external producers and consumers."
+            },
+            {
+              "l": "b",
+              "t": "a pipeline that creates its pet-care service step by step and then sells it to customers."
+            },
+            {
+              "l": "c",
+              "t": "a staffing agency that employs caregivers and rents out their time to owners at a margin."
+            },
+            {
+              "l": "d",
+              "t": "a single-sided business that only needs to win over pet owners, since caregivers will then follow by themselves."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_cases",
+          "kind": "case",
+          "fmt": "single",
+          "explanation": "The case describes the logic of an online marketplace: like Airbnb, eBay or Uber, The Doghouse provides the setting and tools through which two groups interact, instead of employing caregivers and selling their services. That is Parker et al.'s definition of a platform. It also explains Susan's launch challenge, the Penguin Problem: an empty platform offers little value, so each side waits for the other.",
+          "source": "Case 'Platform Startups: Launching Online Marketplaces' (Tutorial 4); Parker et al. (2016), ch. 1"
+        },
+        {
+          "num": 34,
+          "stem": "According to the iamsterdam guide 'Funding your startup', Arches Capital bridges the gap between VCs and angels by:",
+          "options": [
+            {
+              "l": "a",
+              "t": "offering loans of €25,000-150,000 with two interest-only years."
+            },
+            {
+              "l": "b",
+              "t": "matching start-ups with investors in three 20-minute 'dates'."
+            },
+            {
+              "l": "c",
+              "t": "investing only in start-ups founded by UvA and VU students or recent graduates."
+            },
+            {
+              "l": "d",
+              "t": "sourcing, selecting and investing like a VC, while engaging and mentoring like angels."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "That is the guide's description of Arches Capital. The other options describe the Rabo Innovation Loan, Startup Roulette and the Amsterdam Academic Angel fund.",
+          "source": "iamsterdam, 'Funding your startup', 'Amsterdam-based funding opportunities'"
+        },
+        {
+          "num": 35,
+          "stem": "Pillow, an outside company, gives Airbnb hosts tools that simplify listing, guest check-in, and cleaning and linen delivery, and earns money from the hosts it serves. In the terms of Parker et al. (2016, ch. 7), Pillow is:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a core developer."
+            },
+            {
+              "l": "b",
+              "t": "a data aggregator."
+            },
+            {
+              "l": "c",
+              "t": "an extension developer."
+            },
+            {
+              "l": "d",
+              "t": "a platform sponsor."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Parker et al. distinguish three kinds of developers. Core developers are usually employed by the platform and build its basic functions, such as Airbnb's search, payments and insurance. Extension developers are outside parties that add features and value and keep part of the value they create, like Pillow or photography services for hosts. Data aggregators collect data about users under license and resell it, for example for ad targeting. The sponsor is the firm that retains legal control over the platform's technology.",
+          "source": "Parker et al. (2016), ch. 7, 'Developer participation', 'Manager and sponsor participation'"
+        },
+        {
+          "num": 36,
+          "stem": "In Lecture 2's table of the four kinds of network effects, Chatroulette (unpoliced growth driving users away) and OkCupid (attractive users bombarded by messages from the other side) illustrate, respectively:",
+          "options": [
+            {
+              "l": "a",
+              "t": "negative cross-side and negative same-side network effects."
+            },
+            {
+              "l": "b",
+              "t": "positive same-side and negative cross-side network effects."
+            },
+            {
+              "l": "c",
+              "t": "negative same-side and positive cross-side network effects."
+            },
+            {
+              "l": "d",
+              "t": "negative same-side and negative cross-side network effects."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "concept",
+          "fmt": "respectively",
+          "explanation": "Same-side effects come from users of the same kind; cross-side effects come from users on the other side. On Chatroulette, a growing number of unwanted users drove other users away. On OkCupid, more users on one side became a nuisance for the other side. In both cases the fix is curation.",
+          "source": "Lecture 2, 'Four kinds of network effects'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": 37,
+          "stem": "Lecture 1 described today's 'digital planet'. How many of the following statements were made in the lecture?\n• There are more mobile connections than people on the planet.\n• More people have access to a mobile phone than to a toilet.\n• Digital payments are the new norm.\n• Big Tech has lost most of its power since Silicon Valley's early days.",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "The slide 'A digital economy' makes the first three points. The fourth is reversed: the lecture describes Silicon Valley moving 'from a community of nerds to a locus of power', with Apple, Amazon, Microsoft, Alphabet, Meta and Nvidia all reaching a $1 trillion valuation.",
+          "source": "Lecture 1, 'A digital economy', 'The rise of big tech'"
+        },
+        {
+          "num": 38,
+          "stem": "FusionCore builds components for fusion reactors. Its board, used to software start-ups, wants monthly revenue growth figures and asks the engineers to work in two-week sprints. Following the 'practitioner's pivot' in Lecture 6, what should FusionCore do instead?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Track technical de-risking milestones and secure patient capital for the long haul."
+            },
+            {
+              "l": "b",
+              "t": "Launch a minimum viable product first and look for partners only once the first customers sign up."
+            },
+            {
+              "l": "c",
+              "t": "Rent generic cloud infrastructure so that its upfront costs stay low."
+            },
+            {
+              "l": "d",
+              "t": "Chase fast user growth to trigger network effects before rivals do."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "The table's pivots: stop using revenue as the only traction metric and measure technical de-risking milestones; stop assuming you can rent infrastructure and budget for complementary assets early; build the minimum viable ecosystem, not only the minimum viable product; stop forcing hardware teams into two-week software sprints and develop an ambidextrous mindset; stop chasing vanity growth metrics and secure patient capital. As the slide's quote puts it, firms cannot 'move fast and break things' when they build a fusion reactor.",
+          "source": "Lecture 6, 'High Tech vs Deep Tech' (Table 1, 'The practitioner's pivot')"
+        },
+        {
+          "num": 39,
+          "stem": "Match each practice to Lecture 4's monetization tools: (1) Dribbble charges companies to post job listings; (2) Yelp sells restaurants a premium listing in search results; (3) Skillshare offers a monthly subscription to a curated library of courses; (4) Booking uses mystery shoppers and removes hotels that undercut its prices.",
+          "options": [
+            {
+              "l": "a",
+              "t": "enhanced access; charging for access; transaction fee; banning leakage activities"
+            },
+            {
+              "l": "b",
+              "t": "charging for access; enhanced access; enhanced curation; banning leakage activities"
+            },
+            {
+              "l": "c",
+              "t": "charging for access; transaction fee; enhanced curation; enhanced access"
+            },
+            {
+              "l": "d",
+              "t": "enhanced curation; enhanced access; charging for access; transaction fee"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "respectively",
+          "explanation": "Charging for access: producers pay to reach a community (Dribbble jobs, Crunchbase). Enhanced access: paying to stand out (Yelp, Google ads, LinkedIn, MTurk). Enhanced curation: paying for guaranteed quality, often a shift from transaction to subscription fees (Skillshare, Sittercity). Banning leakage: removing sellers who undercut the platform price; enforceable, but it needs monitoring and may be considered anticompetitive.",
+          "source": "Lecture 4, 'Monetization tools #2-#5'; Parker et al. (2016), ch. 6"
+        },
+        {
+          "num": 40,
+          "stem": "TableTrack first gives restaurants free software to manage their seating and reservations. Once many restaurants use it, it launches a consumer app for booking tables and charges restaurants a fee per booking. Which launch strategy is this?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Micromarket strategy"
+            },
+            {
+              "l": "b",
+              "t": "Big-bang adoption"
+            },
+            {
+              "l": "c",
+              "t": "Marquee strategy"
+            },
+            {
+              "l": "d",
+              "t": "Single-side strategy"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Single-side: build a business around a product or service that is useful to one set of users on its own, then turn it into a platform by attracting a second set. OpenTable launched this way (restaurant software first, diners later), and so did redBus with bus operators.",
+          "source": "Lecture 4; Parker et al. (2016), ch. 5, 'The single-side strategy'"
+        },
+        {
+          "num": 41,
+          "stem": "Which statement about open innovation matches Lecture 1?",
+          "options": [
+            {
+              "l": "a",
+              "t": "It only became possible with the internet, which is why it is found almost exclusively among software firms."
+            },
+            {
+              "l": "b",
+              "t": "It is not new (the slide's example is the Cornish pumping engine), but IT infrastructure has made it far more common."
+            },
+            {
+              "l": "c",
+              "t": "It requires a firm to give away its intellectual property to every outside contributor who asks for it."
+            },
+            {
+              "l": "d",
+              "t": "It concerns research labs only, so opening a finished product to outside contributors does not count as open innovation."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Lecture 1 stresses that open innovation is old, with the Cornish pumping engine as its example, and that IT infrastructure has made it much more common. The slide also says that opening any product to external innovation is a form of open innovation. The definition (relying on outsiders as a source of ideas and as a means to commercialize them) does not require giving away all IP.",
+          "source": "Lecture 1, 'Open Innovation' slides"
+        },
+        {
+          "num": 42,
+          "stem": "Bova, Goldfarb and Melko (2023) argue that managers should focus on 'quantum economic advantage'. A business achieves it when a quantum computer:",
+          "options": [
+            {
+              "l": "a",
+              "t": "solves a problem that no classical computer could solve in a realistic time, such as Google's cross-entropy benchmarking."
+            },
+            {
+              "l": "b",
+              "t": "is fully fault-tolerant and large enough to run Shor's algorithm on the numbers used in encryption."
+            },
+            {
+              "l": "c",
+              "t": "replaces the classical computers in a company's data centres for all of its calculations."
+            },
+            {
+              "l": "d",
+              "t": "gives a commercially useful solution that is faster, even if only moderately, or different from the classical one."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Quantum advantage means solving a problem that is practically impossible for classical computers; demonstrations so far (Google's cross-entropy benchmarking, Xanadu's Gaussian boson sampling) involved esoteric tasks with little commercial value. Quantum economic advantage only requires a commercially useful output that is faster or different, so it can exist with a quadratic or polynomial speedup, long before fault-tolerant machines arrive.",
+          "source": "Bova, Goldfarb & Melko (2023), 'Why quantum economic advantage matters', 'A quantum glossary'"
+        },
+        {
+          "num": 43,
+          "stem": "The financial sector spent about $1.7 billion a year on blockchain, yet beyond cryptocurrencies it had little to no discernible impact (Kelly, 2019, discussed in Lecture 6). What does the article see as blockchain's biggest problem?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Banks were not allowed to experiment with blockchain, because financial regulators had banned it outright."
+            },
+            {
+              "l": "b",
+              "t": "The technology did not work at all, so no bank or central bank managed to build a working prototype."
+            },
+            {
+              "l": "c",
+              "t": "Projects started with the technology and then looked for a way to profit from it, instead of starting from banks' problems."
+            },
+            {
+              "l": "d",
+              "t": "Projects focused so heavily on what customers asked for that the underlying technology never reached the maturity banks needed."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Kelly writes that blockchain was approached badly: projects began with the technology instead of the challenges banks were trying to solve. As Martin Walker puts it, 'the tool has to fit the problem' (would you open a can of beans with a sledgehammer?). Lecture 6 frames the lesson as technology push versus market pull, and as a cycle of hype, disappointment and backlash. Prototypes did exist, such as the Bundesbank and Deutsche Börse's settlement trials, but 'a real breakthrough in application' was missing.",
+          "source": "Kelly (2019), FT, 'Blockchain: disillusionment descends on financial services'; Lecture 6, 'What can we learn from the failures of Blockchain?'"
+        },
+        {
+          "num": 44,
+          "stem": "Match each example to its type of machine learning (Lecture 5): (1) a spam filter trained on emails labelled 'spam' or 'not spam'; (2) grouping customers into segments without predefined labels; (3) AlphaGo improving by trial and error; (4) an LLM learning by predicting the next token.",
+          "options": [
+            {
+              "l": "a",
+              "t": "unsupervised; supervised; reinforcement; self-supervised"
+            },
+            {
+              "l": "b",
+              "t": "supervised; unsupervised; reinforcement; self-supervised"
+            },
+            {
+              "l": "c",
+              "t": "supervised; reinforcement; unsupervised; self-supervised"
+            },
+            {
+              "l": "d",
+              "t": "self-supervised; unsupervised; reinforcement; supervised"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "situational",
+          "fmt": "respectively",
+          "explanation": "Supervised learning learns a rule from labelled examples; unsupervised learning discovers patterns; reinforcement learning works by trial and error with rewards; self-supervised learning learns by predicting parts of the data itself (LLMs, BERTopic).",
+          "source": "Lecture 5, 'Machine Learning'"
+        },
+        {
+          "num": 45,
+          "stem": "According to Agrawal, Gans and Goldfarb (2017), recent advances in AI are best thought of as:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a drop in the cost of judgment, which reduces the value of prediction."
+            },
+            {
+              "l": "b",
+              "t": "the full automation of organizational decision-making."
+            },
+            {
+              "l": "c",
+              "t": "a rise in the cost of data, which favours large incumbents."
+            },
+            {
+              "l": "d",
+              "t": "a drop in the cost of prediction, which raises the value of human judgment."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "As machine prediction gets cheaper, machines will do more of it. Prediction is only one input into decisions; the other is judgment, which becomes more valuable: 'People who display good judgment will become more valuable, not less.'",
+          "source": "Agrawal et al. (2017); Lecture 5, 'Will AI change the way we make decisions?'"
+        },
+        {
+          "num": 46,
+          "stem": "Network effects can be defined as:",
+          "options": [
+            {
+              "l": "a",
+              "t": "the impact of the number of users of a platform on the value created for each user."
+            },
+            {
+              "l": "b",
+              "t": "relying on outsiders both as a source of ideas and as a means to commercialize them."
+            },
+            {
+              "l": "c",
+              "t": "the impact of using social networks on a company's bottom line."
+            },
+            {
+              "l": "d",
+              "t": "the drop in unit cost of production as the quantity produced increases."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "This is the definition on the Lecture 2 'Network Effects' slide (Parker et al., 2016, ch. 2). Relying on outsiders for ideas and commercialization is the definition of open innovation, and a falling unit cost as output grows describes supply economies of scale.",
+          "source": "Lecture 2, 'Network Effects: Def.'; Parker et al. (2016), ch. 2",
+          "origin": "From the old mock document"
+        },
+        {
+          "num": 47,
+          "stem": "According to the innovation funnel presented in Lecture 1 (Schilling, 2017):",
+          "options": [
+            {
+              "l": "a",
+              "t": "about half of all product ideas make it to the market, provided they are developed fully in-house."
+            },
+            {
+              "l": "b",
+              "t": "closed innovation is the most effective way to reduce the number of ideas that drop out of the funnel."
+            },
+            {
+              "l": "c",
+              "t": "only about 1 in 9 product ideas makes it to the market, and open innovation may reduce this funnel effect or its cost."
+            },
+            {
+              "l": "d",
+              "t": "in drug development the clinical-trial stage is the shortest, typically taking less than one year."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The funnel slide says only 1 in 9 product ideas reaches the market (drug example: about 5,000 compounds, 125 leads, 2-3 drugs tested, 1 approved drug). Clinical trials take 6-7 years, the longest stage. The lecture's point is that open innovation may reduce the funnel effect or reduce the cost for the organization.",
+          "source": "Lecture 1, 'The innovation funnel' (Schilling, 2017)"
+        },
+        {
+          "num": 48,
+          "stem": "ChatterBox, once a popular messaging app, starts losing users to a rival. Every user who leaves makes the app less useful for those who stay, which speeds up further departures. Lecture 2 calls this:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a negative same-side network effect caused by congestion."
+            },
+            {
+              "l": "b",
+              "t": "convex collapse, Metcalfe's law working in reverse (as with BlackBerry)."
+            },
+            {
+              "l": "c",
+              "t": "the trough of disillusionment."
+            },
+            {
+              "l": "d",
+              "t": "multi-homing."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Users flee, so there are fewer nodes, so the network loses value, so more users flee. The lecture's example is BlackBerry in the 2000s. Congestion-type negative network effects arise from too many users, which is the opposite situation.",
+          "source": "Lecture 2, 'Metcalfe's law: reverse: convex collapse'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": 49,
+          "stem": "In November 2023, OpenAI's non-profit board removed Sam Altman as CEO. After more than 700 employees threatened to follow him to Microsoft, he was reinstated within days and a new board was set up. What does this episode reveal about OpenAI?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Microsoft held a majority of the voting rights in OpenAI and could therefore appoint or remove the CEO whenever it wished."
+            },
+            {
+              "l": "b",
+              "t": "The tension between a mission-driven non-profit board and the commercial interests in its for-profit arm."
+            },
+            {
+              "l": "c",
+              "t": "Employees controlled the board through the shares they held in the non-profit entity."
+            },
+            {
+              "l": "d",
+              "t": "The board could only take decisions with the approval of co-founder Elon Musk."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_cases",
+          "kind": "case",
+          "fmt": "single",
+          "explanation": "OpenAI began as a non-profit with the mission of building AGI for the benefit of humanity, then created a capped-profit arm to pay for computing, followed by Microsoft's $1 billion investment in 2019. The board fired Altman for not being 'consistently candid' with it, but the pushback was immediate: Microsoft offered to hire Altman and Brockman, and more than 700 employees signed a letter. The quick reversal showed how hard it is to combine a mission-based board with a commercial business.",
+          "source": "Case 'OpenAI: Competitive Strategy and Governance' (Tutorial 5)"
+        },
+        {
+          "num": 50,
+          "stem": "Building a test reactor seemed too costly and risky for TerraPower, so its engineers used supercomputer simulations to check whether their nuclear technology could work. This built enough confidence to attract early investors such as Bill Gates. De Véricourt and Dahlander (2024) present this as an example of:",
+          "options": [
+            {
+              "l": "a",
+              "t": "building a minimum viable product to test market demand before investing in a full-scale reactor."
+            },
+            {
+              "l": "b",
+              "t": "a strategic partnership with a regulator to speed up approval."
+            },
+            {
+              "l": "c",
+              "t": "using AI and digital tools to make 'learning by thinking' more effective."
+            },
+            {
+              "l": "d",
+              "t": "fostering a culture of truth by publishing failures openly."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Deep-tech ventures cannot run many cheap experiments, so the authors recommend 'learning by thinking': using existing science as a map and planning a few crucial experiments. AI and computer science make this increasingly effective, as TerraPower's simulations showed before any physical reactor was built. Rigetti designing key experiments from the quantum mechanics literature is their other example of learning by thinking.",
+          "source": "de Véricourt & Dahlander (2024), 'Embrace learning by thinking', 'Leverage AI and digital tools'"
+        },
+        {
+          "num": 51,
+          "stem": "SolarSeed has finished R&D, launched its product and has its first paying customers. It now wants about €5 million to scale up and expand internationally. According to the 'funding steps' chart in Lecture 3, which source fits best?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Venture capital (€2-10M)"
+            },
+            {
+              "l": "b",
+              "t": "Business-plan competitions, loans/subsidies and incubators (€20-150K)"
+            },
+            {
+              "l": "c",
+              "t": "Business angels (€50-500K)"
+            },
+            {
+              "l": "d",
+              "t": "Friends, family and fools"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "The funding-steps curve links sources to stages: BP competitions, loans and incubators (€20-150K) around R&D and birth, business angels (€50-500K) and seed capital (€100K-3M) through survival and first successes, and venture capital (€2-10M) in the growth stage. VCs 'invest millions of euros to scale operations, expand internationally, or accelerate R&D'.",
+          "source": "Lecture 3, 'The funding steps', 'Venture Capitalists'"
+        },
+        {
+          "num": 52,
+          "stem": "Lecture 3 argues that selling your product or service ('the market') is the best way to fund your business. Why?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Because revenues are taxed less heavily than investments."
+            },
+            {
+              "l": "b",
+              "t": "Because it is the fastest way to raise several million euros."
+            },
+            {
+              "l": "c",
+              "t": "Because investors only back start-ups that are already profitable."
+            },
+            {
+              "l": "d",
+              "t": "Because sales are a strong illustration of validation."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The slide's answer is 'because it's a strong illustration of validation'. The CB Insights analysis of 101 start-up post-mortems shown in the lecture lists 'no market need' (42%) as the top reason start-ups fail, ahead of running out of cash (29%).",
+          "source": "Lecture 3, 'The Market: WHY?', 'Top 20 reasons startups fail'"
+        },
+        {
+          "num": 53,
+          "stem": "MeetMap, an events platform, has grown to millions of users on a free plan. Following Lecture 4's advice on the timing of monetization, how should it start charging?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Move its most popular free features behind a paywall so users feel what they would miss."
+            },
+            {
+              "l": "b",
+              "t": "Reduce what the free plan includes step by step until most users decide to pay."
+            },
+            {
+              "l": "c",
+              "t": "Offer new, additional features in a paid tier and keep what users already get for free."
+            },
+            {
+              "l": "d",
+              "t": "Charge every user a small monthly fee from now on, since the network is big enough."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "The golden rule is 'users first, monetization later'. When it is time to charge, the lecture advises avoiding charging for value that used to be free and avoiding reducing access that users are used to. The better route is to create new, additional value and charge for that.",
+          "source": "Lecture 4, 'When to charge? The timing of monetization'"
+        },
+        {
+          "num": 54,
+          "stem": "A third-party navigation app has become one of the main reasons people use your smartphone platform, and it could turn into a platform of its own that connects merchants with users. According to Parker et al. (2016, ch. 7), what should the platform manager do?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Seek to own it or replace it with its own app, as Apple did when it launched Apple Maps."
+            },
+            {
+              "l": "b",
+              "t": "Leave it to the outside developer, since outside developers should create most of the value."
+            },
+            {
+              "l": "c",
+              "t": "Close the platform's API to all outside developers to prevent similar threats in future."
+            },
+            {
+              "l": "d",
+              "t": "Raise the fee charged to this developer so the platform captures part of the value."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Parker et al. advise owning (or replacing) an extension that controls a primary source of user value, especially one that could become a platform in its own right. Apple built its own Maps app to stop depending on Google Maps and accepted the bad publicity of a weak first version.",
+          "source": "Parker et al. (2016), ch. 7, 'What to open and what to own'"
+        },
+        {
+          "num": 55,
+          "stem": "Match each launch tactic to Parker et al.'s (2016) strategies for the chicken-or-egg problem: (1) Reddit's founders posted links from fake profiles to fill the site with the content they wanted; (2) Skillshare signs up influential teachers who bring their own students; (3) Amazon first sold books itself and later opened its Marketplace to outside sellers. These are, respectively:",
+          "options": [
+            {
+              "l": "a",
+              "t": "piggyback, marquee and single-side."
+            },
+            {
+              "l": "b",
+              "t": "seeding, marquee and follow the rabbit."
+            },
+            {
+              "l": "c",
+              "t": "producer evangelism, big-bang adoption and the piggyback strategy."
+            },
+            {
+              "l": "d",
+              "t": "seeding, producer evangelism and follow the rabbit."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "respectively",
+          "explanation": "Seeding means creating value units yourself so that users come, sometimes with simulated profiles (Reddit, PayPal's bots on eBay); the platform stays two-sided from the start. Producer evangelism targets producers who bring their own customers (Skillshare, Udemy, Kickstarter). Follow the rabbit starts as a non-platform business and opens the other side later (Amazon Marketplace, Huffington Post). The marquee strategy targets 'star' participants with special incentives.",
+          "source": "Lecture 4, '8 strategies to deal with the chicken-or-egg dilemma'; Parker et al. (2016), ch. 5"
+        },
+        {
+          "num": 56,
+          "stem": "According to Lecture 3 (Leitão et al., 2022), which of the following do incubators provide to the new businesses they host?\n1) Physical space\n2) Administrative services\n3) Knowledge\n4) Access to networks\n5) Standardized seed-funding packages\n6) Cohort-based entry and exit with a final demo event",
+          "options": [
+            {
+              "l": "a",
+              "t": "1, 2, 3 and 4"
+            },
+            {
+              "l": "b",
+              "t": "3, 4, 5 and 6"
+            },
+            {
+              "l": "c",
+              "t": "1, 3, 5 and 6"
+            },
+            {
+              "l": "d",
+              "t": "1, 2, 5 and 6"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "concept",
+          "fmt": "combo",
+          "explanation": "Incubators offer tangible assets (physical space and administrative services) and intangible assets (knowledge and access to networks), which makes them drivers of job creation and regional economic development. Standardized seed funding and cohort-based entry and exit are among the original features of accelerators.",
+          "source": "Lecture 3, 'What are Incubators & Accelerators'; Leitão et al. (2022)"
+        },
+        {
+          "num": 57,
+          "stem": "A club lets women in for free on Thursdays. The more women show up, the more men come, and the men happily pay full price at the door and at the bar. Lecture 2 uses this 'nightclub as a platform' example to show:",
+          "options": [
+            {
+              "l": "a",
+              "t": "how charging higher prices filters out guests who would lower the quality of the evening."
+            },
+            {
+              "l": "b",
+              "t": "how a loyalty program keeps the club's existing guests from switching to rival clubs."
+            },
+            {
+              "l": "c",
+              "t": "how a two-sided business subsidizes the side whose presence attracts the side that pays."
+            },
+            {
+              "l": "d",
+              "t": "why charging all users the same price maximizes the network effects on both sides."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "The nightclub works like a two-sided platform with cross-side network effects: one group's presence makes the venue more valuable for the other. Subsidizing that group attracts the group that pays full price. Lecture 2 links this to the chicken-or-egg problem and Uber's $30 coupons, and Lecture 4 calls it the 'ladies' night' model (subsidize one side, charge the other).",
+          "source": "Lecture 2, 'The nightclub as a platform'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": 58,
+          "stem": "Before launching its new game console, PlayNova signs an exclusive deal on special terms with the best-selling sports-game publisher, knowing that without those titles few gamers will buy the console. Which launch strategy is this?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Seeding"
+            },
+            {
+              "l": "b",
+              "t": "Marquee"
+            },
+            {
+              "l": "c",
+              "t": "Producer evangelism"
+            },
+            {
+              "l": "d",
+              "t": "Big-bang adoption"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "The marquee strategy gives special incentives to a key group of users whose participation can make or break the platform. In Parker et al., Microsoft, Sony and Nintendo all offer Electronic Arts sweet deals, and Microsoft bought Bungie to make Halo an Xbox exclusive.",
+          "source": "Lecture 4; Parker et al. (2016), ch. 5, 'The marquee strategy'"
+        },
+        {
+          "num": 59,
+          "stem": "According to Parker et al. (2016, ch. 3), which three key functions must a platform perform to encourage a high volume of valuable core interactions?\n1) Pull\n2) Filter\n3) Facilitate\n4) Match\n5) Curate\n6) Price",
+          "options": [
+            {
+              "l": "a",
+              "t": "1, 3 and 4"
+            },
+            {
+              "l": "b",
+              "t": "1, 2 and 4"
+            },
+            {
+              "l": "c",
+              "t": "3, 4 and 6"
+            },
+            {
+              "l": "d",
+              "t": "2, 3 and 5"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "concept",
+          "fmt": "combo",
+          "explanation": "Parker et al. summarize the 'how' of platform design as pull, facilitate and match: pull producers and consumers to the platform, facilitate their interactions with tools and rules, and match them using information about both sides. The filter is one of the three components of the core interaction (participants, value unit, filter), and curation and pricing are not on this list.",
+          "source": "Parker et al. (2016), ch. 3, 'Pull, facilitate, match'"
+        },
+        {
+          "num": 60,
+          "stem": "According to Sahut, Iandoli and Teulon (2021), digital platforms change the role of users of digital information because these users:",
+          "options": [
+            {
+              "l": "a",
+              "t": "can only consume value, while the platform produces all digital content."
+            },
+            {
+              "l": "b",
+              "t": "must pass a gatekeeper before they can produce any digital value."
+            },
+            {
+              "l": "c",
+              "t": "can act as consumer or producer, which enables multi-sided markets."
+            },
+            {
+              "l": "d",
+              "t": "lose their influence on value creation once algorithms take over."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture1",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "In their information-processing framework, Sahut et al. write that with digital platforms, users of digital information can play the role of consumer or producer and enable the development of multi-sided markets. This matches Parker et al.'s point that platforms let consumers become producers (side switching).",
+          "source": "Sahut, Iandoli & Teulon (2021), section 2 (framework)",
+          "origin": "Adapted from the old mock document"
+        },
+        {
+          "num": 61,
+          "stem": "LearnHub, an online course platform, charges professionals the full subscription price, while students get the same courses at a steep discount. In Lecture 4's overview of 'Who should pay?', this is an example of:",
+          "options": [
+            {
+              "l": "a",
+              "t": "charging most users and subsidizing 'stars', who act as a signal of quality."
+            },
+            {
+              "l": "b",
+              "t": "charging all users, which strengthens network effects."
+            },
+            {
+              "l": "c",
+              "t": "subsidizing one side of the market and charging the other side."
+            },
+            {
+              "l": "d",
+              "t": "subsidizing price-sensitive users and charging those willing to pay."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Lecture 4 lists four options: charge all users (which kills network effects); subsidize one side and charge the other ('ladies' night'); charge most users and subsidize 'stars', who signal quality; and subsidize price-sensitive users while charging those willing to pay. Students and professionals are on the same side of LearnHub (the learners), so this is the last option.",
+          "source": "Lecture 4, 'Who should pay?'; Parker et al. (2016), ch. 6"
+        },
+        {
+          "num": 62,
+          "stem": "Lecture 4 analysed BeReal's viral growth with the four elements of viral growth. In this analysis, 'the true, unedited image being shared' is the:",
+          "options": [
+            {
+              "l": "a",
+              "t": "sender."
+            },
+            {
+              "l": "b",
+              "t": "value unit."
+            },
+            {
+              "l": "c",
+              "t": "external network."
+            },
+            {
+              "l": "d",
+              "t": "recipient."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The four elements are the sender (users sharing images), the value unit (the unedited photo that gets shared), the external network (where others hear about BeReal) and the recipient (why they join). BeReal went from 920,000 active users in January 2022 to 73.5 million in August 2022 and then fell back, which the lecture used to ask what makes viral growth last. The value unit has to be spreadable, and the platform has limited control over it once it travels.",
+          "source": "Lecture 4, 'Other strategies – Viral growth gone wrong?', 'Achieving viral growth'"
+        },
+        {
+          "num": 63,
+          "stem": "De Véricourt and Dahlander (2024) suggest ways for deep-tech founders to reduce technological uncertainty. Which of the following are among them?\n1) Demonstrate proof of concept\n2) Use early revenue as the main signal for investors\n3) Define milestones with compelling data\n4) Run as many small market experiments as possible\n5) Embrace 'learning by thinking'\n6) 'Fake it until you make it' to attract early funding\n7) Foster a culture of truth",
+          "options": [
+            {
+              "l": "a",
+              "t": "1, 3, 4 and 7"
+            },
+            {
+              "l": "b",
+              "t": "1, 2, 3 and 5"
+            },
+            {
+              "l": "c",
+              "t": "2, 4, 6 and 7"
+            },
+            {
+              "l": "d",
+              "t": "1, 3, 5 and 7"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "concept",
+          "fmt": "combo",
+          "explanation": "The six approaches are: demonstrate proof of concept, define milestones with compelling data, form strategic partnerships and navigate regulations, embrace 'learning by thinking', leverage AI and digital tools, and foster a culture of truth. Deep-tech ventures rarely have early revenue, so milestones with compelling data take the place of revenue for investors. Because experiments are expensive, founders should plan a few crucial ones instead of many small ones, and 'fake it until you make it' is explicitly ruled out.",
+          "source": "de Véricourt & Dahlander (2024), 'How to reduce technological uncertainty in deep tech'"
+        },
+        {
+          "num": 64,
+          "stem": "Both ventures in 'Crowdfunding: A Tale of Two Campaigns', Enerchi Bites and Think Board, used Kickstarter's all-or-nothing model. What did that mean for them?",
+          "options": [
+            {
+              "l": "a",
+              "t": "They would only get the pledged money if they reached their target, so the goal had to be meaningful yet achievable."
+            },
+            {
+              "l": "b",
+              "t": "They could keep every pledge they collected, even if the campaign ended far below its stated target."
+            },
+            {
+              "l": "c",
+              "t": "Backers would receive shares in the company in proportion to the size of the amount they pledged."
+            },
+            {
+              "l": "d",
+              "t": "Kickstarter would make up the shortfall from its own funds whenever a campaign missed its target by less than 10 percent."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_cases",
+          "kind": "case",
+          "fmt": "single",
+          "explanation": "Under all-or-nothing, a project only receives the pledges if it reaches its target, so setting the goal was an important decision: it had to reflect the campaign's purpose while staying achievable within a limited period. Both campaigns were rewards-based, so backers got rewards (often the product itself) and no shares. The case also shows that raising money, finding customers, generating publicity and testing demand are related but different goals.",
+          "source": "Case 'Crowdfunding: A Tale of Two Campaigns' (Tutorial 3)"
+        },
+        {
+          "num": 65,
+          "stem": "Which statement about banning leakage activities, Lecture 4's fifth monetization tool, is correct?",
+          "options": [
+            {
+              "l": "a",
+              "t": "It needs no monitoring, because sellers who undercut the platform are detected automatically."
+            },
+            {
+              "l": "b",
+              "t": "It mainly charges producers for access to a community of users."
+            },
+            {
+              "l": "c",
+              "t": "It is enforceable by contract but needs monitoring, and it may be considered anticompetitive."
+            },
+            {
+              "l": "d",
+              "t": "It moves a platform from transaction fees to subscriptions for curated content."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture4",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Platforms such as Booking kick sellers off if they undercut the price on the platform and use mystery shoppers to check. The contract is enforceable but requires monitoring, may be considered anticompetitive, and sellers can still find subtle ways to encourage leakage. Charging producers for access is tool 2 (Dribbble), and moving to subscriptions for curated content is enhanced curation (Skillshare).",
+          "source": "Lecture 4, 'Monetization tool #5: Ban leakage activities'"
+        },
+        {
+          "num": 66,
+          "stem": "FlexRide, a new ride-hailing app, signs up 5,000 drivers in its first month, but rider numbers grow slowly. Drivers sit idle and start leaving. Which lesson from Lecture 2 and Parker et al. (2016) applies?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Drivers attract other drivers, so FlexRide should keep recruiting drivers until riders start to follow them on their own."
+            },
+            {
+              "l": "b",
+              "t": "Growth on the two sides has to stay proportional, so FlexRide should now use coupons or discounts to attract riders."
+            },
+            {
+              "l": "c",
+              "t": "FlexRide should raise the commission it charges drivers, since drivers are now the larger side."
+            },
+            {
+              "l": "d",
+              "t": "The problem will solve itself, because a two-sided platform only needs one strong side."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Lecture 2 notes that network growth on two-sided markets has to be proportional and asks what to do when one side grows too much. Parker et al. put it this way: it would make no sense to have one rider and 1,000 drivers, or 1,000 riders and one driver. When one side becomes disproportionally large, coupons or discounts to attract the other side become good business.",
+          "source": "Lecture 2, 'Scaling network effects'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": 67,
+          "stem": "Boudreau and Lakhani (2009) compare competitive markets with collaborative communities. How many of the following describe collaborative communities?\n• They are governed loosely by social norms and 'soft' rules that encourage open access to information and transparency.\n• Members are often willing to work for free.\n• Governance is formal, arm's-length and contract-based.\n• The platform owner captures value mainly through direct contracts and licensing with the external innovators.",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture2",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "Communities such as Linux are governed loosely by social norms and soft rules that encourage open access to information, transparency, joint development and sharing of intellectual property, and members often work for free. Formal, contract-based governance and value capture through direct contracting and licensing describe competitive markets. In a community, the platform owner captures value mainly through higher demand for its platform.",
+          "source": "Boudreau & Lakhani (2009), 'Competitive markets vs. collaborative communities'",
+          "origin": "Adapted from the old mock document"
+        },
+        {
+          "num": 68,
+          "stem": "In the case 'Social Media War 2021: Snap vs. Facebook vs. TikTok', many users kept accounts on Snapchat, Instagram and TikTok at the same time. In Zhu and Iansiti's (2019) terms, this is:",
+          "options": [
+            {
+              "l": "a",
+              "t": "strong lock-in through network effects, which keeps each user loyal to one main app."
+            },
+            {
+              "l": "b",
+              "t": "multi-homing, which makes it harder for any one platform to lock users in and profit from them."
+            },
+            {
+              "l": "c",
+              "t": "a micromarket strategy, in which each app targets one narrow group of young users."
+            },
+            {
+              "l": "d",
+              "t": "the penguin problem, in which users wait to join until their friends are active on every app."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_cases",
+          "kind": "case",
+          "fmt": "single",
+          "explanation": "The case notes that the three companies competed for people's time, creators' contributions and advertisers' budgets, and that many users kept accounts on several platforms. Zhu and Iansiti call this multi-homing. It is likely when joining another platform costs little, and it makes profits hard to earn, as with Uber and Lyft. Snap felt this directly: it earned almost all its revenue from advertising and was still unprofitable at the end of 2020, despite 265 million daily active users and about $2.5 billion in revenue.",
+          "source": "Case 'Social Media War 2021: Snap vs. Facebook vs. TikTok' (Tutorial 2); Zhu & Iansiti (2019), 'Vulnerability to multi-homing'"
+        },
+        {
+          "num": 69,
+          "stem": "StudioBrew, a craft coffee start-up, is preparing a lending-based (P2P) crowdfunding campaign. According to Lecture 3, which part of its business plan will funders look at most closely?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The team and finance slides, because funders want to know whether the loan will be paid back."
+            },
+            {
+              "l": "b",
+              "t": "The product description, because funders want assurance that they will actually receive the product."
+            },
+            {
+              "l": "c",
+              "t": "The social mission, because funders expect nothing in return for their money."
+            },
+            {
+              "l": "d",
+              "t": "The exit strategy, because funders become shareholders who expect an IPO."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_lecture3",
+          "kind": "situational",
+          "fmt": "single",
+          "explanation": "Lecture 3 advises tailoring the business plan to each type of crowdfunding. Reward funders focus on the product, because they want assurance they will get it. P2P funders focus on the ability to repay the loan, so they look closely at the team and finance slides. Donors expect nothing in return, and equity funders take the role of a mini business angel or VC.",
+          "source": "Lecture 3, 'Crowdfunding and the BP'"
+        },
+        {
+          "num": 70,
+          "stem": "Cromwell et al. (2023) argue that using ChatGPT for innovation requires 'emergent thinking', which means:",
+          "options": [
+            {
+              "l": "a",
+              "t": "identifying a clear user pain point before generating any solution, as in design thinking."
+            },
+            {
+              "l": "b",
+              "t": "measuring every AI project against predefined KPIs from the very start."
+            },
+            {
+              "l": "c",
+              "t": "generating ideas for innovation without fully understanding the problem that needs to be solved."
+            },
+            {
+              "l": "d",
+              "t": "letting the AI replace human creativity in the innovation process."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "With ChatGPT there are no clear problems, pain points or KPIs to start from, unlike in design thinking. Emergent thinking starts from understanding the technology's core functions and then explores which problems it can solve. It also involves evaluating ideas without clear success criteria and changing target outcomes.",
+          "source": "Cromwell et al. (2023)"
+        },
+        {
+          "num": "B1",
+          "stem": "Bonus question 1: Multiverse Computing compared six methods on a very complex portfolio-optimization problem. The classical solution took almost 700 times longer than the quantum one, and the quantum tools found a different solution, with higher profits but lower risk-adjusted returns. According to Bova, Goldfarb and Melko (2023), what does this example show?",
+          "options": [
+            {
+              "l": "a",
+              "t": "A clear case of quantum advantage, because no classical computer could ever solve this optimization problem."
+            },
+            {
+              "l": "b",
+              "t": "That quantum computers already outperform classical computers on every kind of optimization task."
+            },
+            {
+              "l": "c",
+              "t": "That a quantum solution has no commercial value whenever it differs from the answer a classical computer would give, even if it is faster."
+            },
+            {
+              "l": "d",
+              "t": "Possibly quantum economic advantage, but not proven quantum advantage, since an exhaustive classical search might match it."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_lecture6",
+          "kind": "situational",
+          "fmt": "single",
+          "bonus": true,
+          "explanation": "Only two of the six methods solved the hardest version, and the quantum one was much faster and different. That is not quantum advantage, because an exhaustive assessment of all classical approaches might still produce the same or better solutions. It can still be quantum economic advantage, because generating a useful solution quickly is valuable, and having both a classical and a quantum answer helps when the stakes are high.",
+          "source": "Bova, Goldfarb & Melko (2023), 'Make better investment decisions faster'"
+        },
+        {
+          "num": "B2",
+          "stem": "Bonus question 2: To expand a value proposition with ChatGPT (their second pathway), Cromwell et al. (2023) suggest first breaking the value proposition into three core elements. Which are they?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The price, the product and the promotion channel through which customers learn about the offering."
+            },
+            {
+              "l": "b",
+              "t": "The customers' goals, the context in which they pursue those goals, and the target demographic."
+            },
+            {
+              "l": "c",
+              "t": "The problem, the solution and the KPI that shows whether the solution actually works."
+            },
+            {
+              "l": "d",
+              "t": "The participants, the value unit and the filter, which together make up a platform's core interaction."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_lecture5",
+          "kind": "concept",
+          "fmt": "single",
+          "bonus": true,
+          "explanation": "Cromwell et al. break a value proposition into the customers' goals, the context in which they pursue them and the specific target demographic, and then ask how ChatGPT's core functions can expand each element. Khan Academy expanded its goal (self-guided learning plus an AI tutor) and its target demographic (adding teachers). Unlike design thinking, which brainstorms many solutions, emergent thinking applies brainstorming to the problem itself. Participants, value unit and filter are Parker et al.'s components of the core interaction.",
+          "source": "Cromwell et al. (2023), 'Pathway 2: Expanding the value proposition'"
+        }
+      ]
     }
   ],
   "topics": [
@@ -2572,6 +4817,204 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Parker et al. advise owning (or replacing) an extension that controls a primary source of user value, especially one that could become a platform in its own right. Apple built its own Maps app to stop depending on Google Maps and accepted the bad publicity of a weak first version.",
           "source": "Parker et al. (2016), ch. 7, 'What to open and what to own'"
+        },
+        {
+          "num": "L1-14",
+          "stem": "According to Lecture 1 (Schilling, 2017), many innovations emerge from networks of interconnected players. How many of the following were named as such players?\n• Firms\n• Governments\n• Universities\n• Individuals",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "The slide 'Where do great ideas come from?' lists firms, governments, universities and individuals. Open innovation is then introduced as a way to connect these players.",
+          "source": "Lecture 1, 'Where do great ideas come from?' (Schilling, 2017)"
+        },
+        {
+          "num": "L1-15",
+          "stem": "Which statement about open innovation matches Lecture 1?",
+          "options": [
+            {
+              "l": "a",
+              "t": "It only became possible with the internet, which is why it is found almost exclusively among software firms."
+            },
+            {
+              "l": "b",
+              "t": "It is not new (the slide's example is the Cornish pumping engine), but IT infrastructure has made it far more common."
+            },
+            {
+              "l": "c",
+              "t": "It requires a firm to give away its intellectual property to every outside contributor who asks for it."
+            },
+            {
+              "l": "d",
+              "t": "It concerns research labs only, so opening a finished product to outside contributors does not count as open innovation."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "Lecture 1 stresses that open innovation is old, with the Cornish pumping engine as its example, and that IT infrastructure has made it much more common. The slide also says that opening any product to external innovation is a form of open innovation. The definition (relying on outsiders as a source of ideas and as a means to commercialize them) does not require giving away all IP.",
+          "source": "Lecture 1, 'Open Innovation' slides"
+        },
+        {
+          "num": "L1-16",
+          "stem": "On StreamCraft, a video platform, every view, like and comment is fed back into its rankings, so the next viewers see better videos first and poorly rated content disappears. Parker et al. (2016) describe this as platforms:",
+          "options": [
+            {
+              "l": "a",
+              "t": "unlocking new sources of value creation and supply."
+            },
+            {
+              "l": "b",
+              "t": "using data-based tools to create community feedback loops."
+            },
+            {
+              "l": "c",
+              "t": "inverting the firm by shifting from broadcasting to segmentation."
+            },
+            {
+              "l": "d",
+              "t": "growing through supply economies of scale."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "Parker et al. name four advantages of platforms: they scale efficiently by eliminating gatekeepers, unlock new sources of value creation and supply, use data-based tools to create community feedback loops, and invert the firm. Feedback loops are community signals about quality (views, ratings, reviews) that make each following interaction more efficient, as on YouTube, Airbnb or Wikipedia compared with Britannica. Pipelines rely on editors and managers for quality control, which is costly to scale.",
+          "source": "Lecture 1, 'Advantages of platforms'; Parker et al. (2016), ch. 1"
+        },
+        {
+          "num": "L1-17",
+          "stem": "Parker et al. (2016) argue that platforms 'invert the firm': they shift their focus from internal to external activities. Which of the following companies is the least convincing example of an inverted firm?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Tesla"
+            },
+            {
+              "l": "b",
+              "t": "Facebook"
+            },
+            {
+              "l": "c",
+              "t": "Alibaba"
+            },
+            {
+              "l": "d",
+              "t": "Airbnb"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "An inverted firm creates most of its value through a community of outside users and producers, so marketing, operations and innovation centre on people outside the company. Facebook (user content), Alibaba (outside merchants) and Airbnb (hosts' homes) fit that description. Tesla designs, builds and sells its own cars, which makes it a pipeline business.",
+          "source": "Lecture 1, 'Platforms invert the firm'; Parker et al. (2016), ch. 1",
+          "origin": "Adapted from the old mock document"
+        },
+        {
+          "num": "L1-18",
+          "stem": "Lecture 1 described today's 'digital planet'. How many of the following statements were made in the lecture?\n• There are more mobile connections than people on the planet.\n• More people have access to a mobile phone than to a toilet.\n• Digital payments are the new norm.\n• Big Tech has lost most of its power since Silicon Valley's early days.",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "The slide 'A digital economy' makes the first three points. The fourth is reversed: the lecture describes Silicon Valley moving 'from a community of nerds to a locus of power', with Apple, Amazon, Microsoft, Alphabet, Meta and Nvidia all reaching a $1 trillion valuation.",
+          "source": "Lecture 1, 'A digital economy', 'The rise of big tech'"
+        },
+        {
+          "num": "L1-19",
+          "stem": "Pillow, an outside company, gives Airbnb hosts tools that simplify listing, guest check-in, and cleaning and linen delivery, and earns money from the hosts it serves. In the terms of Parker et al. (2016, ch. 7), Pillow is:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a core developer."
+            },
+            {
+              "l": "b",
+              "t": "a data aggregator."
+            },
+            {
+              "l": "c",
+              "t": "an extension developer."
+            },
+            {
+              "l": "d",
+              "t": "a platform sponsor."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Parker et al. distinguish three kinds of developers. Core developers are usually employed by the platform and build its basic functions, such as Airbnb's search, payments and insurance. Extension developers are outside parties that add features and value and keep part of the value they create, like Pillow or photography services for hosts. Data aggregators collect data about users under license and resell it, for example for ad targeting. The sponsor is the firm that retains legal control over the platform's technology.",
+          "source": "Parker et al. (2016), ch. 7, 'Developer participation', 'Manager and sponsor participation'"
+        },
+        {
+          "num": "L1-20",
+          "stem": "According to Sahut, Iandoli and Teulon (2021), digital platforms change the role of users of digital information because these users:",
+          "options": [
+            {
+              "l": "a",
+              "t": "can only consume value, while the platform produces all digital content."
+            },
+            {
+              "l": "b",
+              "t": "must pass a gatekeeper before they can produce any digital value."
+            },
+            {
+              "l": "c",
+              "t": "can act as consumer or producer, which enables multi-sided markets."
+            },
+            {
+              "l": "d",
+              "t": "lose their influence on value creation once algorithms take over."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "In their information-processing framework, Sahut et al. write that with digital platforms, users of digital information can play the role of consumer or producer and enable the development of multi-sided markets. This matches Parker et al.'s point that platforms let consumers become producers (side switching).",
+          "source": "Sahut, Iandoli & Teulon (2021), section 2 (framework)",
+          "origin": "Adapted from the old mock document"
         }
       ]
     },
@@ -2720,6 +5163,34 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "With two-sided network effects, riders attract drivers and drivers attract riders. The catch-22 (chicken-or-egg) problem often leads to subsidies for one side. Price effects on their own are 'evanescent' and disappear when the discount ends, so lasting lock-in has to come from the network effects the subsidy kicks off.",
           "source": "Lecture 2, 'Two-sided network effects: Catch 22 / Chicken or Egg'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": "L2-06",
+          "stem": "According to Parker et al. (2016, ch. 2), how does virality differ from network effects?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Virality creates lasting lock-in, while the advantage from network effects is evanescent."
+            },
+            {
+              "l": "b",
+              "t": "Virality only works on two-sided platforms, while network effects only arise on one-sided ones."
+            },
+            {
+              "l": "c",
+              "t": "Virality draws in people from off the platform; network effects add value for those already on it."
+            },
+            {
+              "l": "d",
+              "t": "There is no real difference, because both terms describe the same growth mechanism."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "In Parker et al.'s words, virality can attract people to a network, but network effects keep them there. Lock-in comes from network effects; price effects and brand effects are much harder to sustain.",
+          "source": "Parker et al. (2016), ch. 2, 'Network effects versus other growth-building tools'"
         },
         {
           "num": "L2-07",
@@ -2973,6 +5444,175 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Two are correct. The lecture's summary lists a scalable business model (Threadless), frictionless entry and side switching (riders becoming Uber drivers, guests becoming Airbnb hosts). High entry fees are the opposite of frictionless entry, and Parker et al. note that platforms grow through functional integration and network orchestration rather than vertical integration.",
           "source": "Lecture 2, 'Scaling network effects: summary'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": "L2-16",
+          "stem": "A club lets women in for free on Thursdays. The more women show up, the more men come, and the men happily pay full price at the door and at the bar. Lecture 2 uses this 'nightclub as a platform' example to show:",
+          "options": [
+            {
+              "l": "a",
+              "t": "how charging higher prices filters out guests who would lower the quality of the evening."
+            },
+            {
+              "l": "b",
+              "t": "how a loyalty program keeps the club's existing guests from switching to rival clubs."
+            },
+            {
+              "l": "c",
+              "t": "how a two-sided business subsidizes the side whose presence attracts the side that pays."
+            },
+            {
+              "l": "d",
+              "t": "why charging all users the same price maximizes the network effects on both sides."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "The nightclub works like a two-sided platform with cross-side network effects: one group's presence makes the venue more valuable for the other. Subsidizing that group attracts the group that pays full price. Lecture 2 links this to the chicken-or-egg problem and Uber's $30 coupons, and Lecture 4 calls it the 'ladies' night' model (subsidize one side, charge the other).",
+          "source": "Lecture 2, 'The nightclub as a platform'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": "L2-17",
+          "stem": "Threadless lets its community submit T-shirt designs and vote on which ones get printed. Lecture 2 and Parker et al. (2016) present it as an example of:",
+          "options": [
+            {
+              "l": "a",
+              "t": "an almost frictionless model: no artists to hire, no marketing or forecasting, low handling and inventory costs."
+            },
+            {
+              "l": "b",
+              "t": "a pipeline that controls quality through in-house designers and editors who approve every shirt before it is printed."
+            },
+            {
+              "l": "c",
+              "t": "a negative network effect, because more submitted designs make it harder for customers to choose one."
+            },
+            {
+              "l": "d",
+              "t": "a piggyback strategy that taps into the existing user base of a larger social network to grow quickly."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Designers compete for prizes and prestige, so Threadless doesn't need to hire artists. They ask friends for votes, so it doesn't need marketing. The votes tell it how many shirts will sell, so it doesn't need to forecast, and outsourced production keeps handling and inventory costs low. This scalable, almost frictionless model is one way to foster network effects (Lecture 2).",
+          "source": "Lecture 2, 'Scaling network effects'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": "L2-18",
+          "stem": "On Vinted, many users who first buy second-hand clothes later start selling their own, and Uber recruits many new drivers from among its riders. Parker et al. (2016) call this:",
+          "options": [
+            {
+              "l": "a",
+              "t": "side switching."
+            },
+            {
+              "l": "b",
+              "t": "multi-homing."
+            },
+            {
+              "l": "c",
+              "t": "piggybacking."
+            },
+            {
+              "l": "d",
+              "t": "disintermediation."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Side switching happens when users on one side of a platform join the other side, for example consumers who start producing. Uber recruiting drivers from its riders and Airbnb recruiting hosts from its guests are Parker et al.'s examples. Together with a scalable business model and frictionless entry, side switching helps network effects grow (Lecture 2). Multi-homing means using several platforms at the same time.",
+          "source": "Lecture 2, 'Scaling network effects'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": "L2-19",
+          "stem": "According to Parker et al. (2016, ch. 3), which three key functions must a platform perform to encourage a high volume of valuable core interactions?\n1) Pull\n2) Filter\n3) Facilitate\n4) Match\n5) Curate\n6) Price",
+          "options": [
+            {
+              "l": "a",
+              "t": "1, 3 and 4"
+            },
+            {
+              "l": "b",
+              "t": "1, 2 and 4"
+            },
+            {
+              "l": "c",
+              "t": "3, 4 and 6"
+            },
+            {
+              "l": "d",
+              "t": "2, 3 and 5"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Parker et al. summarize the 'how' of platform design as pull, facilitate and match: pull producers and consumers to the platform, facilitate their interactions with tools and rules, and match them using information about both sides. The filter is one of the three components of the core interaction (participants, value unit, filter), and curation and pricing are not on this list.",
+          "source": "Parker et al. (2016), ch. 3, 'Pull, facilitate, match'"
+        },
+        {
+          "num": "L2-20",
+          "stem": "FlexRide, a new ride-hailing app, signs up 5,000 drivers in its first month, but rider numbers grow slowly. Drivers sit idle and start leaving. Which lesson from Lecture 2 and Parker et al. (2016) applies?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Drivers attract other drivers, so FlexRide should keep recruiting drivers until riders start to follow them on their own."
+            },
+            {
+              "l": "b",
+              "t": "Growth on the two sides has to stay proportional, so FlexRide should now use coupons or discounts to attract riders."
+            },
+            {
+              "l": "c",
+              "t": "FlexRide should raise the commission it charges drivers, since drivers are now the larger side."
+            },
+            {
+              "l": "d",
+              "t": "The problem will solve itself, because a two-sided platform only needs one strong side."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "Lecture 2 notes that network growth on two-sided markets has to be proportional and asks what to do when one side grows too much. Parker et al. put it this way: it would make no sense to have one rider and 1,000 drivers, or 1,000 riders and one driver. When one side becomes disproportionally large, coupons or discounts to attract the other side become good business.",
+          "source": "Lecture 2, 'Scaling network effects'; Parker et al. (2016), ch. 2"
+        },
+        {
+          "num": "L2-21",
+          "stem": "Boudreau and Lakhani (2009) compare competitive markets with collaborative communities. How many of the following describe collaborative communities?\n• They are governed loosely by social norms and 'soft' rules that encourage open access to information and transparency.\n• Members are often willing to work for free.\n• Governance is formal, arm's-length and contract-based.\n• The platform owner captures value mainly through direct contracts and licensing with the external innovators.",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Communities such as Linux are governed loosely by social norms and soft rules that encourage open access to information, transparency, joint development and sharing of intellectual property, and members often work for free. Formal, contract-based governance and value capture through direct contracting and licensing describe competitive markets. In a community, the platform owner captures value mainly through higher demand for its platform.",
+          "source": "Boudreau & Lakhani (2009), 'Competitive markets vs. collaborative communities'",
+          "origin": "Adapted from the old mock document"
         }
       ]
     },
@@ -3208,6 +5848,34 @@ window.ANATOMIE_DATA = {
           "origin": "Variant of official mock Q9"
         },
         {
+          "num": "L3-09",
+          "stem": "Lecture 3 argues that selling your product or service ('the market') is the best way to fund your business. Why?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Because revenues are taxed less heavily than investments."
+            },
+            {
+              "l": "b",
+              "t": "Because it is the fastest way to raise several million euros."
+            },
+            {
+              "l": "c",
+              "t": "Because investors only back start-ups that are already profitable."
+            },
+            {
+              "l": "d",
+              "t": "Because sales are a strong illustration of validation."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "The slide's answer is 'because it's a strong illustration of validation'. The CB Insights analysis of 101 start-up post-mortems shown in the lecture lists 'no market need' (42%) as the top reason start-ups fail, ahead of running out of cash (29%).",
+          "source": "Lecture 3, 'The Market: WHY?', 'Top 20 reasons startups fail'"
+        },
+        {
           "num": "L3-10",
           "stem": "Four campaigns: (1) people back a documentary only because they believe in it; (2) backers pre-order a smart bike lock and receive one once it is produced; (3) people each lend €50 to a café and receive interest; (4) backers receive shares in a fintech start-up. These are, respectively:",
           "options": [
@@ -3264,6 +5932,34 @@ window.ANATOMIE_DATA = {
           "source": "iamsterdam, 'Funding your startup', 'Try different approaches to startup funding'"
         },
         {
+          "num": "L3-12",
+          "stem": "According to the iamsterdam guide 'Funding your startup', Arches Capital bridges the gap between VCs and angels by:",
+          "options": [
+            {
+              "l": "a",
+              "t": "offering loans of €25,000-150,000 with two interest-only years."
+            },
+            {
+              "l": "b",
+              "t": "matching start-ups with investors in three 20-minute 'dates'."
+            },
+            {
+              "l": "c",
+              "t": "investing only in start-ups founded by UvA and VU students or recent graduates."
+            },
+            {
+              "l": "d",
+              "t": "sourcing, selecting and investing like a VC, while engaging and mentoring like angels."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "That is the guide's description of Arches Capital. The other options describe the Rabo Innovation Loan, Startup Roulette and the Amsterdam Academic Angel fund.",
+          "source": "iamsterdam, 'Funding your startup', 'Amsterdam-based funding opportunities'"
+        },
+        {
           "num": "L3-13",
           "stem": "In his guest lecture on the Amsterdam entrepreneurship ecosystem, Erik Boer presented Daniel Isenberg's six domains of the entrepreneurial system. Which of the following are among them?\n1) Culture\n2) Enabling policies and leadership\n3) Availability of appropriate finance\n4) Quality human capital\n5) One dominant anchor corporation\n6) Venture-friendly markets for products\n7) Institutional supports",
           "options": [
@@ -3318,6 +6014,146 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "All four appear on the 'weaknesses' side of the slide. Strengths: a top-5 European hub, international talent, strong fintech, AI and sustainability, and a dense ecosystem. Lecture 3's VC figures point the same way: 75% of capital in Dutch AI start-ups came from foreign investors in 2025.",
           "source": "Guest lecture (Erik Boer), 'Amsterdam startup ecosystem: strengths and weaknesses'"
+        },
+        {
+          "num": "L3-15",
+          "stem": "StudioBrew, a craft coffee start-up, is preparing a lending-based (P2P) crowdfunding campaign. According to Lecture 3, which part of its business plan will funders look at most closely?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The team and finance slides, because funders want to know whether the loan will be paid back."
+            },
+            {
+              "l": "b",
+              "t": "The product description, because funders want assurance that they will actually receive the product."
+            },
+            {
+              "l": "c",
+              "t": "The social mission, because funders expect nothing in return for their money."
+            },
+            {
+              "l": "d",
+              "t": "The exit strategy, because funders become shareholders who expect an IPO."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Lecture 3 advises tailoring the business plan to each type of crowdfunding. Reward funders focus on the product, because they want assurance they will get it. P2P funders focus on the ability to repay the loan, so they look closely at the team and finance slides. Donors expect nothing in return, and equity funders take the role of a mini business angel or VC.",
+          "source": "Lecture 3, 'Crowdfunding and the BP'"
+        },
+        {
+          "num": "L3-16",
+          "stem": "According to Lecture 3, how many of the following are typical business angels?\n• Managers and professionals who invest €5,000 to €200,000 per year\n• Entrepreneurs who have sold their companies and invest €50,000 to €500,000\n• Members of a family office who invest part of their money\n• Pension funds that invest through a pool of limited partners",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "The slide 'Who are Business Angels?' names the first three groups. Pension funds, university endowments and corporate investors are the large organizations whose pooled capital venture capitalists manage. Angels invest their own money and also bring skills, experience, networks and time.",
+          "source": "Lecture 3, 'Who are Business Angels?', 'Venture Capitalists'"
+        },
+        {
+          "num": "L3-17",
+          "stem": "According to Lecture 3 (Leitão et al., 2022), which of the following do incubators provide to the new businesses they host?\n1) Physical space\n2) Administrative services\n3) Knowledge\n4) Access to networks\n5) Standardized seed-funding packages\n6) Cohort-based entry and exit with a final demo event",
+          "options": [
+            {
+              "l": "a",
+              "t": "1, 2, 3 and 4"
+            },
+            {
+              "l": "b",
+              "t": "3, 4, 5 and 6"
+            },
+            {
+              "l": "c",
+              "t": "1, 3, 5 and 6"
+            },
+            {
+              "l": "d",
+              "t": "1, 2, 5 and 6"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Incubators offer tangible assets (physical space and administrative services) and intangible assets (knowledge and access to networks), which makes them drivers of job creation and regional economic development. Standardized seed funding and cohort-based entry and exit are among the original features of accelerators.",
+          "source": "Lecture 3, 'What are Incubators & Accelerators'; Leitão et al. (2022)"
+        },
+        {
+          "num": "L3-18",
+          "stem": "In his guest lecture, Erik Boer encouraged students to treat Amsterdam as a startup laboratory. Where, according to him, do the strongest opportunities often sit?",
+          "options": [
+            {
+              "l": "a",
+              "t": "In copying a proven US business model before local rivals do."
+            },
+            {
+              "l": "b",
+              "t": "In markets without any existing competitors or alternatives."
+            },
+            {
+              "l": "c",
+              "t": "At the intersection of a real problem and a new capability."
+            },
+            {
+              "l": "d",
+              "t": "In ideas that need a large funding round before the first test."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Boer asked which important problem you can solve better than the alternatives, and said the strongest opportunities sit where a real problem meets a new capability. Students can test ideas on the city, the campus and local organisations before scaling. TicketSwap (safe ticket resale) and United Wardrobe (second-hand fashion, bought by Vinted in 2020) were both founded by students in Amsterdam.",
+          "source": "Lecture 3, guest lecture Erik Boer, 'Where can your startup idea come from?'"
+        },
+        {
+          "num": "L3-19",
+          "stem": "GreenGrid, an Amsterdam start-up doing sustainable-energy research, has no revenue yet. It wants money that it does not have to pay back and that costs no equity. Where does the iamsterdam guide 'Funding your startup' point start-ups like this?",
+          "options": [
+            {
+              "l": "a",
+              "t": "To the Rabo Innovation Loan, which offers €25,000 to €150,000 with two interest-only years for sustainable start-ups."
+            },
+            {
+              "l": "b",
+              "t": "To government grants and subsidies through RVO.nl, with the Startup Box tool to find suitable schemes."
+            },
+            {
+              "l": "c",
+              "t": "To invoice factoring, which turns outstanding customer invoices into cash right away."
+            },
+            {
+              "l": "d",
+              "t": "To business angels, who buy stock or give loans and expect a return on investment."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "The guide says that start-ups focused on innovation, research or sustainability may be eligible for government subsidies through RVO.nl, the national agency, and that the online Startup Box shows which Dutch government funding fits. The Rabo loan has to be repaid, factoring needs outstanding invoices, and angels want a return on their stock or loans.",
+          "source": "iamsterdam, 'Funding your startup' (grants and subsidies, bank loans, factoring, angels)"
         }
       ]
     },
@@ -3751,6 +6587,230 @@ window.ANATOMIE_DATA = {
           "source": "Zhu & Iansiti (2019), 'Network clustering'"
         },
         {
+          "num": "L4-17",
+          "stem": "CleanConnect matches households with house cleaners and earns a fee per booking. After a few good experiences, many clients book 'their' cleaner directly, outside the platform. Zhu and Iansiti (2019) call this:",
+          "options": [
+            {
+              "l": "a",
+              "t": "disintermediation, the problem that doomed Homejoy."
+            },
+            {
+              "l": "b",
+              "t": "a positive cross-side network effect, because each satisfied client attracts more cleaners."
+            },
+            {
+              "l": "c",
+              "t": "a positive same-side network effect, because cleaners recommend the platform to other cleaners."
+            },
+            {
+              "l": "d",
+              "t": "frictionless entry, because new clients can join and book without any screening."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Disintermediation: network members bypass the hub and connect directly. Once a client has found the right match there is little reason to come back, and a fully booked cleaner no longer needs the platform. Remedies include terms of service, withholding contact details until payment (Airbnb), lead-generation fees (Thumbtack) and complementary services (ZBJ).",
+          "source": "Zhu & Iansiti (2019), 'Risk of disintermediation'; Lecture 4 (off-platforming risk)"
+        },
+        {
+          "num": "L4-19",
+          "stem": "Match each launch tactic to Parker et al.'s (2016) strategies for the chicken-or-egg problem: (1) Reddit's founders posted links from fake profiles to fill the site with the content they wanted; (2) Skillshare signs up influential teachers who bring their own students; (3) Amazon first sold books itself and later opened its Marketplace to outside sellers. These are, respectively:",
+          "options": [
+            {
+              "l": "a",
+              "t": "piggyback, marquee and single-side."
+            },
+            {
+              "l": "b",
+              "t": "seeding, marquee and follow the rabbit."
+            },
+            {
+              "l": "c",
+              "t": "producer evangelism, big-bang adoption and the piggyback strategy."
+            },
+            {
+              "l": "d",
+              "t": "seeding, producer evangelism and follow the rabbit."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Seeding means creating value units yourself so that users come, sometimes with simulated profiles (Reddit, PayPal's bots on eBay); the platform stays two-sided from the start. Producer evangelism targets producers who bring their own customers (Skillshare, Udemy, Kickstarter). Follow the rabbit starts as a non-platform business and opens the other side later (Amazon Marketplace, Huffington Post). The marquee strategy targets 'star' participants with special incentives.",
+          "source": "Lecture 4, '8 strategies to deal with the chicken-or-egg dilemma'; Parker et al. (2016), ch. 5"
+        },
+        {
+          "num": "L4-20",
+          "stem": "Lecture 4 analysed BeReal's viral growth with the four elements of viral growth. In this analysis, 'the true, unedited image being shared' is the:",
+          "options": [
+            {
+              "l": "a",
+              "t": "sender."
+            },
+            {
+              "l": "b",
+              "t": "value unit."
+            },
+            {
+              "l": "c",
+              "t": "external network."
+            },
+            {
+              "l": "d",
+              "t": "recipient."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "The four elements are the sender (users sharing images), the value unit (the unedited photo that gets shared), the external network (where others hear about BeReal) and the recipient (why they join). BeReal went from 920,000 active users in January 2022 to 73.5 million in August 2022 and then fell back, which the lecture used to ask what makes viral growth last. The value unit has to be spreadable, and the platform has limited control over it once it travels.",
+          "source": "Lecture 4, 'Other strategies – Viral growth gone wrong?', 'Achieving viral growth'"
+        },
+        {
+          "num": "L4-21",
+          "stem": "Zvents became the largest online guide to local events, with over 14 million visitors a month. When it tried to charge event organizers, it had no leverage: users expected a complete listing, so dropping unpaid events would destroy the site's value. Lecture 4 uses this case to show that:",
+          "options": [
+            {
+              "l": "a",
+              "t": "charging transaction fees always destroys a platform's network effects, whatever it does."
+            },
+            {
+              "l": "b",
+              "t": "network effects are worth little if the platform cannot control and capture the value created."
+            },
+            {
+              "l": "c",
+              "t": "negative network effects turn positive once a platform adds curation through pricing."
+            },
+            {
+              "l": "d",
+              "t": "platforms should charge every user from the very first day to avoid attracting free riders."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "Zvents had the numbers but not the control. Its value lay in the completeness of its listings, so threatening to drop organizers who didn't pay had no teeth, and charging for enhanced access brought in only a trickle of revenue. The founder sold the company to eBay in 2013. Lecture 4: 'Network effects' power is nothing without control.' The Meetup case makes a different point: curation through pricing can make negative network effects work for the platform.",
+          "source": "Lecture 4, 'How can you capture value without harming growth?'; Parker et al. (2016), ch. 6"
+        },
+        {
+          "num": "L4-22",
+          "stem": "Which statement about banning leakage activities, Lecture 4's fifth monetization tool, is correct?",
+          "options": [
+            {
+              "l": "a",
+              "t": "It needs no monitoring, because sellers who undercut the platform are detected automatically."
+            },
+            {
+              "l": "b",
+              "t": "It mainly charges producers for access to a community of users."
+            },
+            {
+              "l": "c",
+              "t": "It is enforceable by contract but needs monitoring, and it may be considered anticompetitive."
+            },
+            {
+              "l": "d",
+              "t": "It moves a platform from transaction fees to subscriptions for curated content."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Platforms such as Booking kick sellers off if they undercut the price on the platform and use mystery shoppers to check. The contract is enforceable but requires monitoring, may be considered anticompetitive, and sellers can still find subtle ways to encourage leakage. Charging producers for access is tool 2 (Dribbble), and moving to subscriptions for curated content is enhanced curation (Skillshare).",
+          "source": "Lecture 4, 'Monetization tool #5: Ban leakage activities'"
+        },
+        {
+          "num": "L4-23",
+          "stem": "LearnHub, an online course platform, charges professionals the full subscription price, while students get the same courses at a steep discount. In Lecture 4's overview of 'Who should pay?', this is an example of:",
+          "options": [
+            {
+              "l": "a",
+              "t": "charging most users and subsidizing 'stars', who act as a signal of quality."
+            },
+            {
+              "l": "b",
+              "t": "charging all users, which strengthens network effects."
+            },
+            {
+              "l": "c",
+              "t": "subsidizing one side of the market and charging the other side."
+            },
+            {
+              "l": "d",
+              "t": "subsidizing price-sensitive users and charging those willing to pay."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Lecture 4 lists four options: charge all users (which kills network effects); subsidize one side and charge the other ('ladies' night'); charge most users and subsidize 'stars', who signal quality; and subsidize price-sensitive users while charging those willing to pay. Students and professionals are on the same side of LearnHub (the learners), so this is the last option.",
+          "source": "Lecture 4, 'Who should pay?'; Parker et al. (2016), ch. 6"
+        },
+        {
+          "num": "L4-24",
+          "stem": "Alibaba connected its payment platform Alipay with its marketplaces Taobao and Tmall. The payments built trust between buyers and sellers, and the transaction data later let Ant Financial offer credit ratings and loans. Zhu and Iansiti (2019) call this:",
+          "options": [
+            {
+              "l": "a",
+              "t": "network clustering."
+            },
+            {
+              "l": "b",
+              "t": "multi-homing."
+            },
+            {
+              "l": "c",
+              "t": "disintermediation."
+            },
+            {
+              "l": "d",
+              "t": "network bridging."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Network bridging means connecting a platform to other networks so that they reinforce each other's market positions. Thanks to this tight bridging, Alipay stayed attractive even after Tencent launched WeChat Pay. Clustering is about whether a network breaks into local groups, multi-homing means users join several platforms at once, and disintermediation means users bypass the hub.",
+          "source": "Zhu & Iansiti (2019), 'Network bridging'"
+        },
+        {
+          "num": "L4-25",
+          "stem": "MeetMap, an events platform, has grown to millions of users on a free plan. Following Lecture 4's advice on the timing of monetization, how should it start charging?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Move its most popular free features behind a paywall so users feel what they would miss."
+            },
+            {
+              "l": "b",
+              "t": "Reduce what the free plan includes step by step until most users decide to pay."
+            },
+            {
+              "l": "c",
+              "t": "Offer new, additional features in a paid tier and keep what users already get for free."
+            },
+            {
+              "l": "d",
+              "t": "Charge every user a small monthly fee from now on, since the network is big enough."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "The golden rule is 'users first, monetization later'. When it is time to charge, the lecture advises avoiding charging for value that used to be free and avoiding reducing access that users are used to. The better route is to create new, additional value and charge for that.",
+          "source": "Lecture 4, 'When to charge? The timing of monetization'"
+        },
+        {
           "num": "B-01",
           "stem": "NetShark, a platform with strong direct network effects, wants to protect its lead. Which development would most weaken its competitive advantage?",
           "options": [
@@ -3814,6 +6874,34 @@ window.ANATOMIE_DATA = {
       "label": "L5 – Data & AI",
       "source": "Practice after lecture",
       "questions": [
+        {
+          "num": "L5-01",
+          "stem": "According to Brynjolfsson and McAfee (2014), as presented in Lecture 5, digital goods differ from physical goods because they are:",
+          "options": [
+            {
+              "l": "a",
+              "t": "rival and costly to reproduce."
+            },
+            {
+              "l": "b",
+              "t": "non-rival but have high marginal costs of reproduction."
+            },
+            {
+              "l": "c",
+              "t": "non-rival and have zero marginal cost of reproduction."
+            },
+            {
+              "l": "d",
+              "t": "rival but can be copied at zero cost."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Digitization turns information and media into the 1s and 0s that computers use. Digital goods are non-rival (one person's use does not reduce another's) and can be reproduced at zero marginal cost.",
+          "source": "Lecture 5, 'Digitization & Artificial Intelligence'; Brynjolfsson & McAfee (2014)"
+        },
         {
           "num": "L5-02",
           "stem": "Artificial intelligence is a manifestation of the evolution that robots, computers and machines have in common, namely moving:",
@@ -4098,6 +7186,34 @@ window.ANATOMIE_DATA = {
           "source": "Lecture 5, 'What is an agent?'"
         },
         {
+          "num": "L5-12",
+          "stem": "Cromwell et al. (2023) argue that using ChatGPT for innovation requires 'emergent thinking', which means:",
+          "options": [
+            {
+              "l": "a",
+              "t": "identifying a clear user pain point before generating any solution, as in design thinking."
+            },
+            {
+              "l": "b",
+              "t": "measuring every AI project against predefined KPIs from the very start."
+            },
+            {
+              "l": "c",
+              "t": "generating ideas for innovation without fully understanding the problem that needs to be solved."
+            },
+            {
+              "l": "d",
+              "t": "letting the AI replace human creativity in the innovation process."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "With ChatGPT there are no clear problems, pain points or KPIs to start from, unlike in design thinking. Emergent thinking starts from understanding the technology's core functions and then explores which problems it can solve. It also involves evaluating ideas without clear success criteria and changing target outcomes.",
+          "source": "Cromwell et al. (2023)"
+        },
+        {
           "num": "L5-13",
           "stem": "Three companies adopt generative AI: (1) a grocery-delivery app launches a ChatGPT plug-in that turns recipe ideas into ready-to-order baskets; (2) an online-learning platform adds an AI tutor for students and an AI lesson-planning assistant for teachers; (3) a start-up releases a general AI tool to the public to discover what people will use it for. According to Cromwell et al. (2023), these follow, respectively:",
           "options": [
@@ -4124,6 +7240,545 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Pathway 1 (Instacart's plug-in) strengthens what the firm already offers. Pathway 2 (Khan Academy's Khanmigo, and Duolingo in the lecture) solves new problems that complement the current offer, including for a new target group, teachers. Pathway 3 (OpenAI releasing ChatGPT) is the purest form of emergent thinking, with the greatest uncertainty.",
           "source": "Cromwell et al. (2023); Lecture 5, pathways #1-#3"
+        },
+        {
+          "num": "L5-14",
+          "stem": "Lecture 5 quoted a freestyle chess player: merging millions of computer games with high-calibre human games gives 'something that is quantitatively and qualitatively superior to any commercial product'. This illustrates:",
+          "options": [
+            {
+              "l": "a",
+              "t": "the uncanny valley: people distrust machines that look and behave almost, but not quite, like humans."
+            },
+            {
+              "l": "b",
+              "t": "the trough of disillusionment in the Gartner hype cycle."
+            },
+            {
+              "l": "c",
+              "t": "collaborative intelligence: combining machine predictions with human judgment."
+            },
+            {
+              "l": "d",
+              "t": "the 4 Vs of big data: with enough volume and variety, data beats human expertise."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Under the question 'Will AI change the way we make decisions?', Lecture 5 presents collaborative intelligence: combining machines' predictions and human judgment is a winning combination. This fits Agrawal et al. (2017): as prediction becomes cheaper, people who show good judgment become more valuable.",
+          "source": "Lecture 5, 'Will AI change the way we make decisions?'; Agrawal et al. (2017)"
+        },
+        {
+          "num": "L5-15",
+          "stem": "A retailer trains a demand-forecasting model on ten years of sales data, but the data is full of duplicate orders, wrong prices and mislabelled products. The forecasts turn out poor. Which caution from Lecture 5 applies?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The trough of disillusionment: every new AI tool disappoints before it improves."
+            },
+            {
+              "l": "b",
+              "t": "The uncanny valley: people distrust forecasts that come from a machine."
+            },
+            {
+              "l": "c",
+              "t": "More training data always gives a more precise model, whatever its quality."
+            },
+            {
+              "l": "d",
+              "t": "Garbage in, garbage out: a model is only as good as the veracity of its data."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "After the 4 Vs of big data (volume, velocity, variety, veracity), Lecture 5 adds a caution: beware the 'garbage in, garbage out' paradigm. More training data usually gives more precise models, but only if the data can be trusted, which is what veracity is about.",
+          "source": "Lecture 5, 'Data', '4 Vs caution!' (Hurwitz & Kirsch, 2018)"
+        },
+        {
+          "num": "L5-16",
+          "stem": "Lecture 5 summarized the basics of machine learning in two steps: (1) an algorithm combined with a training set produces ___, and (2) applying it to new data produces ___. These are, respectively:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a training set; a predictive model for each case."
+            },
+            {
+              "l": "b",
+              "t": "deterministic rules; outcomes that are certain."
+            },
+            {
+              "l": "c",
+              "t": "a labelled dataset; a new algorithm per problem."
+            },
+            {
+              "l": "d",
+              "t": "a predictive model; predictions or probabilities."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Machine learning lets a system learn from large volumes of data. Step 1: algorithm + training set = predictive model. Step 2: use the predictive model on new data to get predictions or probabilities. That is why the lecture describes machine learning as a move from deterministic to probabilistic, and why more training data gives more precise models.",
+          "source": "Lecture 5, 'Machine Learning: how does it work?'"
+        },
+        {
+          "num": "L5-17",
+          "stem": "Lecture 5 described large language models as next-token predictors. How many of the following can be tokens?\n• Small pieces of words\n• Punctuation and whitespace\n• Typos and emojis\n• Complete facts retrieved from a verified knowledge base",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "Tokens are small pieces of text. Today's models use roughly 100,000 to 260,000 different tokens, which also include typos, punctuation, whitespace and emojis. An LLM generates text by predicting the next token; it does not look up verified facts the way a database does.",
+          "source": "Lecture 5, 'LLMs are next token predictors'"
+        },
+        {
+          "num": "L5-18",
+          "stem": "Lecture 5 (Brynjolfsson & McAfee, 2014) illustrated exponential technological progress with Moore's law, which states that:",
+          "options": [
+            {
+              "l": "a",
+              "t": "processing power doubles about every two years."
+            },
+            {
+              "l": "b",
+              "t": "the value of a network grows with the square of the number of its users."
+            },
+            {
+              "l": "c",
+              "t": "processing power doubles about every ten years."
+            },
+            {
+              "l": "d",
+              "t": "the cost of storing data halves every month."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Moore's law describes exponential progress in computing: processing power roughly doubles every two years. The lecture's 'geek fight' between a Cray-2 supercomputer and an iPhone shows how far this has gone. The square-of-users rule is Metcalfe's law from Lecture 2.",
+          "source": "Lecture 5, 'Digitization & Artificial Intelligence' (Brynjolfsson & McAfee, 2014)"
+        },
+        {
+          "num": "B-04",
+          "stem": "To expand a value proposition with ChatGPT (their second pathway), Cromwell et al. (2023) suggest first breaking the value proposition into three core elements. Which are they?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The price, the product and the promotion channel through which customers learn about the offering."
+            },
+            {
+              "l": "b",
+              "t": "The customers' goals, the context in which they pursue those goals, and the target demographic."
+            },
+            {
+              "l": "c",
+              "t": "The problem, the solution and the KPI that shows whether the solution actually works."
+            },
+            {
+              "l": "d",
+              "t": "The participants, the value unit and the filter, which together make up a platform's core interaction."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "Cromwell et al. break a value proposition into the customers' goals, the context in which they pursue them and the specific target demographic, and then ask how ChatGPT's core functions can expand each element. Khan Academy expanded its goal (self-guided learning plus an AI tutor) and its target demographic (adding teachers). Unlike design thinking, which brainstorms many solutions, emergent thinking applies brainstorming to the problem itself. Participants, value unit and filter are Parker et al.'s components of the core interaction.",
+          "source": "Cromwell et al. (2023), 'Pathway 2: Expanding the value proposition'"
+        }
+      ]
+    },
+    {
+      "id": "t_lecture6",
+      "label": "L6 – Deep Tech & Quantum",
+      "source": "Practice after lecture",
+      "questions": [
+        {
+          "num": "L6-01",
+          "stem": "Lecture 6 defines deep technology as:",
+          "options": [
+            {
+              "l": "a",
+              "t": "companies founded on a scientific discovery or meaningful engineering innovation."
+            },
+            {
+              "l": "b",
+              "t": "companies built on a business model innovation that uses existing technology, such as Uber."
+            },
+            {
+              "l": "c",
+              "t": "any company that uses artificial intelligence in its products or services."
+            },
+            {
+              "l": "d",
+              "t": "companies whose research is funded mainly by governments and universities."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "The slide quotes the definition 'companies founded on a scientific discovery or meaningful engineering innovation' and contrasts it with most technology companies today, which build on business model innovation using existing technology, like Uber and the sharing economy. Examples from the readings include SpaceX, mRNA vaccines, TerraPower and Quandela.",
+          "source": "Lecture 6, 'So what is Deep Tech?'; de Véricourt & Dahlander (2024)"
+        },
+        {
+          "num": "L6-02",
+          "stem": "According to Lecture 6, what makes the uncertainty of deep tech ventures especially hard to manage?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Market uncertainty disappears once the technology works, so founders can safely focus on R&D first and worry about customers later."
+            },
+            {
+              "l": "b",
+              "t": "Technical uncertainty can be removed quickly by launching a minimum viable product."
+            },
+            {
+              "l": "c",
+              "t": "Only market uncertainty matters, because deep tech builds on proven technologies."
+            },
+            {
+              "l": "d",
+              "t": "Technical and market uncertainty are often coupled, so they cannot be resolved independently or one after the other."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Deep tech ventures face technological challenges upstream and commercialization challenges downstream, and the two are often coupled. Both the physical design of the product and its immediate market application can be unknown. When they are coupled, the uncertainties are irreducible: they cannot be resolved independently or sequentially.",
+          "source": "Lecture 6, 'Is that all? Just Tech + Science?'"
+        },
+        {
+          "num": "L6-03",
+          "stem": "A start-up wants to decarbonize shipping with a new fuel. It cannot finalize its engine design until ports agree which fuel they will supply, but ports will not build billion-euro bunkering infrastructure until they know which engines ships will use. In Lecture 6's terms, this illustrates:",
+          "options": [
+            {
+              "l": "a",
+              "t": "pure market risk, which the start-up can resolve within a few months by launching a minimum viable product to customers."
+            },
+            {
+              "l": "b",
+              "t": "a technical problem that can be solved first, after which the market question can be answered on its own."
+            },
+            {
+              "l": "c",
+              "t": "coupled, irreducible uncertainty: the ship's physical viability and the ports' compatibility are locked together."
+            },
+            {
+              "l": "d",
+              "t": "a classic case of market pull, in which customers ask for a technology that already exists."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "This is the lecture's hydrogen-versus-ammonia thinking exercise. Liquid hydrogen is energy-dense but needs new engines and containment; ammonia is easier to store but toxic. The engine design depends on the fuel ports will bunker, and the ports depend on the engines, so the physical viability of the ship and the compatibility of the port are locked together and neither can be solved on its own.",
+          "source": "Lecture 6, 'Thinking Exercise – Choose a Case Study 2'"
+        },
+        {
+          "num": "L6-04",
+          "stem": "In Lecture 6's table 'The deep tech innovation management shift', which deep tech logic belongs to (1) strategic asset needs, (2) ecosystem dependency and (3) growth strategy, respectively?",
+          "options": [
+            {
+              "l": "a",
+              "t": "generic assets such as cloud and laptops; permissionless launch; scaling up through blitzscaling and network effects."
+            },
+            {
+              "l": "b",
+              "t": "specialized assets such as fabs and wet labs; permissionless launch; scaling deep through unit economics and local roots."
+            },
+            {
+              "l": "c",
+              "t": "specialized assets such as fabs and wet labs; codependence on partners; scaling deep through unit economics and local roots."
+            },
+            {
+              "l": "d",
+              "t": "generic assets such as cloud and laptops; codependence on partners; scaling up through blitzscaling and network effects."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "The table contrasts the high tech logic of the last decade with the deep tech logic of the next. Strategic assets: generic and commoditized (cloud, laptops, WiFi) versus specialized and idiosyncratic (fabs, wet labs, refuelling networks). Ecosystem dependency: low and permissionless ('launch first, ask later') versus high and codependent (you cannot launch without partners). Growth: scaling up (blitzscaling, network effects) versus scaling deep (unit economics, local roots). The other two rows are the risk profile (market risk versus technical risk) and the development rhythm (sprints versus milestones and phases over years or decades).",
+          "source": "Lecture 6, 'High Tech vs Deep Tech' (Table 1, 'The deep tech innovation management shift')"
+        },
+        {
+          "num": "L6-05",
+          "stem": "FusionCore builds components for fusion reactors. Its board, used to software start-ups, wants monthly revenue growth figures and asks the engineers to work in two-week sprints. Following the 'practitioner's pivot' in Lecture 6, what should FusionCore do instead?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Track technical de-risking milestones and secure patient capital for the long haul."
+            },
+            {
+              "l": "b",
+              "t": "Launch a minimum viable product first and look for partners only once the first customers sign up."
+            },
+            {
+              "l": "c",
+              "t": "Rent generic cloud infrastructure so that its upfront costs stay low."
+            },
+            {
+              "l": "d",
+              "t": "Chase fast user growth to trigger network effects before rivals do."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "The table's pivots: stop using revenue as the only traction metric and measure technical de-risking milestones; stop assuming you can rent infrastructure and budget for complementary assets early; build the minimum viable ecosystem, not only the minimum viable product; stop forcing hardware teams into two-week software sprints and develop an ambidextrous mindset; stop chasing vanity growth metrics and secure patient capital. As the slide's quote puts it, firms cannot 'move fast and break things' when they build a fusion reactor.",
+          "source": "Lecture 6, 'High Tech vs Deep Tech' (Table 1, 'The practitioner's pivot')"
+        },
+        {
+          "num": "L6-06",
+          "stem": "According to de Véricourt and Dahlander (2024), why does the lean startup methodology only partially apply to deep-tech ventures?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Deep-tech customers are unwilling to give feedback on early prototypes, so the iterative customer loop of lean startup cannot work."
+            },
+            {
+              "l": "b",
+              "t": "Lean methods require more upfront capital than deep-tech start-ups can usually raise from investors."
+            },
+            {
+              "l": "c",
+              "t": "It is designed to reduce market uncertainty, but deep tech's main risk is technological and customer feedback cannot resolve it."
+            },
+            {
+              "l": "d",
+              "t": "Deep-tech ventures rarely face product-market fit problems, so they have no market hypotheses to test."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Lean startup helps reduce market uncertainty through quick iterations, customer feedback and cost efficiency. Most start-ups rely on proven technologies and rarely fail for technical reasons, but deep-tech ventures build on technologies that do not exist yet. Long R&D, high upfront costs, regulation and the years it can take to know whether the technology works limit a core lean tenet: quickly putting a real product into customers' hands. Over 90% of new drugs fail clinical trials, while only about 10% of approved drugs fail for lack of market need.",
+          "source": "de Véricourt & Dahlander (2024), 'The limits of the lean startup methodology in deep tech'"
+        },
+        {
+          "num": "L6-07",
+          "stem": "De Véricourt and Dahlander (2024) suggest ways for deep-tech founders to reduce technological uncertainty. Which of the following are among them?\n1) Demonstrate proof of concept\n2) Use early revenue as the main signal for investors\n3) Define milestones with compelling data\n4) Run as many small market experiments as possible\n5) Embrace 'learning by thinking'\n6) 'Fake it until you make it' to attract early funding\n7) Foster a culture of truth",
+          "options": [
+            {
+              "l": "a",
+              "t": "1, 3, 4 and 7"
+            },
+            {
+              "l": "b",
+              "t": "1, 2, 3 and 5"
+            },
+            {
+              "l": "c",
+              "t": "2, 4, 6 and 7"
+            },
+            {
+              "l": "d",
+              "t": "1, 3, 5 and 7"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "The six approaches are: demonstrate proof of concept, define milestones with compelling data, form strategic partnerships and navigate regulations, embrace 'learning by thinking', leverage AI and digital tools, and foster a culture of truth. Deep-tech ventures rarely have early revenue, so milestones with compelling data take the place of revenue for investors. Because experiments are expensive, founders should plan a few crucial ones instead of many small ones, and 'fake it until you make it' is explicitly ruled out.",
+          "source": "de Véricourt & Dahlander (2024), 'How to reduce technological uncertainty in deep tech'"
+        },
+        {
+          "num": "L6-08",
+          "stem": "Building a test reactor seemed too costly and risky for TerraPower, so its engineers used supercomputer simulations to check whether their nuclear technology could work. This built enough confidence to attract early investors such as Bill Gates. De Véricourt and Dahlander (2024) present this as an example of:",
+          "options": [
+            {
+              "l": "a",
+              "t": "building a minimum viable product to test market demand before investing in a full-scale reactor."
+            },
+            {
+              "l": "b",
+              "t": "a strategic partnership with a regulator to speed up approval."
+            },
+            {
+              "l": "c",
+              "t": "using AI and digital tools to make 'learning by thinking' more effective."
+            },
+            {
+              "l": "d",
+              "t": "fostering a culture of truth by publishing failures openly."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Deep-tech ventures cannot run many cheap experiments, so the authors recommend 'learning by thinking': using existing science as a map and planning a few crucial experiments. AI and computer science make this increasingly effective, as TerraPower's simulations showed before any physical reactor was built. Rigetti designing key experiments from the quantum mechanics literature is their other example of learning by thinking.",
+          "source": "de Véricourt & Dahlander (2024), 'Embrace learning by thinking', 'Leverage AI and digital tools'"
+        },
+        {
+          "num": "L6-09",
+          "stem": "Bova, Goldfarb and Melko (2023) argue that managers should focus on 'quantum economic advantage'. A business achieves it when a quantum computer:",
+          "options": [
+            {
+              "l": "a",
+              "t": "solves a problem that no classical computer could solve in a realistic time, such as Google's cross-entropy benchmarking."
+            },
+            {
+              "l": "b",
+              "t": "is fully fault-tolerant and large enough to run Shor's algorithm on the numbers used in encryption."
+            },
+            {
+              "l": "c",
+              "t": "replaces the classical computers in a company's data centres for all of its calculations."
+            },
+            {
+              "l": "d",
+              "t": "gives a commercially useful solution that is faster, even if only moderately, or different from the classical one."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Quantum advantage means solving a problem that is practically impossible for classical computers; demonstrations so far (Google's cross-entropy benchmarking, Xanadu's Gaussian boson sampling) involved esoteric tasks with little commercial value. Quantum economic advantage only requires a commercially useful output that is faster or different, so it can exist with a quadratic or polynomial speedup, long before fault-tolerant machines arrive.",
+          "source": "Bova, Goldfarb & Melko (2023), 'Why quantum economic advantage matters', 'A quantum glossary'"
+        },
+        {
+          "num": "L6-10",
+          "stem": "Quantum computers can generate truly random numbers, while classical computers only produce pseudo-random ones. Even so, Bova, Goldfarb and Melko (2023) expect lotteries not to switch to quantum random number generators any time soon. Why?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Quantum random number generators are banned by gambling regulators in most countries."
+            },
+            {
+              "l": "b",
+              "t": "Quantum computers can only generate random numbers for encryption, so they cannot be used to draw the numbers of a lottery."
+            },
+            {
+              "l": "c",
+              "t": "Lotteries already use fault-tolerant quantum computers, so they see no need for new generators."
+            },
+            {
+              "l": "d",
+              "t": "Fraud is rare and pseudo-random numbers are indistinguishable in practice, so the classical approach is good enough."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Even when quantum computing offers something classical computers cannot do, managers have to weigh the optimal solution against the good-enough one. Lottery fraud through manipulation is rare (getting caught is costly, insiders are barred and analytical tools detect fraud), and without fraud, pseudo-random results are often indistinguishable from quantum ones. Lotteries therefore have little reason to switch.",
+          "source": "Bova, Goldfarb & Melko (2023), 'The enduring value of quantum advantage'"
+        },
+        {
+          "num": "L6-11",
+          "stem": "The financial sector spent about $1.7 billion a year on blockchain, yet beyond cryptocurrencies it had little to no discernible impact (Kelly, 2019, discussed in Lecture 6). What does the article see as blockchain's biggest problem?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Banks were not allowed to experiment with blockchain, because financial regulators had banned it outright."
+            },
+            {
+              "l": "b",
+              "t": "The technology did not work at all, so no bank or central bank managed to build a working prototype."
+            },
+            {
+              "l": "c",
+              "t": "Projects started with the technology and then looked for a way to profit from it, instead of starting from banks' problems."
+            },
+            {
+              "l": "d",
+              "t": "Projects focused so heavily on what customers asked for that the underlying technology never reached the maturity banks needed."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Kelly writes that blockchain was approached badly: projects began with the technology instead of the challenges banks were trying to solve. As Martin Walker puts it, 'the tool has to fit the problem' (would you open a can of beans with a sledgehammer?). Lecture 6 frames the lesson as technology push versus market pull, and as a cycle of hype, disappointment and backlash. Prototypes did exist, such as the Bundesbank and Deutsche Börse's settlement trials, but 'a real breakthrough in application' was missing.",
+          "source": "Kelly (2019), FT, 'Blockchain: disillusionment descends on financial services'; Lecture 6, 'What can we learn from the failures of Blockchain?'"
+        },
+        {
+          "num": "L6-12",
+          "stem": "According to Lecture 6, how many of the following describe the current state of quantum technologies?\n• There is not one single race but many, in different directions.\n• Quantum tech firms compete globally, but the ecosystem is very heterogeneous in business models, services, products and expertise.\n• Most quantum technologies are special-purpose machines.\n• In the future, almost everything will be quantum-powered.",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "The slide on the current state of affairs makes the first three points and says explicitly that not everything in the future will be 'quantum-powered'. It adds that the potential impact is hard to imagine, just as nobody 100 years ago foresaw society after the first quantum revolution (semiconductors, lasers, telecom). The second quantum revolution, which started about 20 years ago, is about quantum information science: superposition, entanglement and decoherence.",
+          "source": "Lecture 6, 'What is the current state of affairs?', 'Quantum mechanics, what's so special?'"
+        },
+        {
+          "num": "B-03",
+          "stem": "Multiverse Computing compared six methods on a very complex portfolio-optimization problem. The classical solution took almost 700 times longer than the quantum one, and the quantum tools found a different solution, with higher profits but lower risk-adjusted returns. According to Bova, Goldfarb and Melko (2023), what does this example show?",
+          "options": [
+            {
+              "l": "a",
+              "t": "A clear case of quantum advantage, because no classical computer could ever solve this optimization problem."
+            },
+            {
+              "l": "b",
+              "t": "That quantum computers already outperform classical computers on every kind of optimization task."
+            },
+            {
+              "l": "c",
+              "t": "That a quantum solution has no commercial value whenever it differs from the answer a classical computer would give, even if it is faster."
+            },
+            {
+              "l": "d",
+              "t": "Possibly quantum economic advantage, but not proven quantum advantage, since an exhaustive classical search might match it."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Only two of the six methods solved the hardest version, and the quantum one was much faster and different. That is not quantum advantage, because an exhaustive assessment of all classical approaches might still produce the same or better solutions. It can still be quantum economic advantage, because generating a useful solution quickly is valuable, and having both a classical and a quantum answer helps when the stakes are high.",
+          "source": "Bova, Goldfarb & Melko (2023), 'Make better investment decisions faster'"
         }
       ]
     },
@@ -4161,6 +7816,34 @@ window.ANATOMIE_DATA = {
           "source": "Case 'Social Media War 2021: Snap vs. Facebook vs. TikTok' (Tutorial 2); Parker et al. (2016), ch. 3 (filters)"
         },
         {
+          "num": "C2-SNAP",
+          "stem": "In the case 'Social Media War 2021: Snap vs. Facebook vs. TikTok', many users kept accounts on Snapchat, Instagram and TikTok at the same time. In Zhu and Iansiti's (2019) terms, this is:",
+          "options": [
+            {
+              "l": "a",
+              "t": "strong lock-in through network effects, which keeps each user loyal to one main app."
+            },
+            {
+              "l": "b",
+              "t": "multi-homing, which makes it harder for any one platform to lock users in and profit from them."
+            },
+            {
+              "l": "c",
+              "t": "a micromarket strategy, in which each app targets one narrow group of young users."
+            },
+            {
+              "l": "d",
+              "t": "the penguin problem, in which users wait to join until their friends are active on every app."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "The case notes that the three companies competed for people's time, creators' contributions and advertisers' budgets, and that many users kept accounts on several platforms. Zhu and Iansiti call this multi-homing. It is likely when joining another platform costs little, and it makes profits hard to earn, as with Uber and Lyft. Snap felt this directly: it earned almost all its revenue from advertising and was still unprofitable at the end of 2020, despite 265 million daily active users and about $2.5 billion in revenue.",
+          "source": "Case 'Social Media War 2021: Snap vs. Facebook vs. TikTok' (Tutorial 2); Zhu & Iansiti (2019), 'Vulnerability to multi-homing'"
+        },
+        {
           "num": "C-DUO",
           "stem": "We discussed Duolingo in the course. Which statement best describes how Duolingo earns its money?",
           "options": [
@@ -4187,6 +7870,34 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Duolingo runs a freemium model: the core service is free, Super Duolingo removes ads and gives unlimited hearts, Duolingo Max adds AI features, and family plans share one subscription. In mid-2024 about 8 million of roughly 104 million monthly users paid, yet subscriptions brought in most of the revenue ($531 million in 2023); ads, in-app purchases and the Duolingo English Test add the rest. Crowdsourced translation was the founders' early idea that never took off. The model only works if the free product keeps a large audience coming back, which is the job of streaks and leaderboards (official mock Q11).",
           "source": "Case 'Duolingo: On a Streak' (Tutorial 3); Parker et al. (2016), ch. 6 (freemium)"
+        },
+        {
+          "num": "C2-DUO",
+          "stem": "Duolingo uses generative AI for new learning features, such as explanations of answers and conversation practice with virtual characters. Lecture 5 names Duolingo next to Khan Academy's Khanmigo as an example of which of Cromwell et al.'s (2023) pathways?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Exploiting a current value proposition: adding a plug-in that speeds up an existing service."
+            },
+            {
+              "l": "b",
+              "t": "Exploring a new value proposition: releasing a new AI tool to the public and then discovering unforeseen ways to use it."
+            },
+            {
+              "l": "c",
+              "t": "Replacing the value proposition: closing the free product and moving all users to AI tutors."
+            },
+            {
+              "l": "d",
+              "t": "Expanding the value proposition: solving new problems in a way that complements the current offering."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "On the 'Pathway #2' slide, Khanmigo (an AI tutor for students and an assistant for teachers) is the main example, with '(also Duolingo!)' added. Explanations of mistakes and AI conversation practice solve new problems for learners while complementing Duolingo's lessons. Instacart's ChatGPT plug-in is the exploiting example, and ChatGPT itself the exploring one. In the case, Duolingo Max is the higher-priced subscription tier with AI-powered learning features.",
+          "source": "Case 'Duolingo: On a Streak' (Tutorial 3); Lecture 5, Cromwell et al. (2023) pathways"
         },
         {
           "num": "C-CROWD",
@@ -4217,6 +7928,34 @@ window.ANATOMIE_DATA = {
           "source": "Case 'Crowdfunding: A Tale of Two Campaigns' (Tutorial 3); Lecture 3, 'The Market' and 'Crowdfunding'"
         },
         {
+          "num": "C2-CROWD",
+          "stem": "Both ventures in 'Crowdfunding: A Tale of Two Campaigns', Enerchi Bites and Think Board, used Kickstarter's all-or-nothing model. What did that mean for them?",
+          "options": [
+            {
+              "l": "a",
+              "t": "They would only get the pledged money if they reached their target, so the goal had to be meaningful yet achievable."
+            },
+            {
+              "l": "b",
+              "t": "They could keep every pledge they collected, even if the campaign ended far below its stated target."
+            },
+            {
+              "l": "c",
+              "t": "Backers would receive shares in the company in proportion to the size of the amount they pledged."
+            },
+            {
+              "l": "d",
+              "t": "Kickstarter would make up the shortfall from its own funds whenever a campaign missed its target by less than 10 percent."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "Under all-or-nothing, a project only receives the pledges if it reaches its target, so setting the goal was an important decision: it had to reflect the campaign's purpose while staying achievable within a limited period. Both campaigns were rewards-based, so backers got rewards (often the product itself) and no shares. The case also shows that raising money, finding customers, generating publicity and testing demand are related but different goals.",
+          "source": "Case 'Crowdfunding: A Tale of Two Campaigns' (Tutorial 3)"
+        },
+        {
           "num": "L4-18",
           "stem": "In the case 'Platform Startups: Launching Online Marketplaces', the 'Penguin Problem' refers to:",
           "options": [
@@ -4243,6 +7982,34 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Penguins wait at the edge of the cliff because nobody wants to be the first in the water. Early users likewise won't join a platform that cannot yet offer good matches. It is the case's name for the chicken-or-egg problem; the mini-cases (Eventbrite, TaskRabbit, GrubHub, Instacart) show how each overcame it.",
           "source": "Case 'Platform Startups: Launching Online Marketplaces' (Wadhwani, Lubinski & Viebig, 2020)"
+        },
+        {
+          "num": "C2-PLAT",
+          "stem": "In 'Platform Startups: Launching Online Marketplaces', Susan Spender plans The Doghouse, which would not employ its own caregivers but help pet owners and caregivers find each other. In Parker et al.'s (2016) terms, this makes The Doghouse:",
+          "options": [
+            {
+              "l": "a",
+              "t": "a platform that enables value-creating interactions between external producers and consumers."
+            },
+            {
+              "l": "b",
+              "t": "a pipeline that creates its pet-care service step by step and then sells it to customers."
+            },
+            {
+              "l": "c",
+              "t": "a staffing agency that employs caregivers and rents out their time to owners at a margin."
+            },
+            {
+              "l": "d",
+              "t": "a single-sided business that only needs to win over pet owners, since caregivers will then follow by themselves."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "The case describes the logic of an online marketplace: like Airbnb, eBay or Uber, The Doghouse provides the setting and tools through which two groups interact, instead of employing caregivers and selling their services. That is Parker et al.'s definition of a platform. It also explains Susan's launch challenge, the Penguin Problem: an empty platform offers little value, so each side waits for the other.",
+          "source": "Case 'Platform Startups: Launching Online Marketplaces' (Tutorial 4); Parker et al. (2016), ch. 1"
         },
         {
           "num": "C-APT",
@@ -4273,6 +8040,34 @@ window.ANATOMIE_DATA = {
           "source": "Case 'AptDeco: Circular Economy Furniture Marketplace' (Tutorial 4); Zhu & Iansiti (2019), 'Risk of disintermediation'"
         },
         {
+          "num": "C2-APT",
+          "stem": "AptDeco's earlier attempt to enter Washington, D.C. failed, and the founders concluded that a model that works in one city needs careful assessment before it is taken elsewhere. Seen through Zhu and Iansiti (2019), this reflects that AptDeco's network:",
+          "options": [
+            {
+              "l": "a",
+              "t": "forms one global cluster, so a strong position in New York should carry over to any new city it enters."
+            },
+            {
+              "l": "b",
+              "t": "is protected by high switching costs, so rivals cannot copy its model in other cities."
+            },
+            {
+              "l": "c",
+              "t": "is split into local clusters, so each new city has to be built up almost from scratch."
+            },
+            {
+              "l": "d",
+              "t": "has weak network effects, so marketing spend alone decides whether a new city succeeds."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Buyers and sellers of used furniture care mainly about people nearby, because items have to be picked up and delivered, so AptDeco's network breaks into local clusters. Zhu and Iansiti note that fragmented networks are more vulnerable and that each cluster has to be won separately, as in ride hailing. A strong position in New York did little for a new market like D.C. Airbnb is their counterexample: travellers care about hosts in many cities, so its network is close to one global cluster.",
+          "source": "Case 'AptDeco: Circular Economy Furniture Marketplace' (Tutorial 4); Zhu & Iansiti (2019), 'Network clustering'"
+        },
+        {
           "num": "C-OPENAI",
           "stem": "We discussed OpenAI's competitive strategy and governance. Why did OpenAI move from a pure non-profit to a hybrid structure with a for-profit arm?",
           "options": [
@@ -4298,6 +8093,34 @@ window.ANATOMIE_DATA = {
           ],
           "note": "",
           "explanation": "OpenAI started in 2015 as a non-profit aiming to build AGI for the benefit of humanity, a mission that also helped it recruit top researchers for less money. Developing the models drove computing costs far beyond the initial funding, so it created a hybrid entity in which investors' returns were capped at 100 times their investment; Microsoft's $1 billion investment followed in 2019. The tension between the commercial arm and the non-profit board surfaced in November 2023, when the board removed Altman for not being 'consistently candid' and reinstated him days later, after more than 700 employees threatened to follow him to Microsoft.",
+          "source": "Case 'OpenAI: Competitive Strategy and Governance' (Tutorial 5)"
+        },
+        {
+          "num": "C2-OPENAI",
+          "stem": "In November 2023, OpenAI's non-profit board removed Sam Altman as CEO. After more than 700 employees threatened to follow him to Microsoft, he was reinstated within days and a new board was set up. What does this episode reveal about OpenAI?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Microsoft held a majority of the voting rights in OpenAI and could therefore appoint or remove the CEO whenever it wished."
+            },
+            {
+              "l": "b",
+              "t": "The tension between a mission-driven non-profit board and the commercial interests in its for-profit arm."
+            },
+            {
+              "l": "c",
+              "t": "Employees controlled the board through the shares they held in the non-profit entity."
+            },
+            {
+              "l": "d",
+              "t": "The board could only take decisions with the approval of co-founder Elon Musk."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "OpenAI began as a non-profit with the mission of building AGI for the benefit of humanity, then created a capped-profit arm to pay for computing, followed by Microsoft's $1 billion investment in 2019. The board fired Altman for not being 'consistently candid' with it, but the pushback was immediate: Microsoft offered to hire Altman and Brockman, and more than 700 employees signed a letter. The quick reversal showed how hard it is to combine a mission-based board with a commercial business.",
           "source": "Case 'OpenAI: Competitive Strategy and Governance' (Tutorial 5)"
         },
         {
@@ -4327,6 +8150,34 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Value-added services keep the core model free and earn money from complementary offerings around it, much like Google's free TensorFlow leading developers to Google Cloud. That matches Zhu & Iansiti's ZBJ example (complementary services instead of fees) and Parker et al.'s point that open systems are harder for their creators to monetize. Licensing and dual licensing risk community backlash, as Red Hat found in 2023, and partnerships create dependence on partners who may favour rival models. Cloud providers and Chinese tech giants were already using DeepSeek's models without paying, a free-rider problem.",
           "source": "Case 'DeepSeek and Open-Source AI' (Tutorial 5); Parker et al. (2016), ch. 7; Zhu & Iansiti (2019)"
+        },
+        {
+          "num": "C2-DEEP",
+          "stem": "Among DeepSeek's five commercialization challenges, which one describes the risk that AWS, the Apple App Store and Google Play control DeepSeek's pricing, terms and visibility, while having reasons to promote their own AI models?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Geopolitical risk"
+            },
+            {
+              "l": "b",
+              "t": "Infrastructure reliability"
+            },
+            {
+              "l": "c",
+              "t": "Balancing open access with value capture"
+            },
+            {
+              "l": "d",
+              "t": "Platform lock-in"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "The case lists five challenges: balancing open access with value capture (open-source revenue cannot fund ongoing training), geopolitical risks (US export controls on Nvidia chips and bans in several countries), platform lock-in (dependence on AWS for infrastructure and on the app stores for distribution), infrastructure reliability (outages during traffic spikes) and intensifying competition (OpenAI, Google DeepMind, Anthropic, Llama 3, Mixtral). In platform terms, DeepSeek is a complementor on platforms whose owners compete with it.",
+          "source": "Case 'DeepSeek and Open-Source AI' (Tutorial 5)"
         }
       ]
     }
