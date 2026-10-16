@@ -431,8 +431,22 @@ const APP = {
   saveProgress(){
     if(!this.exam)return;
     const s=this.store();const p=s[this.exam.id]||{history:[],best:null,inProgress:null};
-    p.inProgress={order:this.order,idx:this.idx,answers:this.answers,flags:this.flags,optOrder:this.optOrder,shuffleOpts:this.shuffleOpts,instant:this.instant,ts:Date.now()};
+    p.inProgress={order:this.order,idx:this.idx,answers:this.answers,flags:this.flags,optOrder:this.optOrder,shuffleOpts:this.shuffleOpts,instant:this.instant,rev:this.exam.rev||1,ts:Date.now()};
     s[this.exam.id]=p;this.writeStore(s);
+  },
+  // When questions of an exam are replaced (questions.js: rev + changes), an attempt in progress keeps its answers,
+  // except those given to the replaced questions. History and best grades stay as they are.
+  migrateStore(){
+    const s=this.store();let dirty=false;
+    (this.data.exams||[]).forEach(ex=>{
+      const ip=s[ex.id]&&s[ex.id].inProgress;if(!ip)return;
+      const from=ip.rev||1,to=ex.rev||1;if(from>=to)return;
+      for(let r=from+1;r<=to;r++)((ex.changes||{})[r]||[]).forEach(qi=>{
+        ['answers','flags','optOrder'].forEach(k=>{if(ip[k])delete ip[k][qi];});
+      });
+      ip.rev=to;dirty=true;
+    });
+    if(dirty)this.writeStore(s);
   },
   recordResult(scoreStr,pct,grade){
     const s=this.store();const p=s[this.exam.id]||{history:[],best:null,inProgress:null};
@@ -469,6 +483,7 @@ const APP = {
   init(){
     if(!window.ANATOMIE_DATA){document.getElementById('login').classList.add('hidden');document.getElementById('start').classList.remove('hidden');document.getElementById('examList').innerHTML='<p style="color:#b03a2e">Error: questions.js not found (it has to be in the same folder).</p>';return;}
     this.data=window.ANATOMIE_DATA;
+    this.migrateStore();
     this.course=this.data.course;
     document.getElementById('startTitle').textContent=this.course;
     document.getElementById('bcStart').textContent=this.course;

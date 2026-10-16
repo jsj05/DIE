@@ -4,10 +4,23 @@ window.ANATOMIE_DATA = {
     {
       "id": "mock1",
       "label": "Mock Exam 1",
-      "source": "Lectures 1–5, readings and tutorial cases · questions 71 and 72 are the bonus questions",
+      "source": "Lectures 1–5, readings and tutorial cases · questions 71 and 72 are bonus questions on the guest lectures · updated 16 Oct",
+      "rev": 2,
+      "changes": {
+        "2": [
+          4,
+          7,
+          11,
+          15,
+          49,
+          70,
+          71
+        ]
+      },
       "questions": [
         {
           "num": 1,
+          "qid": "L4-16",
           "stem": "RideNow, a ride-hailing platform, operates in 50 cities. Riders in Rotterdam care almost only about drivers in Rotterdam, and vice versa. According to Zhu and Iansiti (2019), what does this imply?",
           "options": [
             {
@@ -39,6 +52,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 2,
+          "qid": "L3-11",
           "stem": "TileCo, an Amsterdam B2B start-up, has many customer invoices that will only be paid in 60 days. It cannot get a bank loan but needs cash now to cover operating costs. According to the iamsterdam guide 'Funding your startup', which option fits best?",
           "options": [
             {
@@ -70,6 +84,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 3,
+          "qid": "L5-06",
           "stem": "A bank's AI estimates that a card transaction is 92% likely to be fraudulent. A manager now has to weigh how costly it is to wrongly block a loyal high-net-worth client against the cost of letting a fraud through. According to Agrawal et al. (2017), the manager is exercising:",
           "options": [
             {
@@ -101,6 +116,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 4,
+          "qid": "C-SNAP",
           "stem": "We discussed the case 'Social Media War 2021: Snap vs. Facebook vs. TikTok'. Why was TikTok a different kind of threat to Snapchat than Facebook was?",
           "options": [
             {
@@ -132,7 +148,8 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 5,
-          "stem": "According to Erik Boer's guest lecture, how many of the following are weaknesses of the Amsterdam start-up ecosystem?\n• Scale-up gap\n• Reliance on foreign capital\n• Deeptech talent shortages\n• Fragmentation",
+          "qid": "L1-21",
+          "stem": "How many of the following statements are in line with Schilling (2017) on the importance of technological innovation?\n• In many industries, firms earn about a third or more of their sales and profits from products developed in the past five years.\n• Flexible manufacturing has made short production runs economical, so firms such as Toyota can offer many product variants.\n• Product life cycles have become as short as 4 to 12 months for software.\n• Technological innovation can also create negative externalities, such as pollution that harms surrounding communities.",
           "options": [
             {
               "l": "a",
@@ -155,14 +172,15 @@ window.ANATOMIE_DATA = {
             "d"
           ],
           "note": "",
-          "topic": "t_lecture3",
+          "topic": "t_lecture1",
           "kind": "concept",
           "fmt": "howmany",
-          "explanation": "All four appear on the 'weaknesses' side of the slide. Strengths: a top-5 European hub, international talent, strong fintech, AI and sustainability, and a dense ecosystem. Lecture 3's VC figures point the same way: 75% of capital in Dutch AI start-ups came from foreign investors in 2025.",
-          "source": "Guest lecture (Erik Boer), 'Amsterdam startup ecosystem: strengths and weaknesses'"
+          "explanation": "All four are in the chapter. Firms rely on products developed within the past five years for almost a third (or more) of their sales and profits: over 30% at Johnson & Johnson, up to 45% at 3M. Computer-aided design and manufacturing and flexible manufacturing speed up development and make short production runs economical, so Toyota offered 167 car models in 2015 and Samsung launched 52 smartphones in 2014. The result is more market segmentation and rapid product obsolescence, with life cycles of 4-12 months for software, 12-24 months for computer hardware and consumer electronics and 18-36 months for large home appliances. Innovation can also have negative externalities: pollution, erosion and lost habitats, depleted ocean stocks, antibiotic-resistant bacteria.",
+          "source": "Schilling (2017), ch. 1, 'The importance of technological innovation' and 'The impact of technological innovation on society'; Lecture 1"
         },
         {
           "num": 6,
+          "qid": "L5-02",
           "stem": "Artificial intelligence is a manifestation of the evolution that robots, computers and machines have in common, namely moving:",
           "options": [
             {
@@ -195,6 +213,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 7,
+          "qid": "L2-07",
           "stem": "Google overtook Yahoo even though Yahoo had a four-year head start. According to Lecture 2 and Parker et al. (2016), the main reason was that:",
           "options": [
             {
@@ -226,23 +245,24 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 8,
-          "stem": "Lina founded FitByte and owned 100% of it. In the seed round, investors received 20% of the company. In the Series A, new investors received 25% of the company at a post-money valuation of €12 million. With no other dilution, what is Lina's stake worth after the Series A?",
+          "qid": "L3-20",
+          "stem": "Lecture 3 covers funding rounds and the dilution of founders. What is the principle behind accepting dilution?",
           "options": [
             {
               "l": "a",
-              "t": "€6.0 million (she owns 50%)"
+              "t": "Founders should avoid dilution, because every new round lowers the value of the shares they already hold."
             },
             {
               "l": "b",
-              "t": "€6.6 million (she owns 55%)"
+              "t": "Each round should be priced below the previous one, so that later investors are rewarded for taking more risk."
             },
             {
               "l": "c",
-              "t": "€7.2 million (she owns 60%)"
+              "t": "Growth in the company's value compensates for the founders' loss in percentage share."
             },
             {
               "l": "d",
-              "t": "€9.0 million (she owns 75%)"
+              "t": "Dilution only affects the first investors, because founders' shares are protected against new share issues."
             }
           ],
           "correct": [
@@ -250,13 +270,14 @@ window.ANATOMIE_DATA = {
           ],
           "note": "",
           "topic": "t_lecture3",
-          "kind": "situational",
+          "kind": "concept",
           "fmt": "single",
-          "explanation": "Dilution multiplies. After the seed round she owns 80%; the Series A investors take 25% of the whole company, so she keeps 80% x 75% = 60%. 60% x €12M = €7.2M. Subtracting the percentages (100 - 20 - 25 = 55%) is the classic mistake.",
+          "explanation": "The slide 'Funding rounds and dilution of founders' gives the principle: growth in value compensates for the loss in % share, and this also preserves the first investors' interests. The challenge is to create an attractive value at each step, with a good exit perspective. Owning 50% of a company worth €6 million is worth more than owning 100% of one worth €2 million.",
           "source": "Lecture 3, 'Funding rounds and dilution of founders'"
         },
         {
           "num": 9,
+          "qid": "L4-05",
           "stem": "Twitter's breakthrough at the 2007 SXSW festival (tweets shown live on giant screens) and Tinder's launch at a university frat party are examples of:",
           "options": [
             {
@@ -288,6 +309,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 10,
+          "qid": "L4-04",
           "stem": "GrubHub started only in Lincoln Park in Chicago (case 'Platform Startups'), and Facebook started only at Harvard. Both used the:",
           "options": [
             {
@@ -319,6 +341,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 11,
+          "qid": "L2-01",
           "stem": "Network effects can be defined as:",
           "options": [
             {
@@ -351,37 +374,39 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 12,
-          "stem": "In his guest lecture on the Amsterdam entrepreneurship ecosystem, Erik Boer presented Daniel Isenberg's six domains of the entrepreneurial system. Which of the following are among them?\n1) Culture\n2) Enabling policies and leadership\n3) Availability of appropriate finance\n4) Quality human capital\n5) One dominant anchor corporation\n6) Venture-friendly markets for products\n7) Institutional supports",
+          "qid": "L1-22",
+          "stem": "Schilling (2017) argues that improving a firm's innovation success rate requires a well-crafted strategy. Which of the following does the chapter call for?\n1) Innovation projects that fit the firm's resources and objectives and build on its core competencies\n2) An in-depth understanding of the dynamics of innovation\n3) Starting as many projects as possible, since most ideas fail anyway\n4) Well-designed processes for implementing the innovation strategy\n5) Keeping innovation a freewheeling process, free of rules and plans\n6) A structure and control systems that encourage new ideas and also ensure efficient implementation",
           "options": [
             {
               "l": "a",
-              "t": "1, 2, 3, 5, 6 and 7"
+              "t": "1, 2, 4, 5 and 6"
             },
             {
               "l": "b",
-              "t": "2, 3, 4 and 7"
+              "t": "2, 3, 4 and 6"
             },
             {
               "l": "c",
-              "t": "1, 2, 3, 4, 6 and 7"
+              "t": "1, 2, 4 and 6"
             },
             {
               "l": "d",
-              "t": "1, 3, 4, 5 and 6"
+              "t": "1, 2, 3 and 4"
             }
           ],
           "correct": [
             "c"
           ],
           "note": "",
-          "topic": "t_lecture3",
+          "topic": "t_lecture1",
           "kind": "concept",
           "fmt": "combo",
-          "explanation": "Isenberg (Babson College) lists culture, enabling policies and leadership, availability of appropriate finance, quality human capital, venture-friendly markets for products, and institutional supports. A dominant anchor corporation is not one of them.",
-          "source": "Guest lecture (Erik Boer), 'About entrepreneurship ecosystems'"
+          "explanation": "Schilling: a firm's innovation projects should align with its resources and objectives, leverage its core competencies and help it achieve its strategic intent, and its structure and control systems should encourage new ideas while ensuring efficient implementation. For this a firm needs (a) an in-depth understanding of the dynamics of innovation, (b) a well-crafted innovation strategy and (c) well-designed processes for implementing it. Firms that rush into development without a strategy start more projects than they can support, choose projects that fit their resources poorly and suffer long development cycles and high failure rates. Innovation is often pictured as freewheeling, yet study after study shows that successful innovators have clearly defined innovation strategies and management processes.",
+          "source": "Schilling (2017), ch. 1, 'Innovation by industry: the importance of strategy' and 'The strategic management of technological innovation'"
         },
         {
           "num": 13,
+          "qid": "L3-10",
           "stem": "Four campaigns: (1) people back a documentary only because they believe in it; (2) backers pre-order a smart bike lock and receive one once it is produced; (3) people each lend €50 to a café and receive interest; (4) backers receive shares in a fintech start-up. These are, respectively:",
           "options": [
             {
@@ -413,6 +438,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 14,
+          "qid": "L5-04",
           "stem": "After a wave of mass-media hype about AI wearables, negative press appears, several suppliers consolidate or go bust, and fewer than 5% of potential users have adopted the technology. In which phase of the Gartner Hype Cycle is it?",
           "options": [
             {
@@ -444,6 +470,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 15,
+          "qid": "L3-07",
           "stem": "According to Leitão et al. (2022), accelerators were originally conceived around five main features. Which of the following are among them?\n1) Standardized seed-funding packages\n2) Cohort-based entry and exit\n3) Office space for an open-ended number of years\n4) Mentoring\n5) A structured capacity-development program\n6) Physical co-location",
           "options": [
             {
@@ -475,23 +502,24 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 16,
-          "stem": "A messaging start-up grows from 10 to 40 users. Using the logic of Metcalfe's law shown in Lecture 2 (2 phones = 1 connection, 5 = 10, 12 = 66), the number of possible connections grows from:",
+          "qid": "L2-22",
+          "stem": "Lecture 2 introduces Metcalfe's law with the telephone ('phones are useless without a network'). What does the law say about a growing network?",
           "options": [
             {
               "l": "a",
-              "t": "10 to 40."
+              "t": "Its value grows in step with its user base, so each new user adds about as much value as the previous one."
             },
             {
               "l": "b",
-              "t": "100 to 1,600."
+              "t": "Each new user adds less value than the one before, because the most useful contacts are already in the network."
             },
             {
               "l": "c",
-              "t": "45 to 180."
+              "t": "Its value depends mainly on how much the operator invests in infrastructure, not on the size of its user base."
             },
             {
               "l": "d",
-              "t": "45 to 780."
+              "t": "Each new user can connect with every existing user, so possible connections grow much faster than users."
             }
           ],
           "correct": [
@@ -499,13 +527,14 @@ window.ANATOMIE_DATA = {
           ],
           "note": "",
           "topic": "t_lecture2",
-          "kind": "situational",
+          "kind": "concept",
           "fmt": "single",
-          "explanation": "Possible connections = n(n-1)/2. For 10 users: 10 x 9 / 2 = 45. For 40 users: 40 x 39 / 2 = 780. Users grow fourfold while connections grow more than seventeenfold. That is the convex growth that makes large networks so valuable.",
+          "explanation": "Metcalfe's law: a network's value rises with the number of possible connections between its users, and every new user can connect with all existing ones. The slide shows it with phones: 2 phones = 1 connection, 5 = 10, 12 = 66 and 100 = 4,950, so the connections grow much faster than the number of phones. The first telephone is useless; each additional one makes all the others more valuable.",
           "source": "Lecture 2, 'Metcalfe's law'; Parker et al. (2016), ch. 2"
         },
         {
           "num": 17,
+          "qid": "L1-01",
           "stem": "From an entrepreneurial perspective, an invention:",
           "options": [
             {
@@ -538,6 +567,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 18,
+          "qid": "C-CROWD",
           "stem": "In the case 'Crowdfunding: A Tale of Two Campaigns', Hanson Grant had already sold Think Board to classmates, with family support for production. What did he mainly want to find out with a rewards-based Kickstarter campaign?",
           "options": [
             {
@@ -569,6 +599,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 19,
+          "qid": "L5-10",
           "stem": "According to Hurwitz and Kirsch (2018), machine learning has been boosted by several developments. How many of the following are among them?\n• Increasingly powerful and dense modern processors\n• A dramatic drop in the cost of storing and managing large amounts of data\n• Greater availability of commercial data sets\n• A pull-based process that encourages users to spread the word",
           "options": [
             {
@@ -601,6 +632,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 20,
+          "qid": "L4-06",
           "stem": "Which statement about platform marketing is correct according to Lecture 4 and Parker et al. (2016, ch. 5)?",
           "options": [
             {
@@ -632,6 +664,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 21,
+          "qid": "L4-18",
           "stem": "In the case 'Platform Startups: Launching Online Marketplaces', the 'Penguin Problem' refers to:",
           "options": [
             {
@@ -663,6 +696,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 22,
+          "qid": "L5-07",
           "stem": "In Agrawal et al.'s (2017) CoastRunners example, an AI trained to maximize its score in a boat-racing game went around in circles instead of finishing the course. The key lesson is that:",
           "options": [
             {
@@ -694,6 +728,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 23,
+          "qid": "L2-14",
           "stem": "Three firms open their products to outside innovators. (1) AppBox screens every outside app and sells it to customers through its own store, taking a 30% cut. (2) FabriCore licenses its core fabric technology and brand to companies that build and sell their own jackets. (3) A social network lets third-party widget makers interact directly with users, as long as they follow its rules. According to Boudreau and Lakhani (2009), these are, respectively:",
           "options": [
             {
@@ -725,6 +760,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 24,
+          "qid": "L4-12",
           "stem": "When Meetup started charging organizers $19 per month, about 95% of activity disappeared, yet half of the remaining meetups became successful (before: 1-2%). Lecture 4 uses this case to show that:",
           "options": [
             {
@@ -756,6 +792,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 25,
+          "qid": "L4-01",
           "stem": "Multiple strategies exist to deal with the chicken-or-egg dilemma (i.e. catch-22). In the 'piggyback' strategy, platforms:",
           "options": [
             {
@@ -788,6 +825,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 26,
+          "qid": "C-DUO",
           "stem": "We discussed Duolingo in the course. Which statement best describes how Duolingo earns its money?",
           "options": [
             {
@@ -819,6 +857,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 27,
+          "qid": "L2-15",
           "stem": "Lecture 2 summarizes how network effects can be scaled. How many of the following were named as ways to foster network effects?\n• A scalable business model\n• Side switching\n• Vertical integration of suppliers\n• High entry fees that keep low-quality users out",
           "options": [
             {
@@ -850,6 +889,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 28,
+          "qid": "L2-11",
           "stem": "According to Parker et al. (2016, ch. 3), the core interaction of a platform consists of three key components:",
           "options": [
             {
@@ -881,6 +921,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 29,
+          "qid": "C-OPENAI",
           "stem": "We discussed OpenAI's competitive strategy and governance. Why did OpenAI move from a pure non-profit to a hybrid structure with a for-profit arm?",
           "options": [
             {
@@ -912,6 +953,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 30,
+          "qid": "L1-02",
           "stem": "According to the innovation funnel presented in Lecture 1 (Schilling, 2017):",
           "options": [
             {
@@ -943,6 +985,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 31,
+          "qid": "L3-01",
           "stem": "In Lecture 3, 'bootstrapping' refers to funding a venture through:",
           "options": [
             {
@@ -974,6 +1017,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 32,
+          "qid": "L2-12",
           "stem": "According to Boudreau and Lakhani (2009), organizing outside innovators as a collaborative community makes most sense when the innovation problem:",
           "options": [
             {
@@ -1005,6 +1049,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 33,
+          "qid": "L1-08",
           "stem": "Parker et al. (2016) argue that platforms 'invert the firm'. How many of the following shifts are consistent with this idea?\n• Marketing moves from broadcasting to segmentation, virality and social influence\n• Strategy moves from orchestrating external resources to controlling unique internal resources\n• Innovation moves from in-house R&D labs to crowdsourcing and open innovation\n• Human resource management moves from managing crowds to managing employees",
           "options": [
             {
@@ -1036,6 +1081,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 34,
+          "qid": "L1-13",
           "stem": "A third-party navigation app has become one of the main reasons people use your smartphone platform, and it could turn into a platform of its own that connects merchants with users. According to Parker et al. (2016, ch. 7), what should the platform manager do?",
           "options": [
             {
@@ -1067,6 +1113,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 35,
+          "qid": "L4-13",
           "stem": "LearnLoop, an online course marketplace, waives all fees for a handful of celebrity instructors whose presence attracts students and other teachers, and charges every other instructor the standard commission. Which pricing choice from Lecture 4 is this?",
           "options": [
             {
@@ -1098,6 +1145,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 36,
+          "qid": "L2-02",
           "stem": "Industrial-era giants such as Ford and BASF grew on _____, whereas 21st-century platform giants grow on _____.",
           "options": [
             {
@@ -1129,6 +1177,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 37,
+          "qid": "L3-06",
           "stem": "Which statement correctly describes a difference between incubators and accelerators (Leitão et al., 2022; Lecture 3)?",
           "options": [
             {
@@ -1160,6 +1209,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 38,
+          "qid": "L2-05",
           "stem": "Why did Uber hand new riders $30 coupons (and keep running discount campaigns)?",
           "options": [
             {
@@ -1191,6 +1241,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 39,
+          "qid": "L1-05",
           "stem": "According to Parker et al. (2016), a platform is:",
           "options": [
             {
@@ -1222,6 +1273,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 40,
+          "qid": "L1-06",
           "stem": "BookNest is a new e-book platform on which anyone can publish. Which titles get promoted is decided by reader ratings and sales signals instead of by an editorial board. According to Parker et al. (2016), this illustrates that platforms beat pipelines because they:",
           "options": [
             {
@@ -1253,6 +1305,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 41,
+          "qid": "L3-02",
           "stem": "Which statement correctly contrasts business angels and venture capitalists (Lecture 3)?",
           "options": [
             {
@@ -1284,6 +1337,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 42,
+          "qid": "L4-07",
           "stem": "On DesignDrop, a user makes a poster with the app and posts it on Instagram, where a friend sees it, clicks through and signs up for DesignDrop. In Parker et al.'s four elements of viral growth, Instagram plays the role of the:",
           "options": [
             {
@@ -1315,6 +1369,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 43,
+          "qid": "L2-04",
           "stem": "ChatterBox, once a popular messaging app, starts losing users to a rival. Every user who leaves makes the app less useful for those who stay, which speeds up further departures. Lecture 2 calls this:",
           "options": [
             {
@@ -1346,6 +1401,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 44,
+          "qid": "L5-03",
           "stem": "Compared with traditional industrial robots, how many of the following capabilities are added by modern artificial intelligence?\n• Understanding spoken instructions through natural language processing\n• Improving performance by learning from data\n• Repeating a pre-programmed welding movement on an assembly line\n• Recognizing objects and reading text through computer vision",
           "options": [
             {
@@ -1378,6 +1434,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 45,
+          "qid": "C-DEEP",
           "stem": "DeepSeek released its AI models as open source and is now weighing how to make money from them. Which path fits founder Liang Wenfeng's open-source vision best, and what is its main drawback?",
           "options": [
             {
@@ -1409,6 +1466,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 46,
+          "qid": "L4-09",
           "stem": "A platform can be monetized in several ways. Charging transaction fees means charging:",
           "options": [
             {
@@ -1441,6 +1499,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 47,
+          "qid": "L5-13",
           "stem": "Three companies adopt generative AI: (1) a grocery-delivery app launches a ChatGPT plug-in that turns recipe ideas into ready-to-order baskets; (2) an online-learning platform adds an AI tutor for students and an AI lesson-planning assistant for teachers; (3) a start-up releases a general AI tool to the public to discover what people will use it for. According to Cromwell et al. (2023), these follow, respectively:",
           "options": [
             {
@@ -1472,6 +1531,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 48,
+          "qid": "L1-09",
           "stem": "Sahut, Iandoli and Teulon (2021) define digital entrepreneurship as:",
           "options": [
             {
@@ -1504,6 +1564,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 49,
+          "qid": "L2-13",
           "stem": "According to Boudreau and Lakhani (2009), which of the following are intrinsic motivations of external innovators?\n1) Fun and enjoyment\n2) Signaling and career concerns\n3) Intellectual challenge\n4) Money\n5) Autonomy\n6) Professional and personal identity",
           "options": [
             {
@@ -1536,23 +1597,24 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 50,
-          "stem": "A founder owns 100% of her start-up. A business angel invests €500,000 at a pre-money valuation of €1.5 million. Assuming all shares have the same economic rights, what happens immediately after the round?",
+          "qid": "L3-21",
+          "stem": "Which statement about venture capital in the Netherlands in 2025 matches Lecture 3?",
           "options": [
             {
               "l": "a",
-              "t": "Her ownership falls to 66.7%, and the estimated value of her stake falls to €1.0 million."
+              "t": "Most of the capital invested in Dutch AI start-ups came from Dutch investors; foreign investors added about a quarter."
             },
             {
               "l": "b",
-              "t": "Her ownership falls to 75%, and the estimated value of her stake falls to €1.125 million."
+              "t": "The Dutch scale-up ratio is above the European average, although it is still well below that of the US."
             },
             {
               "l": "c",
-              "t": "Her ownership stays at 100%, because the investment is new money added to the company."
+              "t": "VC investment was spread fairly evenly across the provinces, with no region taking more than a quarter of it."
             },
             {
               "l": "d",
-              "t": "Her ownership falls to 75%, and the estimated value of her stake stays at €1.5 million."
+              "t": "The total amount invested rose while the number of deals fell, as larger sums went to fewer, later-stage ventures."
             }
           ],
           "correct": [
@@ -1560,14 +1622,14 @@ window.ANATOMIE_DATA = {
           ],
           "note": "",
           "topic": "t_lecture3",
-          "kind": "situational",
+          "kind": "concept",
           "fmt": "single",
-          "explanation": "Post-money valuation = €1.5M + €0.5M = €2.0M. The angel owns 0.5 / 2.0 = 25%, so the founder keeps 75% x €2.0M = €1.5M. Her percentage drops, but the new money raises the company's value, so her stake is worth the same at that moment: 'growth in value compensates for loss in % share'.",
-          "source": "Lecture 3, 'Funding rounds and dilution of founders'",
-          "origin": "Variant of official mock Q8"
+          "explanation": "The slides 'Venture Capitalists in The Netherlands' report €2.64 billion of VC and 11,301 active tech companies in 2025. The total rose, but the number of deals fell by 14.5% compared with 2024, because larger sums flowed into fewer, later-stage ventures. The other statements are reversed: 75% of the capital in Dutch AI start-ups came from foreign investors, the Dutch scale-up ratio (21.6% of start-ups raise over €10 million) lags the European (24.1%) and US (52.2%) averages, and North and South Holland together take 70% of Dutch VC. Deeptech is 12% of the ecosystem but attracts 41% of VC.",
+          "source": "Lecture 3, 'Venture Capitalists in The Netherlands'"
         },
         {
           "num": 51,
+          "qid": "L4-11",
           "stem": "According to Lecture 4 and Parker et al. (2016, ch. 6), how many of the following correctly describe a source of value created by a platform?\n• For consumers: access to value created on the platform (e.g. videos on YouTube)\n• For producers: access to a community or market (e.g. Airbnb hosts reaching travellers)\n• For both sides: access to tools and services that facilitate interaction\n• For the platform owner only: curation mechanisms that keep all created value inside the platform",
           "options": [
             {
@@ -1600,6 +1662,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 52,
+          "qid": "L1-10",
           "stem": "A family bakery in Amsterdam sells excellent bread but has no online reviews, no social media presence and is not listed on any delivery app. Based on Sahut et al. (2021), which statement fits best?",
           "options": [
             {
@@ -1631,6 +1694,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 53,
+          "qid": "L1-03",
           "stem": "Boudreau and Lakhani (2009), quoted in Lecture 1, define open innovation as:",
           "options": [
             {
@@ -1662,6 +1726,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 54,
+          "qid": "L5-09",
           "stem": "Match each example to its type of machine learning (Lecture 5): (1) a spam filter trained on emails labelled 'spam' or 'not spam'; (2) grouping customers into segments without predefined labels; (3) AlphaGo improving by trial and error; (4) an LLM learning by predicting the next token.",
           "options": [
             {
@@ -1693,6 +1758,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 55,
+          "qid": "L2-08",
           "stem": "In Lecture 2's table of the four kinds of network effects, Chatroulette (unpoliced growth driving users away) and OkCupid (attractive users bombarded by messages from the other side) illustrate, respectively:",
           "options": [
             {
@@ -1724,6 +1790,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 56,
+          "qid": "L2-10",
           "stem": "Lecture 2 opened with deals such as Facebook buying Instagram ($1bn) and WhatsApp ($19bn). According to Parker et al. (2016), why are such platforms worth so much?",
           "options": [
             {
@@ -1755,6 +1822,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 57,
+          "qid": "L4-15",
           "stem": "According to Zhu and Iansiti (2019), whether a platform thrives depends on how well it manages five properties of its networks. Which of the following are among them?\n1) Strength of network effects\n2) Network clustering\n3) Risk of disintermediation\n4) Brand effects\n5) Vulnerability to multi-homing\n6) Network bridging\n7) Supply economies of scale",
           "options": [
             {
@@ -1786,6 +1854,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 58,
+          "qid": "L3-05",
           "stem": "SolarSeed has finished R&D, launched its product and has its first paying customers. It now wants about €5 million to scale up and expand internationally. According to the 'funding steps' chart in Lecture 3, which source fits best?",
           "options": [
             {
@@ -1817,6 +1886,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 59,
+          "qid": "L1-07",
           "stem": "Airbnb can add 'inventory' as fast as it signs up hosts with spare rooms, while a hotel chain has to buy land and build. Lecture 1 (Parker et al., 2016) describes this as a shift from:",
           "options": [
             {
@@ -1848,6 +1918,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 60,
+          "qid": "L5-08",
           "stem": "Big data is data that has at least one of the '4 Vs' (Hurwitz & Kirsch, 2018, in Lecture 5). Which of the following are the 4 Vs?\n1) Volume\n2) Velocity\n3) Value\n4) Variety\n5) Veracity\n6) Visibility",
           "options": [
             {
@@ -1879,6 +1950,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 61,
+          "qid": "L4-14",
           "stem": "The golden rule for the timing of monetization on platforms is:",
           "options": [
             {
@@ -1911,6 +1983,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 62,
+          "qid": "L1-11",
           "stem": "According to Parker et al. (2016, ch. 7), which management and sponsorship models do the following platforms represent, respectively: (1) Apple's iOS, (2) Google's Android with device makers such as Samsung and LG, (3) Linux?",
           "options": [
             {
@@ -1942,6 +2015,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 63,
+          "qid": "L5-11",
           "stem": "According to Lecture 5, how many of the following are components of an AI agent?\n• A model (LLM) that generates and reasons\n• Tools that connect to external systems to search, execute and retrieve data\n• Memory that retains context, preferences and execution history\n• A loop that runs the model repeatedly and lets it decide the next step\n• A human who has to approve every single step before it runs",
           "options": [
             {
@@ -1973,6 +2047,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 64,
+          "qid": "L4-03",
           "stem": "TableTrack first gives restaurants free software to manage their seating and reservations. Once many restaurants use it, it launches a consumer app for booking tables and charges restaurants a fee per booking. Which launch strategy is this?",
           "options": [
             {
@@ -2004,6 +2079,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 65,
+          "qid": "L3-08",
           "stem": "An incubator advertises (i) a prototyping lab, an auditorium and meeting rooms, (ii) a team of experienced sector specialists who coach founders, and (iii) introductions to its investor network and corporate partners. According to Leitão et al.'s (2022) taxonomy, these resources represent, respectively:",
           "options": [
             {
@@ -2036,6 +2112,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 66,
+          "qid": "L4-02",
           "stem": "Before launching its new game console, PlayNova signs an exclusive deal on special terms with the best-selling sports-game publisher, knowing that without those titles few gamers will buy the console. Which launch strategy is this?",
           "options": [
             {
@@ -2067,6 +2144,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 67,
+          "qid": "C-APT",
           "stem": "AptDeco runs a 'managed marketplace' for used furniture in New York: it curates listings, handles secure payment and organizes pickup and delivery, earning commissions plus delivery fees. Seen through Zhu and Iansiti (2019), what is a key benefit of this set-up?",
           "options": [
             {
@@ -2098,6 +2176,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 68,
+          "qid": "L5-05",
           "stem": "According to Agrawal, Gans and Goldfarb (2017), recent advances in AI are best thought of as:",
           "options": [
             {
@@ -2129,6 +2208,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 69,
+          "qid": "L2-09",
           "stem": "Which of the following are examples of positive cross-side network effects?\n1) More merchants accepting a credit card make the card more valuable to cardholders\n2) More gamers in an online multiplayer game make the game more fun for other gamers\n3) More app developers make a smartphone platform more attractive to users\n4) More suppliers on a B2B platform make it harder for each supplier to be found",
           "options": [
             {
@@ -2160,6 +2240,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 70,
+          "qid": "L4-10",
           "stem": "Match each practice to Lecture 4's monetization tools: (1) Dribbble charges companies to post job listings; (2) Yelp sells restaurants a premium listing in search results; (3) Skillshare offers a monthly subscription to a curated library of courses; (4) Booking uses mystery shoppers and removes hotels that undercut its prices.",
           "options": [
             {
@@ -2191,78 +2272,89 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": "B1",
-          "stem": "Bonus question 1: NetShark, a platform with strong direct network effects, wants to protect its lead. Which development would most weaken its competitive advantage?",
+          "qid": "G-01",
+          "stem": "Bonus question 1: In Lecture 4, Levi Witbaard, CEO of Deedmob, gave the guest lecture. What does Deedmob offer?",
           "options": [
             {
               "l": "a",
-              "t": "Users face high switching costs when they leave the platform."
+              "t": "A crowdfunding platform on which citizens back local social start-ups in exchange for small rewards."
             },
             {
               "l": "b",
-              "t": "Its recommendations keep improving as more users generate data."
+              "t": "A charity that recruits volunteers for its own aid projects and finances them through donations."
             },
             {
               "l": "c",
-              "t": "Users care about connecting with users worldwide rather than only locally."
+              "t": "HR software that pays employees a bonus for every hour they volunteer through their employer."
             },
             {
               "l": "d",
-              "t": "Users can join a rival platform at almost no cost and use both in parallel."
+              "t": "A platform on which organisations recruit, match and manage volunteers, often under their own brand."
             }
           ],
           "correct": [
             "d"
           ],
           "note": "",
-          "topic": "t_lecture4",
-          "kind": "situational",
+          "topic": "t_guest",
+          "kind": "concept",
           "fmt": "single",
           "bonus": true,
-          "explanation": "Cheap multi-homing lets users keep a foot in rival platforms, so network effects no longer lock them in (Zhu & Iansiti use ride hailing as the example). High switching costs, learning effects and a global, unclustered network all strengthen a platform's position. Compare official mock Q7, where high switching costs were the answer.",
-          "source": "Zhu & Iansiti (2019); Lecture 2",
-          "origin": "Inverse of official mock Q7"
+          "explanation": "Deedmob (Amsterdam, founded 2017) builds volunteer-management platforms. Volunteer centres, governments, companies, education providers and charities get their own branded site with a volunteer vacancy bank, matchmaking, reporting and event management, and volunteers use it to find opportunities near them. Its mission is to connect volunteers and organisations to build resilient communities. Levi Witbaard joined Deedmob as Head of Growth and became CEO in 2023, when the co-founders handed over the leadership.",
+          "source": "Guest lecture in Lecture 4 (Levi Witbaard, Deedmob). No guest slides in the course folder; based on public information (deedmob.com)"
         },
         {
           "num": "B2",
-          "stem": "Bonus question 2: Zhu and Iansiti (2019) describe a study of an online freelance marketplace that improved its reputation-rating system. What happened?",
+          "qid": "G-02",
+          "stem": "Bonus question 2: Reinier Zonneveld, the DJ and producer who gave the guest lecture in Lecture 5, developed an AI called R². What is R²?",
           "options": [
             {
               "l": "a",
-              "t": "Trust grew between clients and freelancers, and disintermediation became more frequent, offsetting the gains."
+              "t": "An AI trained on thousands of hours of his own music that plays back-to-back with him, reacting to his playing."
             },
             {
               "l": "b",
-              "t": "Matching improved and disintermediation fell, so the platform's revenues rose sharply."
+              "t": "A recommendation algorithm that builds his setlists from the streaming data of the fans in each city he plays."
             },
             {
               "l": "c",
-              "t": "Freelancers multi-homed less, because their ratings could not be moved to other platforms."
+              "t": "A generative model trained on other artists' best-selling techno tracks that writes most releases for his label."
             },
             {
               "l": "d",
-              "t": "Clients left, because the ratings created negative same-side network effects."
+              "t": "A voice-cloning app that lets fans make new tracks in his style, with a share of the royalties going to him."
             }
           ],
           "correct": [
             "a"
           ],
           "note": "",
-          "topic": "t_lecture4",
+          "topic": "t_guest",
           "kind": "concept",
           "fmt": "single",
           "bonus": true,
-          "explanation": "Services that build trust (insurance, escrow, ratings) make the platform less necessary once trust exists, so repeat business moves off-platform. That is why Zhu and Iansiti point to other ways of capturing value, such as lead-generation fees (Thumbtack) or complementary services (ZBJ).",
-          "source": "Zhu & Iansiti (2019), 'Risk of disintermediation'"
+          "explanation": "R² is trained on more than 2,000 hours of Zonneveld's original music and on recordings of over 1,000 of his live shows. On stage it acts as a back-to-back partner: it responds to what he plays and co-creates the music live. It made its debut in August 2024 on the main stage of his festival R², near Amsterdam. Zonneveld studied econometrics and runs his own label, Filth on Acid, which he founded in 2017.",
+          "source": "Guest lecture in Lecture 5 (Reinier Zonneveld). No guest slides in the course folder; based on public information (DJ Mag, Apr 2024; Mixmag, Aug 2024)"
         }
       ]
     },
     {
       "id": "mock2",
       "label": "Mock Exam 2",
-      "source": "Lectures 1–6, readings and tutorial cases · 15 questions repeat from Mock 1 · questions 71 and 72 are the bonus questions",
+      "source": "Lectures 1–6, readings and tutorial cases · 14 questions repeat from Mock 1 · questions 71 and 72 are bonus questions on the guest lectures · updated 16 Oct",
+      "rev": 2,
+      "changes": {
+        "2": [
+          24,
+          46,
+          70,
+          71
+        ]
+      },
       "questions": [
         {
           "num": 1,
+          "qid": "L1-07",
           "stem": "Airbnb can add 'inventory' as fast as it signs up hosts with spare rooms, while a hotel chain has to buy land and build. Lecture 1 (Parker et al., 2016) describes this as a shift from:",
           "options": [
             {
@@ -2294,6 +2386,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 2,
+          "qid": "L6-02",
           "stem": "According to Lecture 6, what makes the uncertainty of deep tech ventures especially hard to manage?",
           "options": [
             {
@@ -2325,6 +2418,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 3,
+          "qid": "L5-11",
           "stem": "According to Lecture 5, how many of the following are components of an AI agent?\n• A model (LLM) that generates and reasons\n• Tools that connect to external systems to search, execute and retrieve data\n• Memory that retains context, preferences and execution history\n• A loop that runs the model repeatedly and lets it decide the next step\n• A human who has to approve every single step before it runs",
           "options": [
             {
@@ -2356,6 +2450,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 4,
+          "qid": "L2-18",
           "stem": "On Vinted, many users who first buy second-hand clothes later start selling their own, and Uber recruits many new drivers from among its riders. Parker et al. (2016) call this:",
           "options": [
             {
@@ -2387,6 +2482,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 5,
+          "qid": "L5-14",
           "stem": "Lecture 5 quoted a freestyle chess player: merging millions of computer games with high-calibre human games gives 'something that is quantitatively and qualitatively superior to any commercial product'. This illustrates:",
           "options": [
             {
@@ -2418,6 +2514,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 6,
+          "qid": "L6-10",
           "stem": "Quantum computers can generate truly random numbers, while classical computers only produce pseudo-random ones. Even so, Bova, Goldfarb and Melko (2023) expect lotteries not to switch to quantum random number generators any time soon. Why?",
           "options": [
             {
@@ -2449,6 +2546,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 7,
+          "qid": "L6-03",
           "stem": "A start-up wants to decarbonize shipping with a new fuel. It cannot finalize its engine design until ports agree which fuel they will supply, but ports will not build billion-euro bunkering infrastructure until they know which engines ships will use. In Lecture 6's terms, this illustrates:",
           "options": [
             {
@@ -2480,6 +2578,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 8,
+          "qid": "L5-17",
           "stem": "Lecture 5 described large language models as next-token predictors. How many of the following can be tokens?\n• Small pieces of words\n• Punctuation and whitespace\n• Typos and emojis\n• Complete facts retrieved from a verified knowledge base",
           "options": [
             {
@@ -2511,6 +2610,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 9,
+          "qid": "L3-06",
           "stem": "Which statement correctly describes a difference between incubators and accelerators (Leitão et al., 2022; Lecture 3)?",
           "options": [
             {
@@ -2542,6 +2642,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 10,
+          "qid": "L6-06",
           "stem": "According to de Véricourt and Dahlander (2024), why does the lean startup methodology only partially apply to deep-tech ventures?",
           "options": [
             {
@@ -2573,6 +2674,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 11,
+          "qid": "L5-01",
           "stem": "According to Brynjolfsson and McAfee (2014), as presented in Lecture 5, digital goods differ from physical goods because they are:",
           "options": [
             {
@@ -2604,6 +2706,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 12,
+          "qid": "C2-DEEP",
           "stem": "Among DeepSeek's five commercialization challenges, which one describes the risk that AWS, the Apple App Store and Google Play control DeepSeek's pricing, terms and visibility, while having reasons to promote their own AI models?",
           "options": [
             {
@@ -2635,6 +2738,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 13,
+          "qid": "L3-16",
           "stem": "According to Lecture 3, how many of the following are typical business angels?\n• Managers and professionals who invest €5,000 to €200,000 per year\n• Entrepreneurs who have sold their companies and invest €50,000 to €500,000\n• Members of a family office who invest part of their money\n• Pension funds that invest through a pool of limited partners",
           "options": [
             {
@@ -2666,6 +2770,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 14,
+          "qid": "L4-24",
           "stem": "Alibaba connected its payment platform Alipay with its marketplaces Taobao and Tmall. The payments built trust between buyers and sellers, and the transaction data later let Ant Financial offer credit ratings and loans. Zhu and Iansiti (2019) call this:",
           "options": [
             {
@@ -2697,6 +2802,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 15,
+          "qid": "L3-10",
           "stem": "Four campaigns: (1) people back a documentary only because they believe in it; (2) backers pre-order a smart bike lock and receive one once it is produced; (3) people each lend €50 to a café and receive interest; (4) backers receive shares in a fintech start-up. These are, respectively:",
           "options": [
             {
@@ -2728,6 +2834,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 16,
+          "qid": "C2-APT",
           "stem": "AptDeco's earlier attempt to enter Washington, D.C. failed, and the founders concluded that a model that works in one city needs careful assessment before it is taken elsewhere. Seen through Zhu and Iansiti (2019), this reflects that AptDeco's network:",
           "options": [
             {
@@ -2759,6 +2866,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 17,
+          "qid": "L6-01",
           "stem": "Lecture 6 defines deep technology as:",
           "options": [
             {
@@ -2790,6 +2898,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 18,
+          "qid": "L6-04",
           "stem": "In Lecture 6's table 'The deep tech innovation management shift', which deep tech logic belongs to (1) strategic asset needs, (2) ecosystem dependency and (3) growth strategy, respectively?",
           "options": [
             {
@@ -2821,6 +2930,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 19,
+          "qid": "L5-16",
           "stem": "Lecture 5 summarized the basics of machine learning in two steps: (1) an algorithm combined with a training set produces ___, and (2) applying it to new data produces ___. These are, respectively:",
           "options": [
             {
@@ -2852,6 +2962,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 20,
+          "qid": "L6-12",
           "stem": "According to Lecture 6, how many of the following describe the current state of quantum technologies?\n• There is not one single race but many, in different directions.\n• Quantum tech firms compete globally, but the ecosystem is very heterogeneous in business models, services, products and expertise.\n• Most quantum technologies are special-purpose machines.\n• In the future, almost everything will be quantum-powered.",
           "options": [
             {
@@ -2883,6 +2994,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 21,
+          "qid": "L4-17",
           "stem": "CleanConnect matches households with house cleaners and earns a fee per booking. After a few good experiences, many clients book 'their' cleaner directly, outside the platform. Zhu and Iansiti (2019) call this:",
           "options": [
             {
@@ -2914,6 +3026,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 22,
+          "qid": "L5-15",
           "stem": "A retailer trains a demand-forecasting model on ten years of sales data, but the data is full of duplicate orders, wrong prices and mislabelled products. The forecasts turn out poor. Which caution from Lecture 5 applies?",
           "options": [
             {
@@ -2945,6 +3058,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 23,
+          "qid": "L5-18",
           "stem": "Lecture 5 (Brynjolfsson & McAfee, 2014) illustrated exponential technological progress with Moore's law, which states that:",
           "options": [
             {
@@ -2976,6 +3090,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 24,
+          "qid": "L3-19",
           "stem": "GreenGrid, an Amsterdam start-up doing sustainable-energy research, has no revenue yet. It wants money that it does not have to pay back and that costs no equity. Where does the iamsterdam guide 'Funding your startup' point start-ups like this?",
           "options": [
             {
@@ -3007,37 +3122,39 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 25,
-          "stem": "In his guest lecture, Erik Boer encouraged students to treat Amsterdam as a startup laboratory. Where, according to him, do the strongest opportunities often sit?",
+          "qid": "L1-23",
+          "stem": "Schilling (2017) discusses economist Robert Solow's work on economic growth. What does the 'Solow residual' capture?",
           "options": [
             {
               "l": "a",
-              "t": "In copying a proven US business model before local rivals do."
+              "t": "The part of GDP growth that comes from population growth and disappears once GDP is measured per person."
             },
             {
               "l": "b",
-              "t": "In markets without any existing competitors or alternatives."
+              "t": "The share of GDP that is lost to negative externalities such as pollution and the depletion of resources."
             },
             {
               "l": "c",
-              "t": "At the intersection of a real problem and a new capability."
+              "t": "Output growth that growth in labour and capital cannot explain, which reflects technological change."
             },
             {
               "l": "d",
-              "t": "In ideas that need a large funding round before the first test."
+              "t": "Measurement error and inaccurate price deflation, which make official GDP growth figures look too high."
             }
           ],
           "correct": [
             "c"
           ],
           "note": "",
-          "topic": "t_lecture3",
+          "topic": "t_lecture1",
           "kind": "concept",
           "fmt": "single",
-          "explanation": "Boer asked which important problem you can solve better than the alternatives, and said the strongest opportunities sit where a real problem meets a new capability. Students can test ideas on the city, the campus and local organisations before scaling. TicketSwap (safe ticket resale) and United Wardrobe (second-hand fashion, bought by Vinted in 2020) were both founded by students in Amsterdam.",
-          "source": "Lecture 3, guest lecture Erik Boer, 'Where can your startup idea come from?'"
+          "explanation": "Studies at the National Bureau of Economic Research showed that historic GDP growth could not be fully explained by growth in labour and capital. Solow argued that this unexplained residual represents technological change: innovation raises the output that a given amount of labour and capital can produce. Researchers tried to explain the residual away as measurement error, inaccurate price deflation or labour improvement, but it remained, and a consensus emerged that it captures technological change. Solow received the Nobel Prize in 1981.",
+          "source": "Schilling (2017), ch. 1, 'The impact of technological innovation on society'"
         },
         {
           "num": 26,
+          "qid": "C2-DUO",
           "stem": "Duolingo uses generative AI for new learning features, such as explanations of answers and conversation practice with virtual characters. Lecture 5 names Duolingo next to Khan Academy's Khanmigo as an example of which of Cromwell et al.'s (2023) pathways?",
           "options": [
             {
@@ -3069,6 +3186,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 27,
+          "qid": "L2-17",
           "stem": "Threadless lets its community submit T-shirt designs and vote on which ones get printed. Lecture 2 and Parker et al. (2016) present it as an example of:",
           "options": [
             {
@@ -3100,6 +3218,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 28,
+          "qid": "L1-16",
           "stem": "On StreamCraft, a video platform, every view, like and comment is fed back into its rankings, so the next viewers see better videos first and poorly rated content disappears. Parker et al. (2016) describe this as platforms:",
           "options": [
             {
@@ -3131,6 +3250,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 29,
+          "qid": "L2-06",
           "stem": "According to Parker et al. (2016, ch. 2), how does virality differ from network effects?",
           "options": [
             {
@@ -3162,6 +3282,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 30,
+          "qid": "L1-17",
           "stem": "Parker et al. (2016) argue that platforms 'invert the firm': they shift their focus from internal to external activities. Which of the following companies is the least convincing example of an inverted firm?",
           "options": [
             {
@@ -3194,6 +3315,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 31,
+          "qid": "L4-21",
           "stem": "Zvents became the largest online guide to local events, with over 14 million visitors a month. When it tried to charge event organizers, it had no leverage: users expected a complete listing, so dropping unpaid events would destroy the site's value. Lecture 4 uses this case to show that:",
           "options": [
             {
@@ -3225,6 +3347,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 32,
+          "qid": "L1-14",
           "stem": "According to Lecture 1 (Schilling, 2017), many innovations emerge from networks of interconnected players. How many of the following were named as such players?\n• Firms\n• Governments\n• Universities\n• Individuals",
           "options": [
             {
@@ -3256,6 +3379,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 33,
+          "qid": "C2-PLAT",
           "stem": "In 'Platform Startups: Launching Online Marketplaces', Susan Spender plans The Doghouse, which would not employ its own caregivers but help pet owners and caregivers find each other. In Parker et al.'s (2016) terms, this makes The Doghouse:",
           "options": [
             {
@@ -3287,6 +3411,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 34,
+          "qid": "L3-12",
           "stem": "According to the iamsterdam guide 'Funding your startup', Arches Capital bridges the gap between VCs and angels by:",
           "options": [
             {
@@ -3318,6 +3443,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 35,
+          "qid": "L1-19",
           "stem": "Pillow, an outside company, gives Airbnb hosts tools that simplify listing, guest check-in, and cleaning and linen delivery, and earns money from the hosts it serves. In the terms of Parker et al. (2016, ch. 7), Pillow is:",
           "options": [
             {
@@ -3349,6 +3475,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 36,
+          "qid": "L2-08",
           "stem": "In Lecture 2's table of the four kinds of network effects, Chatroulette (unpoliced growth driving users away) and OkCupid (attractive users bombarded by messages from the other side) illustrate, respectively:",
           "options": [
             {
@@ -3380,6 +3507,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 37,
+          "qid": "L1-18",
           "stem": "Lecture 1 described today's 'digital planet'. How many of the following statements were made in the lecture?\n• There are more mobile connections than people on the planet.\n• More people have access to a mobile phone than to a toilet.\n• Digital payments are the new norm.\n• Big Tech has lost most of its power since Silicon Valley's early days.",
           "options": [
             {
@@ -3411,6 +3539,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 38,
+          "qid": "L6-05",
           "stem": "FusionCore builds components for fusion reactors. Its board, used to software start-ups, wants monthly revenue growth figures and asks the engineers to work in two-week sprints. Following the 'practitioner's pivot' in Lecture 6, what should FusionCore do instead?",
           "options": [
             {
@@ -3442,6 +3571,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 39,
+          "qid": "L4-10",
           "stem": "Match each practice to Lecture 4's monetization tools: (1) Dribbble charges companies to post job listings; (2) Yelp sells restaurants a premium listing in search results; (3) Skillshare offers a monthly subscription to a curated library of courses; (4) Booking uses mystery shoppers and removes hotels that undercut its prices.",
           "options": [
             {
@@ -3473,6 +3603,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 40,
+          "qid": "L4-03",
           "stem": "TableTrack first gives restaurants free software to manage their seating and reservations. Once many restaurants use it, it launches a consumer app for booking tables and charges restaurants a fee per booking. Which launch strategy is this?",
           "options": [
             {
@@ -3504,6 +3635,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 41,
+          "qid": "L1-15",
           "stem": "Which statement about open innovation matches Lecture 1?",
           "options": [
             {
@@ -3535,6 +3667,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 42,
+          "qid": "L6-09",
           "stem": "Bova, Goldfarb and Melko (2023) argue that managers should focus on 'quantum economic advantage'. A business achieves it when a quantum computer:",
           "options": [
             {
@@ -3566,6 +3699,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 43,
+          "qid": "L6-11",
           "stem": "The financial sector spent about $1.7 billion a year on blockchain, yet beyond cryptocurrencies it had little to no discernible impact (Kelly, 2019, discussed in Lecture 6). What does the article see as blockchain's biggest problem?",
           "options": [
             {
@@ -3597,6 +3731,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 44,
+          "qid": "L5-09",
           "stem": "Match each example to its type of machine learning (Lecture 5): (1) a spam filter trained on emails labelled 'spam' or 'not spam'; (2) grouping customers into segments without predefined labels; (3) AlphaGo improving by trial and error; (4) an LLM learning by predicting the next token.",
           "options": [
             {
@@ -3628,6 +3763,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 45,
+          "qid": "L5-05",
           "stem": "According to Agrawal, Gans and Goldfarb (2017), recent advances in AI are best thought of as:",
           "options": [
             {
@@ -3659,6 +3795,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 46,
+          "qid": "L2-01",
           "stem": "Network effects can be defined as:",
           "options": [
             {
@@ -3691,23 +3828,24 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 47,
-          "stem": "According to the innovation funnel presented in Lecture 1 (Schilling, 2017):",
+          "qid": "L1-24",
+          "stem": "Schilling (2017) defines technological innovation as:",
           "options": [
             {
               "l": "a",
-              "t": "about half of all product ideas make it to the market, provided they are developed fully in-house."
+              "t": "any new product that earns at least a third of a firm's sales within five years of its launch."
             },
             {
               "l": "b",
-              "t": "closed innovation is the most effective way to reduce the number of ideas that drop out of the funnel."
+              "t": "the use of computer-aided design and flexible manufacturing to cut the costs of existing products."
             },
             {
               "l": "c",
-              "t": "only about 1 in 9 product ideas makes it to the market, and open innovation may reduce this funnel effect or its cost."
+              "t": "the act of introducing a new device, method or material for application to commercial or practical objectives."
             },
             {
               "l": "d",
-              "t": "in drug development the clinical-trial stage is the shortest, typically taking less than one year."
+              "t": "the creation of new scientific knowledge in universities and government labs, before any company has applied it."
             }
           ],
           "correct": [
@@ -3717,11 +3855,12 @@ window.ANATOMIE_DATA = {
           "topic": "t_lecture1",
           "kind": "concept",
           "fmt": "single",
-          "explanation": "The funnel slide says only 1 in 9 product ideas reaches the market (drug example: about 5,000 compounds, 125 leads, 2-3 drugs tested, 1 approved drug). Clinical trials take 6-7 years, the longest stage. The lecture's point is that open innovation may reduce the funnel effect or reduce the cost for the organization.",
-          "source": "Lecture 1, 'The innovation funnel' (Schilling, 2017)"
+          "explanation": "This is the chapter's definition. Schilling also writes that technology is, in its purest essence, knowledge, so technological innovation is the creation of new knowledge that is applied to practical problems: the application is what makes it an innovation. The other options twist facts from the chapter. Firms rely on products from the past five years for about a third of their sales, which shows how important innovation is, and CAD and flexible manufacturing are technologies that speed innovation up.",
+          "source": "Schilling (2017), ch. 1, definition of technological innovation"
         },
         {
           "num": 48,
+          "qid": "L2-04",
           "stem": "ChatterBox, once a popular messaging app, starts losing users to a rival. Every user who leaves makes the app less useful for those who stay, which speeds up further departures. Lecture 2 calls this:",
           "options": [
             {
@@ -3753,6 +3892,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 49,
+          "qid": "C2-OPENAI",
           "stem": "In November 2023, OpenAI's non-profit board removed Sam Altman as CEO. After more than 700 employees threatened to follow him to Microsoft, he was reinstated within days and a new board was set up. What does this episode reveal about OpenAI?",
           "options": [
             {
@@ -3784,6 +3924,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 50,
+          "qid": "L6-08",
           "stem": "Building a test reactor seemed too costly and risky for TerraPower, so its engineers used supercomputer simulations to check whether their nuclear technology could work. This built enough confidence to attract early investors such as Bill Gates. De Véricourt and Dahlander (2024) present this as an example of:",
           "options": [
             {
@@ -3815,6 +3956,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 51,
+          "qid": "L3-05",
           "stem": "SolarSeed has finished R&D, launched its product and has its first paying customers. It now wants about €5 million to scale up and expand internationally. According to the 'funding steps' chart in Lecture 3, which source fits best?",
           "options": [
             {
@@ -3846,6 +3988,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 52,
+          "qid": "L3-09",
           "stem": "Lecture 3 argues that selling your product or service ('the market') is the best way to fund your business. Why?",
           "options": [
             {
@@ -3877,6 +4020,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 53,
+          "qid": "L4-25",
           "stem": "MeetMap, an events platform, has grown to millions of users on a free plan. Following Lecture 4's advice on the timing of monetization, how should it start charging?",
           "options": [
             {
@@ -3908,6 +4052,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 54,
+          "qid": "L1-13",
           "stem": "A third-party navigation app has become one of the main reasons people use your smartphone platform, and it could turn into a platform of its own that connects merchants with users. According to Parker et al. (2016, ch. 7), what should the platform manager do?",
           "options": [
             {
@@ -3939,6 +4084,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 55,
+          "qid": "L4-19",
           "stem": "Match each launch tactic to Parker et al.'s (2016) strategies for the chicken-or-egg problem: (1) Reddit's founders posted links from fake profiles to fill the site with the content they wanted; (2) Skillshare signs up influential teachers who bring their own students; (3) Amazon first sold books itself and later opened its Marketplace to outside sellers. These are, respectively:",
           "options": [
             {
@@ -3970,6 +4116,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 56,
+          "qid": "L3-17",
           "stem": "According to Lecture 3 (Leitão et al., 2022), which of the following do incubators provide to the new businesses they host?\n1) Physical space\n2) Administrative services\n3) Knowledge\n4) Access to networks\n5) Standardized seed-funding packages\n6) Cohort-based entry and exit with a final demo event",
           "options": [
             {
@@ -4001,6 +4148,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 57,
+          "qid": "L2-16",
           "stem": "A club lets women in for free on Thursdays. The more women show up, the more men come, and the men happily pay full price at the door and at the bar. Lecture 2 uses this 'nightclub as a platform' example to show:",
           "options": [
             {
@@ -4032,6 +4180,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 58,
+          "qid": "L4-02",
           "stem": "Before launching its new game console, PlayNova signs an exclusive deal on special terms with the best-selling sports-game publisher, knowing that without those titles few gamers will buy the console. Which launch strategy is this?",
           "options": [
             {
@@ -4063,6 +4212,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 59,
+          "qid": "L2-19",
           "stem": "According to Parker et al. (2016, ch. 3), which three key functions must a platform perform to encourage a high volume of valuable core interactions?\n1) Pull\n2) Filter\n3) Facilitate\n4) Match\n5) Curate\n6) Price",
           "options": [
             {
@@ -4094,6 +4244,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 60,
+          "qid": "L1-20",
           "stem": "According to Sahut, Iandoli and Teulon (2021), digital platforms change the role of users of digital information because these users:",
           "options": [
             {
@@ -4126,6 +4277,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 61,
+          "qid": "L4-23",
           "stem": "LearnHub, an online course platform, charges professionals the full subscription price, while students get the same courses at a steep discount. In Lecture 4's overview of 'Who should pay?', this is an example of:",
           "options": [
             {
@@ -4157,6 +4309,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 62,
+          "qid": "L4-20",
           "stem": "Lecture 4 analysed BeReal's viral growth with the four elements of viral growth. In this analysis, 'the true, unedited image being shared' is the:",
           "options": [
             {
@@ -4188,6 +4341,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 63,
+          "qid": "L6-07",
           "stem": "De Véricourt and Dahlander (2024) suggest ways for deep-tech founders to reduce technological uncertainty. Which of the following are among them?\n1) Demonstrate proof of concept\n2) Use early revenue as the main signal for investors\n3) Define milestones with compelling data\n4) Run as many small market experiments as possible\n5) Embrace 'learning by thinking'\n6) 'Fake it until you make it' to attract early funding\n7) Foster a culture of truth",
           "options": [
             {
@@ -4219,6 +4373,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 64,
+          "qid": "C2-CROWD",
           "stem": "Both ventures in 'Crowdfunding: A Tale of Two Campaigns', Enerchi Bites and Think Board, used Kickstarter's all-or-nothing model. What did that mean for them?",
           "options": [
             {
@@ -4250,6 +4405,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 65,
+          "qid": "L4-22",
           "stem": "Which statement about banning leakage activities, Lecture 4's fifth monetization tool, is correct?",
           "options": [
             {
@@ -4281,6 +4437,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 66,
+          "qid": "L2-20",
           "stem": "FlexRide, a new ride-hailing app, signs up 5,000 drivers in its first month, but rider numbers grow slowly. Drivers sit idle and start leaving. Which lesson from Lecture 2 and Parker et al. (2016) applies?",
           "options": [
             {
@@ -4312,6 +4469,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 67,
+          "qid": "L2-21",
           "stem": "Boudreau and Lakhani (2009) compare competitive markets with collaborative communities. How many of the following describe collaborative communities?\n• They are governed loosely by social norms and 'soft' rules that encourage open access to information and transparency.\n• Members are often willing to work for free.\n• Governance is formal, arm's-length and contract-based.\n• The platform owner captures value mainly through direct contracts and licensing with the external innovators.",
           "options": [
             {
@@ -4344,6 +4502,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 68,
+          "qid": "C2-SNAP",
           "stem": "In the case 'Social Media War 2021: Snap vs. Facebook vs. TikTok', many users kept accounts on Snapchat, Instagram and TikTok at the same time. In Zhu and Iansiti's (2019) terms, this is:",
           "options": [
             {
@@ -4375,6 +4534,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 69,
+          "qid": "L3-15",
           "stem": "StudioBrew, a craft coffee start-up, is preparing a lending-based (P2P) crowdfunding campaign. According to Lecture 3, which part of its business plan will funders look at most closely?",
           "options": [
             {
@@ -4406,6 +4566,7 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": 70,
+          "qid": "L5-12",
           "stem": "Cromwell et al. (2023) argue that using ChatGPT for innovation requires 'emergent thinking', which means:",
           "options": [
             {
@@ -4437,67 +4598,69 @@ window.ANATOMIE_DATA = {
         },
         {
           "num": "B1",
-          "stem": "Bonus question 1: Multiverse Computing compared six methods on a very complex portfolio-optimization problem. The classical solution took almost 700 times longer than the quantum one, and the quantum tools found a different solution, with higher profits but lower risk-adjusted returns. According to Bova, Goldfarb and Melko (2023), what does this example show?",
+          "qid": "G-03",
+          "stem": "Bonus question 1: Reinier Zonneveld, the guest speaker in Lecture 5, trained his AI R² only on his own music. Which view on AI in music has he expressed?",
           "options": [
             {
               "l": "a",
-              "t": "A clear case of quantum advantage, because no classical computer could ever solve this optimization problem."
+              "t": "AI will replace human DJs at festivals, because it can perform for longer and costs less to book."
             },
             {
               "l": "b",
-              "t": "That quantum computers already outperform classical computers on every kind of optimization task."
+              "t": "Consent does not matter, because any music that is online may be used freely to train AI models."
             },
             {
               "l": "c",
-              "t": "That a quantum solution has no commercial value whenever it differs from the answer a classical computer would give, even if it is faster."
+              "t": "Only major labels should train music AI, because they own the rights to most music catalogues."
             },
             {
               "l": "d",
-              "t": "Possibly quantum economic advantage, but not proven quantum advantage, since an exhaustive classical search might match it."
+              "t": "Using artists' work to train AI without consent is theft; AI should enrich, not replace, artists."
             }
           ],
           "correct": [
             "d"
           ],
           "note": "",
-          "topic": "t_lecture6",
-          "kind": "situational",
+          "topic": "t_guest",
+          "kind": "concept",
           "fmt": "single",
           "bonus": true,
-          "explanation": "Only two of the six methods solved the hardest version, and the quantum one was much faster and different. That is not quantum advantage, because an exhaustive assessment of all classical approaches might still produce the same or better solutions. It can still be quantum economic advantage, because generating a useful solution quickly is valuable, and having both a classical and a quantum answer helps when the stakes are high.",
-          "source": "Bova, Goldfarb & Melko (2023), 'Make better investment decisions faster'"
+          "explanation": "In a 2025 interview Zonneveld said that training an AI on an artist's work without their consent is stealing it, in any field, and that he wants AI to be a tool that enriches artistic creativity and does not replace artists. R² itself learns only from his own catalogue: more than 2,000 hours of his music and recordings of over 1,000 live shows. He has also said that AI, used well, can raise the standard of creative output.",
+          "source": "Guest lecture in Lecture 5 (Reinier Zonneveld). No guest slides in the course folder; based on public information (EDM Identity interview, Nov 2025; DJ Mag, Apr 2024)"
         },
         {
           "num": "B2",
-          "stem": "Bonus question 2: To expand a value proposition with ChatGPT (their second pathway), Cromwell et al. (2023) suggest first breaking the value proposition into three core elements. Which are they?",
+          "qid": "G-04",
+          "stem": "Bonus question 2: Deedmob, the company of Lecture 4 guest speaker Levi Witbaard, connects volunteers with organisations that need them. In the terms of the course, which growth challenge does such a platform face?",
           "options": [
             {
               "l": "a",
-              "t": "The price, the product and the promotion channel through which customers learn about the offering."
+              "t": "Supply economies of scale work against it: each new volunteer raises its fixed costs and lowers its margins."
             },
             {
               "l": "b",
-              "t": "The customers' goals, the context in which they pursue those goals, and the target demographic."
+              "t": "A chicken-or-egg problem: volunteers come for opportunities, and organisations post them where volunteers are."
             },
             {
               "l": "c",
-              "t": "The problem, the solution and the KPI that shows whether the solution actually works."
+              "t": "It has no network effects, because volunteers are unpaid and do not care how many organisations take part."
             },
             {
               "l": "d",
-              "t": "The participants, the value unit and the filter, which together make up a platform's core interaction."
+              "t": "Only negative same-side effects matter, because volunteers compete with each other for the same opportunities."
             }
           ],
           "correct": [
             "b"
           ],
           "note": "",
-          "topic": "t_lecture5",
-          "kind": "concept",
+          "topic": "t_guest",
+          "kind": "situational",
           "fmt": "single",
           "bonus": true,
-          "explanation": "Cromwell et al. break a value proposition into the customers' goals, the context in which they pursue them and the specific target demographic, and then ask how ChatGPT's core functions can expand each element. Khan Academy expanded its goal (self-guided learning plus an AI tutor) and its target demographic (adding teachers). Unlike design thinking, which brainstorms many solutions, emergent thinking applies brainstorming to the problem itself. Participants, value unit and filter are Parker et al.'s components of the core interaction.",
-          "source": "Cromwell et al. (2023), 'Pathway 2: Expanding the value proposition'"
+          "explanation": "Deedmob is a two-sided matchmaker. Volunteers get more value when more organisations post opportunities, and organisations get more value when more volunteers are active: positive cross-side network effects. At launch this creates the chicken-or-egg dilemma from Lectures 2 and 4, since neither side joins without the other. One way to tackle it is to sign up organisations that already have volunteers, such as volunteer centres, and give them their own branded platform.",
+          "source": "Guest lecture in Lecture 4 (Levi Witbaard, Deedmob); Lecture 2, 'Two-sided network effects'; Lecture 4, chicken-or-egg dilemma. Deedmob facts from public information (deedmob.com)"
         }
       ]
     }
@@ -5015,6 +5178,118 @@ window.ANATOMIE_DATA = {
           "explanation": "In their information-processing framework, Sahut et al. write that with digital platforms, users of digital information can play the role of consumer or producer and enable the development of multi-sided markets. This matches Parker et al.'s point that platforms let consumers become producers (side switching).",
           "source": "Sahut, Iandoli & Teulon (2021), section 2 (framework)",
           "origin": "Adapted from the old mock document"
+        },
+        {
+          "num": "L1-21",
+          "stem": "How many of the following statements are in line with Schilling (2017) on the importance of technological innovation?\n• In many industries, firms earn about a third or more of their sales and profits from products developed in the past five years.\n• Flexible manufacturing has made short production runs economical, so firms such as Toyota can offer many product variants.\n• Product life cycles have become as short as 4 to 12 months for software.\n• Technological innovation can also create negative externalities, such as pollution that harms surrounding communities.",
+          "options": [
+            {
+              "l": "a",
+              "t": "2 of the items"
+            },
+            {
+              "l": "b",
+              "t": "3 of the items"
+            },
+            {
+              "l": "c",
+              "t": "Only 1 of the items"
+            },
+            {
+              "l": "d",
+              "t": "All of the items"
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "All four are in the chapter. Firms rely on products developed within the past five years for almost a third (or more) of their sales and profits: over 30% at Johnson & Johnson, up to 45% at 3M. Computer-aided design and manufacturing and flexible manufacturing speed up development and make short production runs economical, so Toyota offered 167 car models in 2015 and Samsung launched 52 smartphones in 2014. The result is more market segmentation and rapid product obsolescence, with life cycles of 4-12 months for software, 12-24 months for computer hardware and consumer electronics and 18-36 months for large home appliances. Innovation can also have negative externalities: pollution, erosion and lost habitats, depleted ocean stocks, antibiotic-resistant bacteria.",
+          "source": "Schilling (2017), ch. 1, 'The importance of technological innovation' and 'The impact of technological innovation on society'; Lecture 1"
+        },
+        {
+          "num": "L1-22",
+          "stem": "Schilling (2017) argues that improving a firm's innovation success rate requires a well-crafted strategy. Which of the following does the chapter call for?\n1) Innovation projects that fit the firm's resources and objectives and build on its core competencies\n2) An in-depth understanding of the dynamics of innovation\n3) Starting as many projects as possible, since most ideas fail anyway\n4) Well-designed processes for implementing the innovation strategy\n5) Keeping innovation a freewheeling process, free of rules and plans\n6) A structure and control systems that encourage new ideas and also ensure efficient implementation",
+          "options": [
+            {
+              "l": "a",
+              "t": "1, 2, 4, 5 and 6"
+            },
+            {
+              "l": "b",
+              "t": "2, 3, 4 and 6"
+            },
+            {
+              "l": "c",
+              "t": "1, 2, 4 and 6"
+            },
+            {
+              "l": "d",
+              "t": "1, 2, 3 and 4"
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Schilling: a firm's innovation projects should align with its resources and objectives, leverage its core competencies and help it achieve its strategic intent, and its structure and control systems should encourage new ideas while ensuring efficient implementation. For this a firm needs (a) an in-depth understanding of the dynamics of innovation, (b) a well-crafted innovation strategy and (c) well-designed processes for implementing it. Firms that rush into development without a strategy start more projects than they can support, choose projects that fit their resources poorly and suffer long development cycles and high failure rates. Innovation is often pictured as freewheeling, yet study after study shows that successful innovators have clearly defined innovation strategies and management processes.",
+          "source": "Schilling (2017), ch. 1, 'Innovation by industry: the importance of strategy' and 'The strategic management of technological innovation'"
+        },
+        {
+          "num": "L1-23",
+          "stem": "Schilling (2017) discusses economist Robert Solow's work on economic growth. What does the 'Solow residual' capture?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The part of GDP growth that comes from population growth and disappears once GDP is measured per person."
+            },
+            {
+              "l": "b",
+              "t": "The share of GDP that is lost to negative externalities such as pollution and the depletion of resources."
+            },
+            {
+              "l": "c",
+              "t": "Output growth that growth in labour and capital cannot explain, which reflects technological change."
+            },
+            {
+              "l": "d",
+              "t": "Measurement error and inaccurate price deflation, which make official GDP growth figures look too high."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "Studies at the National Bureau of Economic Research showed that historic GDP growth could not be fully explained by growth in labour and capital. Solow argued that this unexplained residual represents technological change: innovation raises the output that a given amount of labour and capital can produce. Researchers tried to explain the residual away as measurement error, inaccurate price deflation or labour improvement, but it remained, and a consensus emerged that it captures technological change. Solow received the Nobel Prize in 1981.",
+          "source": "Schilling (2017), ch. 1, 'The impact of technological innovation on society'"
+        },
+        {
+          "num": "L1-24",
+          "stem": "Schilling (2017) defines technological innovation as:",
+          "options": [
+            {
+              "l": "a",
+              "t": "any new product that earns at least a third of a firm's sales within five years of its launch."
+            },
+            {
+              "l": "b",
+              "t": "the use of computer-aided design and flexible manufacturing to cut the costs of existing products."
+            },
+            {
+              "l": "c",
+              "t": "the act of introducing a new device, method or material for application to commercial or practical objectives."
+            },
+            {
+              "l": "d",
+              "t": "the creation of new scientific knowledge in universities and government labs, before any company has applied it."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "This is the chapter's definition. Schilling also writes that technology is, in its purest essence, knowledge, so technological innovation is the creation of new knowledge that is applied to practical problems: the application is what makes it an innovation. The other options twist facts from the chapter. Firms rely on products from the past five years for about a third of their sales, which shows how important innovation is, and CAD and flexible manufacturing are technologies that speed innovation up.",
+          "source": "Schilling (2017), ch. 1, definition of technological innovation"
         }
       ]
     },
@@ -5079,34 +5354,6 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Supply economies of scale come from production efficiencies that lower unit costs as output grows (Bessemer steel, the Haber-Bosch process, Ford's mass production). Demand economies of scale come from efficiencies on the demand side, such as social networks, demand aggregation and app development, and they are the source of positive network effects.",
           "source": "Lecture 2, 'Economies of scale: demand economies of scale'; Parker et al. (2016), ch. 2"
-        },
-        {
-          "num": "L2-03",
-          "stem": "A messaging start-up grows from 10 to 40 users. Using the logic of Metcalfe's law shown in Lecture 2 (2 phones = 1 connection, 5 = 10, 12 = 66), the number of possible connections grows from:",
-          "options": [
-            {
-              "l": "a",
-              "t": "10 to 40."
-            },
-            {
-              "l": "b",
-              "t": "100 to 1,600."
-            },
-            {
-              "l": "c",
-              "t": "45 to 180."
-            },
-            {
-              "l": "d",
-              "t": "45 to 780."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "explanation": "Possible connections = n(n-1)/2. For 10 users: 10 x 9 / 2 = 45. For 40 users: 40 x 39 / 2 = 780. Users grow fourfold while connections grow more than seventeenfold. That is the convex growth that makes large networks so valuable.",
-          "source": "Lecture 2, 'Metcalfe's law'; Parker et al. (2016), ch. 2"
         },
         {
           "num": "L2-04",
@@ -5613,6 +5860,34 @@ window.ANATOMIE_DATA = {
           "explanation": "Communities such as Linux are governed loosely by social norms and soft rules that encourage open access to information, transparency, joint development and sharing of intellectual property, and members often work for free. Formal, contract-based governance and value capture through direct contracting and licensing describe competitive markets. In a community, the platform owner captures value mainly through higher demand for its platform.",
           "source": "Boudreau & Lakhani (2009), 'Competitive markets vs. collaborative communities'",
           "origin": "Adapted from the old mock document"
+        },
+        {
+          "num": "L2-22",
+          "stem": "Lecture 2 introduces Metcalfe's law with the telephone ('phones are useless without a network'). What does the law say about a growing network?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Its value grows in step with its user base, so each new user adds about as much value as the previous one."
+            },
+            {
+              "l": "b",
+              "t": "Each new user adds less value than the one before, because the most useful contacts are already in the network."
+            },
+            {
+              "l": "c",
+              "t": "Its value depends mainly on how much the operator invests in infrastructure, not on the size of its user base."
+            },
+            {
+              "l": "d",
+              "t": "Each new user can connect with every existing user, so possible connections grow much faster than users."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Metcalfe's law: a network's value rises with the number of possible connections between its users, and every new user can connect with all existing ones. The slide shows it with phones: 2 phones = 1 connection, 5 = 10, 12 = 66 and 100 = 4,950, so the connections grow much faster than the number of phones. The first telephone is useless; each additional one makes all the others more valuable.",
+          "source": "Lecture 2, 'Metcalfe's law'; Parker et al. (2016), ch. 2"
         }
       ]
     },
@@ -5676,63 +5951,6 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "Business angels (managers, entrepreneurs who sold their company, family-office members) invest their own money and 'bring more than money': skills, experience, networks and time. VCs are professional firms managing capital pooled from pension funds, endowments and corporates; they usually step in after the angels, once there is proof of concept, take equity and a board seat, and steer towards an exit (acquisition or IPO).",
           "source": "Lecture 3, 'Who are Business Angels?', 'Venture Capitalists'"
-        },
-        {
-          "num": "L3-03",
-          "stem": "A founder owns 100% of her start-up. A business angel invests €500,000 at a pre-money valuation of €1.5 million. Assuming all shares have the same economic rights, what happens immediately after the round?",
-          "options": [
-            {
-              "l": "a",
-              "t": "Her ownership falls to 66.7%, and the estimated value of her stake falls to €1.0 million."
-            },
-            {
-              "l": "b",
-              "t": "Her ownership falls to 75%, and the estimated value of her stake falls to €1.125 million."
-            },
-            {
-              "l": "c",
-              "t": "Her ownership stays at 100%, because the investment is new money added to the company."
-            },
-            {
-              "l": "d",
-              "t": "Her ownership falls to 75%, and the estimated value of her stake stays at €1.5 million."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "explanation": "Post-money valuation = €1.5M + €0.5M = €2.0M. The angel owns 0.5 / 2.0 = 25%, so the founder keeps 75% x €2.0M = €1.5M. Her percentage drops, but the new money raises the company's value, so her stake is worth the same at that moment: 'growth in value compensates for loss in % share'.",
-          "source": "Lecture 3, 'Funding rounds and dilution of founders'",
-          "origin": "Variant of official mock Q8"
-        },
-        {
-          "num": "L3-04",
-          "stem": "Lina founded FitByte and owned 100% of it. In the seed round, investors received 20% of the company. In the Series A, new investors received 25% of the company at a post-money valuation of €12 million. With no other dilution, what is Lina's stake worth after the Series A?",
-          "options": [
-            {
-              "l": "a",
-              "t": "€6.0 million (she owns 50%)"
-            },
-            {
-              "l": "b",
-              "t": "€6.6 million (she owns 55%)"
-            },
-            {
-              "l": "c",
-              "t": "€7.2 million (she owns 60%)"
-            },
-            {
-              "l": "d",
-              "t": "€9.0 million (she owns 75%)"
-            }
-          ],
-          "correct": [
-            "c"
-          ],
-          "note": "",
-          "explanation": "Dilution multiplies. After the seed round she owns 80%; the Series A investors take 25% of the whole company, so she keeps 80% x 75% = 60%. 60% x €12M = €7.2M. Subtracting the percentages (100 - 20 - 25 = 55%) is the classic mistake.",
-          "source": "Lecture 3, 'Funding rounds and dilution of founders'"
         },
         {
           "num": "L3-05",
@@ -5960,62 +6178,6 @@ window.ANATOMIE_DATA = {
           "source": "iamsterdam, 'Funding your startup', 'Amsterdam-based funding opportunities'"
         },
         {
-          "num": "L3-13",
-          "stem": "In his guest lecture on the Amsterdam entrepreneurship ecosystem, Erik Boer presented Daniel Isenberg's six domains of the entrepreneurial system. Which of the following are among them?\n1) Culture\n2) Enabling policies and leadership\n3) Availability of appropriate finance\n4) Quality human capital\n5) One dominant anchor corporation\n6) Venture-friendly markets for products\n7) Institutional supports",
-          "options": [
-            {
-              "l": "a",
-              "t": "1, 2, 3, 5, 6 and 7"
-            },
-            {
-              "l": "b",
-              "t": "2, 3, 4 and 7"
-            },
-            {
-              "l": "c",
-              "t": "1, 2, 3, 4, 6 and 7"
-            },
-            {
-              "l": "d",
-              "t": "1, 3, 4, 5 and 6"
-            }
-          ],
-          "correct": [
-            "c"
-          ],
-          "note": "",
-          "explanation": "Isenberg (Babson College) lists culture, enabling policies and leadership, availability of appropriate finance, quality human capital, venture-friendly markets for products, and institutional supports. A dominant anchor corporation is not one of them.",
-          "source": "Guest lecture (Erik Boer), 'About entrepreneurship ecosystems'"
-        },
-        {
-          "num": "L3-14",
-          "stem": "According to Erik Boer's guest lecture, how many of the following are weaknesses of the Amsterdam start-up ecosystem?\n• Scale-up gap\n• Reliance on foreign capital\n• Deeptech talent shortages\n• Fragmentation",
-          "options": [
-            {
-              "l": "a",
-              "t": "2 of the items"
-            },
-            {
-              "l": "b",
-              "t": "3 of the items"
-            },
-            {
-              "l": "c",
-              "t": "Only 1 of the items"
-            },
-            {
-              "l": "d",
-              "t": "All of the items"
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "explanation": "All four appear on the 'weaknesses' side of the slide. Strengths: a top-5 European hub, international talent, strong fintech, AI and sustainability, and a dense ecosystem. Lecture 3's VC figures point the same way: 75% of capital in Dutch AI start-ups came from foreign investors in 2025.",
-          "source": "Guest lecture (Erik Boer), 'Amsterdam startup ecosystem: strengths and weaknesses'"
-        },
-        {
           "num": "L3-15",
           "stem": "StudioBrew, a craft coffee start-up, is preparing a lending-based (P2P) crowdfunding campaign. According to Lecture 3, which part of its business plan will funders look at most closely?",
           "options": [
@@ -6100,34 +6262,6 @@ window.ANATOMIE_DATA = {
           "source": "Lecture 3, 'What are Incubators & Accelerators'; Leitão et al. (2022)"
         },
         {
-          "num": "L3-18",
-          "stem": "In his guest lecture, Erik Boer encouraged students to treat Amsterdam as a startup laboratory. Where, according to him, do the strongest opportunities often sit?",
-          "options": [
-            {
-              "l": "a",
-              "t": "In copying a proven US business model before local rivals do."
-            },
-            {
-              "l": "b",
-              "t": "In markets without any existing competitors or alternatives."
-            },
-            {
-              "l": "c",
-              "t": "At the intersection of a real problem and a new capability."
-            },
-            {
-              "l": "d",
-              "t": "In ideas that need a large funding round before the first test."
-            }
-          ],
-          "correct": [
-            "c"
-          ],
-          "note": "",
-          "explanation": "Boer asked which important problem you can solve better than the alternatives, and said the strongest opportunities sit where a real problem meets a new capability. Students can test ideas on the city, the campus and local organisations before scaling. TicketSwap (safe ticket resale) and United Wardrobe (second-hand fashion, bought by Vinted in 2020) were both founded by students in Amsterdam.",
-          "source": "Lecture 3, guest lecture Erik Boer, 'Where can your startup idea come from?'"
-        },
-        {
           "num": "L3-19",
           "stem": "GreenGrid, an Amsterdam start-up doing sustainable-energy research, has no revenue yet. It wants money that it does not have to pay back and that costs no equity. Where does the iamsterdam guide 'Funding your startup' point start-ups like this?",
           "options": [
@@ -6154,6 +6288,62 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "The guide says that start-ups focused on innovation, research or sustainability may be eligible for government subsidies through RVO.nl, the national agency, and that the online Startup Box shows which Dutch government funding fits. The Rabo loan has to be repaid, factoring needs outstanding invoices, and angels want a return on their stock or loans.",
           "source": "iamsterdam, 'Funding your startup' (grants and subsidies, bank loans, factoring, angels)"
+        },
+        {
+          "num": "L3-20",
+          "stem": "Lecture 3 covers funding rounds and the dilution of founders. What is the principle behind accepting dilution?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Founders should avoid dilution, because every new round lowers the value of the shares they already hold."
+            },
+            {
+              "l": "b",
+              "t": "Each round should be priced below the previous one, so that later investors are rewarded for taking more risk."
+            },
+            {
+              "l": "c",
+              "t": "Growth in the company's value compensates for the founders' loss in percentage share."
+            },
+            {
+              "l": "d",
+              "t": "Dilution only affects the first investors, because founders' shares are protected against new share issues."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "explanation": "The slide 'Funding rounds and dilution of founders' gives the principle: growth in value compensates for the loss in % share, and this also preserves the first investors' interests. The challenge is to create an attractive value at each step, with a good exit perspective. Owning 50% of a company worth €6 million is worth more than owning 100% of one worth €2 million.",
+          "source": "Lecture 3, 'Funding rounds and dilution of founders'"
+        },
+        {
+          "num": "L3-21",
+          "stem": "Which statement about venture capital in the Netherlands in 2025 matches Lecture 3?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Most of the capital invested in Dutch AI start-ups came from Dutch investors; foreign investors added about a quarter."
+            },
+            {
+              "l": "b",
+              "t": "The Dutch scale-up ratio is above the European average, although it is still well below that of the US."
+            },
+            {
+              "l": "c",
+              "t": "VC investment was spread fairly evenly across the provinces, with no region taking more than a quarter of it."
+            },
+            {
+              "l": "d",
+              "t": "The total amount invested rose while the number of deals fell, as larger sums went to fewer, later-stage ventures."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "The slides 'Venture Capitalists in The Netherlands' report €2.64 billion of VC and 11,301 active tech companies in 2025. The total rose, but the number of deals fell by 14.5% compared with 2024, because larger sums flowed into fewer, later-stage ventures. The other statements are reversed: 75% of the capital in Dutch AI start-ups came from foreign investors, the Dutch scale-up ratio (21.6% of start-ups raise over €10 million) lags the European (24.1%) and US (52.2%) averages, and North and South Holland together take 70% of Dutch VC. Deeptech is 12% of the ecosystem but attracts 41% of VC.",
+          "source": "Lecture 3, 'Venture Capitalists in The Netherlands'"
         }
       ]
     },
@@ -8178,6 +8368,125 @@ window.ANATOMIE_DATA = {
           "note": "",
           "explanation": "The case lists five challenges: balancing open access with value capture (open-source revenue cannot fund ongoing training), geopolitical risks (US export controls on Nvidia chips and bans in several countries), platform lock-in (dependence on AWS for infrastructure and on the app stores for distribution), infrastructure reliability (outages during traffic spikes) and intensifying competition (OpenAI, Google DeepMind, Anthropic, Llama 3, Mixtral). In platform terms, DeepSeek is a complementor on platforms whose owners compete with it.",
           "source": "Case 'DeepSeek and Open-Source AI' (Tutorial 5)"
+        }
+      ]
+    },
+    {
+      "id": "t_guest",
+      "label": "Guest lectures (bonus)",
+      "source": "Public sources (no guest slides)",
+      "questions": [
+        {
+          "num": "G-01",
+          "stem": "In Lecture 4, Levi Witbaard, CEO of Deedmob, gave the guest lecture. What does Deedmob offer?",
+          "options": [
+            {
+              "l": "a",
+              "t": "A crowdfunding platform on which citizens back local social start-ups in exchange for small rewards."
+            },
+            {
+              "l": "b",
+              "t": "A charity that recruits volunteers for its own aid projects and finances them through donations."
+            },
+            {
+              "l": "c",
+              "t": "HR software that pays employees a bonus for every hour they volunteer through their employer."
+            },
+            {
+              "l": "d",
+              "t": "A platform on which organisations recruit, match and manage volunteers, often under their own brand."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "Deedmob (Amsterdam, founded 2017) builds volunteer-management platforms. Volunteer centres, governments, companies, education providers and charities get their own branded site with a volunteer vacancy bank, matchmaking, reporting and event management, and volunteers use it to find opportunities near them. Its mission is to connect volunteers and organisations to build resilient communities. Levi Witbaard joined Deedmob as Head of Growth and became CEO in 2023, when the co-founders handed over the leadership.",
+          "source": "Guest lecture in Lecture 4 (Levi Witbaard, Deedmob). No guest slides in the course folder; based on public information (deedmob.com)"
+        },
+        {
+          "num": "G-02",
+          "stem": "Reinier Zonneveld, the DJ and producer who gave the guest lecture in Lecture 5, developed an AI called R². What is R²?",
+          "options": [
+            {
+              "l": "a",
+              "t": "An AI trained on thousands of hours of his own music that plays back-to-back with him, reacting to his playing."
+            },
+            {
+              "l": "b",
+              "t": "A recommendation algorithm that builds his setlists from the streaming data of the fans in each city he plays."
+            },
+            {
+              "l": "c",
+              "t": "A generative model trained on other artists' best-selling techno tracks that writes most releases for his label."
+            },
+            {
+              "l": "d",
+              "t": "A voice-cloning app that lets fans make new tracks in his style, with a share of the royalties going to him."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "explanation": "R² is trained on more than 2,000 hours of Zonneveld's original music and on recordings of over 1,000 of his live shows. On stage it acts as a back-to-back partner: it responds to what he plays and co-creates the music live. It made its debut in August 2024 on the main stage of his festival R², near Amsterdam. Zonneveld studied econometrics and runs his own label, Filth on Acid, which he founded in 2017.",
+          "source": "Guest lecture in Lecture 5 (Reinier Zonneveld). No guest slides in the course folder; based on public information (DJ Mag, Apr 2024; Mixmag, Aug 2024)"
+        },
+        {
+          "num": "G-03",
+          "stem": "Reinier Zonneveld, the guest speaker in Lecture 5, trained his AI R² only on his own music. Which view on AI in music has he expressed?",
+          "options": [
+            {
+              "l": "a",
+              "t": "AI will replace human DJs at festivals, because it can perform for longer and costs less to book."
+            },
+            {
+              "l": "b",
+              "t": "Consent does not matter, because any music that is online may be used freely to train AI models."
+            },
+            {
+              "l": "c",
+              "t": "Only major labels should train music AI, because they own the rights to most music catalogues."
+            },
+            {
+              "l": "d",
+              "t": "Using artists' work to train AI without consent is theft; AI should enrich, not replace, artists."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "explanation": "In a 2025 interview Zonneveld said that training an AI on an artist's work without their consent is stealing it, in any field, and that he wants AI to be a tool that enriches artistic creativity and does not replace artists. R² itself learns only from his own catalogue: more than 2,000 hours of his music and recordings of over 1,000 live shows. He has also said that AI, used well, can raise the standard of creative output.",
+          "source": "Guest lecture in Lecture 5 (Reinier Zonneveld). No guest slides in the course folder; based on public information (EDM Identity interview, Nov 2025; DJ Mag, Apr 2024)"
+        },
+        {
+          "num": "G-04",
+          "stem": "Deedmob, the company of Lecture 4 guest speaker Levi Witbaard, connects volunteers with organisations that need them. In the terms of the course, which growth challenge does such a platform face?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Supply economies of scale work against it: each new volunteer raises its fixed costs and lowers its margins."
+            },
+            {
+              "l": "b",
+              "t": "A chicken-or-egg problem: volunteers come for opportunities, and organisations post them where volunteers are."
+            },
+            {
+              "l": "c",
+              "t": "It has no network effects, because volunteers are unpaid and do not care how many organisations take part."
+            },
+            {
+              "l": "d",
+              "t": "Only negative same-side effects matter, because volunteers compete with each other for the same opportunities."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "explanation": "Deedmob is a two-sided matchmaker. Volunteers get more value when more organisations post opportunities, and organisations get more value when more volunteers are active: positive cross-side network effects. At launch this creates the chicken-or-egg dilemma from Lectures 2 and 4, since neither side joins without the other. One way to tackle it is to sign up organisations that already have volunteers, such as volunteer centres, and give them their own branded platform.",
+          "source": "Guest lecture in Lecture 4 (Levi Witbaard, Deedmob); Lecture 2, 'Two-sided network effects'; Lecture 4, chicken-or-egg dilemma. Deedmob facts from public information (deedmob.com)"
         }
       ]
     }
